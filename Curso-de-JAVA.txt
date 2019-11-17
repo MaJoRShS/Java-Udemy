@@ -1,0 +1,121 @@
+Curso de JAVA completo Udemy
+
+
+Curso ministrado na udemy pelo professor nelio alves.
+
+
+Seção 1: Introdução
+
+1. Introdução: visão geral do curso
+
+Está apresentando o curso e as principais qualidades que ele julga necessarias para ser um bom dev de JAVA, ainda deixou um arquivo que vai ser utilizado no curso.
+
+
+Seção 2: Conceitos de programação
+
+2. Visão geral do capítulo
+
+3. Material de apoio do capítulo
+
+Baixei o material de apoio
+
+4. Algoritmo, Automação, Programa de Computador
+
+Algoritmo = Sequencia bem definida de passos a serem seguidas
+Automação = processo que pode ser automatizado via uma maquina
+Programa = é um Algoritmo executado pelo Computador
+
+
+5. O que é preciso para se fazer um programa de computador
+
+IDE = uma interface de Desenvolvimento
+Compilador = transforma o codigo java em programa de computador
+
+
+6. Linguagem de programação, léxica, sintática
+
+léxica = a forma de escrever
+
+sintática = é um erro gramatical
+
+programação = é a junção de todas elas mais em uma linguagem de programação.
+
+
+7. IDE - Ambiente Integrado de Desenvolvimento
+
+Aqui ele está mostrando algumas IDE's e para que serve.
+
+
+Seção 3: Introdução à linguagem Java
+
+8. Visão geral do capítulo
+
+9. Material de apoio do capítulo
+
+
+10. Entendendo as versões do Java
+
+LTS - long time suport
+
+ou seja longo suporte pela oracle.
+
+
+11. Histórico e edições de Java
+
+JAVA é uma linguagem de programação mais também é uma plataforma de Desenvolvimento e execução, ou seja tem que instalar os JDKS e todo o ambiente de desenvolvimento.
+
+O java surgiu para resolver o problema de alocação de memoria e o suporte a varios dispositivos com o mesmo codigo e a mesma aplicação.
+
+JAVA ME  - micro edition = usada para IOT por ser mais leve 
+
+JAVA SE  - Standard Edition = usado para tudo , tem o core do java
+
+JAVA EE  - Enterprise Edition = Aplicações corporativas
+
+
+
+12. JDK / JVM - Máquina Virtual do Java
+
+JVM - JAVA VIRTUAL MACHINE
+
+essa aqui é a maquina virtual do java que interpreta e compila o codigo.
+
+aqui ele mostra que o java é uma linguagem que está no meio termo entre as compiladas e as interprestadas, segundo ele o java interpreta o código e já corrige erros na syntax e na semantica e ai gera o byte code, que ja é otimizado, ai sim ele compila o código já performado , na JVM de cada SO e ai roda lindo.
+
+
+13. Estrutura de uma aplicação Java
+
+Todo código java tem que estar em clases, e essas classes agrupadas são os pacotes(packages), e varios pacotes agrupados foram um modulo, que por sua vez com varios outros modulos agrupados formam um sistema.
+Run-time = é a compilação ou build de um determinado grupo de pacotes para serem instalados em algum dispositivo.
+
+
+14. Instalando Java
+
+Essas aulas eram no Windows, que é nivel macaco e eu já adotei como ambiente de desenvolvimento o LINUX
+
+15. Instalando o Eclipse
+
+Igual a aula anterior
+
+
+16. Primeiro programa em Java no Eclipse
+
+Aqui ele fala do "workspace" que é o diretório que seus projetos seram salvos, e todas as vezes que o eclipse for inicializado ele vai te perguntar se você quer mudar esse diretório.
+
+outra coisa é a perspectiva, no nosso caso estamos utilizando a JAVA, é só ir em "window > perspective > open perspective > java" caso não tenha vai em "other..." e escolhe o java.
+
+para voltar a perspectiva igual ao padrão vai no mesmo caminho e clica em "reset perspective"
+
+Mostra o console "Window > show view > console"
+
+
+***
+Aqui tem um bizu 
+
+Usando o comando 'sudo alternatives --config java' eu consigo escolher no meu fedora entre quais opçoes do java eu quero usar, das que estão instaladas no PC.
+
+
+***
+
+criou o primeiro programa em java, mostrou que sou obrigado a criar uma classe para executar qualquer coisa no java e ainda deixou a classe como sendo executavel.
+
