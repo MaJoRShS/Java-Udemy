@@ -119,3 +119,14 @@ Usando o comando 'sudo alternatives --config java' eu consigo escolher no meu fe
 
 criou o primeiro programa em java, mostrou que sou obrigado a criar uma classe para executar qualquer coisa no java e ainda deixou a classe como sendo executavel.
 
+Seção 4: Estrutura sequencial
+
+
+17. Visão geral do capítulo
+
+18. Material de apoio do capítulo
+
+
+19. Expressões aritméticas
+Aqui ele mostrou os 5 tipos de operadores aritméticos, e mostrou que mesmo em java temos precedencia de execução, como na matematica normal, isso significa que tudo que estiver entre parenteses"()" vai ser executado primeiro.
+obs. em programação não existe chaves nem colchetes para expressões aritméticas só os parenteses.
