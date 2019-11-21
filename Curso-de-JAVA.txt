@@ -130,3 +130,33 @@ Seção 4: Estrutura sequencial
 19. Expressões aritméticas
 Aqui ele mostrou os 5 tipos de operadores aritméticos, e mostrou que mesmo em java temos precedencia de execução, como na matematica normal, isso significa que tudo que estiver entre parenteses"()" vai ser executado primeiro.
 obs. em programação não existe chaves nem colchetes para expressões aritméticas só os parenteses.
+
+
+20. Variáveis e tipos básicos em Java
+
+Demonstrou como devem ser declarados os tipos de variavel no java, explicou como são armazenadas na memoria e que toda variavel tem um nome ou identificador, e que possiu um tipo (existem varios ele mostrou apenas os 8 primitivos).
+
+Numericos Inteiros
+byte   - 8 bites
+short  - 16 bites
+int    - 32 bites
+long   - 64 bites
+
+Numericos com Ponto flutuante
+float   - 32 bites
+double  - 64 bites
+
+Caractere Unicode
+char - 16 bites
+
+Valor Verdade
+boolean - 1 bite
+
+String
+Armazena uma cadeia de Caracteres.
+
+Padrão de nomenclatura de variavel
+Nunca inicia com numeros , sempre com letras ou _
+Não pode ter espaçoes em branco entre o nome da variavel
+Não se usa acentuação nem caracater especial
+E usa-se o padrão Camel Case, ou seja a primeira letra de cada palavra tem que ser maiuscula.
