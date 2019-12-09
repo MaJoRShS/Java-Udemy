@@ -160,3 +160,72 @@ Nunca inicia com numeros , sempre com letras ou _
 Não pode ter espaçoes em branco entre o nome da variavel
 Não se usa acentuação nem caracater especial
 E usa-se o padrão Camel Case, ou seja a primeira letra de cada palavra tem que ser maiuscula.
+
+
+21. As três operações básicas de programação
+
+Entrada de dados ou escrita = é quando o usuario insere dados por meio de um teclado ou touch
+
+processamento de dados = é o processo que o computador faz com os dados que foram enviados para ele e depois devovlve alguma informação do que foi processado
+
+Saida de dados ou escrita = é o processo de devolução do computador após o processamento para o usuario por meio de um periferico de saida como o monitor.
+
+
+22. Saída de dados em Java
+
+Para retornar dados para os usuarios temos algumas formas, 
+
+Essa forma não tem uma quebra de linha no final, se eu colocar mais alguma coisa para aparecer na tela ele simplesmente vai escrever tudo junto.
+System.out.print("Olá Mundo");
+
+
+já aqui tem a quebra de linha no final, ou seja fica esse conteúdo e o proximo já estaria na proxima linha.
+System.out.println("Olá Mundo");
+
+
+para imprimir valores de variaveis temos algumas formas
+int x = 32;
+double y = 10.35784
+System.out.println(x);
+System.out.println(y);
+
+
+mais para você poder formatar os valor do double você pode usar o comando 
+
+
+int x = 32;
+double y = 10.35784
+System.out.printf("%.2f%n",y);
+
+Aqui o printf é para formatar o numero, e o "%.2f%" é o indicador de que eu só quero duas casas decimais, e o %n serve para quebra de linha na apresentação dos dados, já o proxima valor após a virgula é a variavel que eu quero apresentar formatada.
+
+Aqui ainda tem um esquema na formatação que é para apresentação com "." ou "," por padrão o comando "System.out.printf();" ele pega as configurações do seu computador para usar como padrão por isso aqui ele sempre apresenta com "," e para apresentarmos com "." temos que utilizar uma classe padrão do java que é a "Locale"
+
+import java.util.Locale;
+Importa ele no começo do programa.
+
+Locale.setDefault(Locale.US);
+Usa ela no começo do programa também porque essas configurações só teram efeito depois da declaração do locale.
+
+
+Para concatenar mais de um dado de retorno é simples é so mandar o "+" entre os textos e as variaveis assim:
+System.out.println("Texto qualquer " + y + " Final do texto qualquer");
+
+já nesse exemplo estou concatenando texto formatado com 2 casas decimais, a unica diferença é que se eu tivesse mais alguma coisa para printar na tela e precisaria de mais alguns "%.N" e ai as variaveis tem que ser colocadas na ordem em que eu defini os %.
+System.out.printf("Resultado = %.2f  Metros%n", y);
+
+Aqui temos outro exemplo porém concatenando varios tipos de dados no mesmo retorno, ou seja uma string, um inteiro e um double, e para fazer isso temos algumas marcações no JAVA como por exemplo:
+
+%s = String
+
+%d = Inteiro(int)
+
+%f = Ponto flutuante (double)
+
+%n = Quebra de linha
+
+Obs. Tem que declarar as variaveis no começo do programa.
+System.out.println("%s tem %d anos e ganha R$ : %.2f reais %n", nome, idade, renda);
+
+
+Deixou um exercicio de fixação. 
