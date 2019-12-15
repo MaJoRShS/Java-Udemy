@@ -231,3 +231,98 @@ System.out.println("%s tem %d anos e ganha R$ : %.2f reais %n", nome, idade, ren
 Deixou um exercicio de fixação. 
 
 Obs. Movi todo o repositório do git para dentro do meu workspace do eclipse para que assim eu consiga subir os códigos da aula e dos exercicios de fixação.
+
+
+23. Processamento de dados em Java, Casting
+
+Aqui ele fala que o processamento de dados em java é igual qualquer outra lingaguem onde você cria uma variavel e ai depois você atribui uma expressão a ela, ou um valor direto.
+
+e que o casting é quando você faz a conversão explisita de tipos de dados.
+
+uma boa pratica de programação é sempre declarar os valores igual ao seu tipo, exemplo valores double sempre com o ".0" e se for float sempre mandar com "f" depois do numero,  "5f".
+
+
+O casting seria no caso de uma perda de dados ou conversão de tipos de dados entre algum processamento, por exemplo estou somando dois inteiros e quero forçar que o retorno seja um double eu coloco "(double)" antes das variaveis na declaração que ai o compilador intende que deve converter aquele valor para double, e até mesmo no caso de perda de valor se você usar o casting ele aceita, no exemplo de conversão de double para inteiro.
+
+
+
+24. Entrada de dados em Java - Parte 1
+
+Aqui ele mostra que os dados que são digitados via teclado tem uma classe que já pega os dados, a Scanner, é só dar aquele importe que tudo funciona, para pegar os dados cada tipo tem um metodo especifico.
+
+declaração do Scanner.
+
+        Scanner sc = new Scanner(System.in);
+
+    String x;
+    x = sc.next();
+
+    Inteiro
+    int x;
+    x = sc.nextInt();
+
+    Double
+    double x;
+    x = sc.nextDouble();
+
+Aqui tem uma parada, o separador de decimal sempre vai respeitar sua localidade, ou seja BR o separador e "," USA o separador é ".", então se você quiser mudar tem que madar o Locale.
+
+    Locale.setDefault(Locale.US);
+
+    Caracter
+    char x;
+    x = sc.next().charAt(0);
+    Aqui o charAt() vai pegar o caracater que você informar a posição, pode ser o 1 como no exemplo acima mais pode ser qualquer outro.
+
+
+
+    Ler varias palavras da mesma linha com tipos diferentes
+    string x;
+    int y;
+    double z;
+    x = sc.next();
+    y = sc.nextInt();
+    z = sc.nextDouble();
+
+
+
+
+25. Entrada de dados em Java - Parte 2
+
+    Scanner sc = new Scanner(System.in);
+    String s1, s2, s3;
+    s1 = sc.nextLine();
+    s2 = sc.nextLine();
+    s3 = sc.nextLine();
+    System.out.println("DADOS DIGITADOS:");
+    System.out.println(s1);
+    System.out.println(s2);
+    System.out.println(s3);
+    sc.close();
+
+
+Exemplo acima ele vai pegar todo o conteudo até a quebra de linha e por isso se usa o "sc.nextLine();"
+
+
+Quando você usa um comando de leitura diferente do nextLine() e dá alguma quebra de linha, essa quebra de linha fica "pendente" na entrada padrão.
+Se você então fizer um nextLine(), aquela quebra de linha pendente será absorvida pelo nextLine().
+
+Solução:
+Faça um nextLine() extra antes de fazer o nextLine() de seu interesse.
+
+
+    int x;
+    String s1, s2, s3;
+    x = sc.nextInt();
+    s1 = sc.nextLine();
+    s2 = sc.nextLine();
+    s3 = sc.nextLine();
+    System.out.println("DADOS DIGITADOS:");
+    System.out.println(x);
+    sc.nextLine();
+    System.out.println(s1);
+    System.out.println(s2);
+    System.out.println(s3);
+
+
+O eclipse deu uma call interessante, ele aqui tranformou o meu objeto "sc" do Scanner em uma variavel statica ou seja eu não vou alterala nem ninguém , e ai eu declaro ele na inicialização do programa e ainda já era, fica tudo certo.
