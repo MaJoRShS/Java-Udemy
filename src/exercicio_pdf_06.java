@@ -10,11 +10,11 @@ public class exercicio_pdf_06 {
 		Scanner sc = new Scanner(System.in);
 		
 		
+		System.out.println("Enter three values ​​for the calculations");
 		double pi = 3.14159;
 		double A = sc.nextDouble();
 		double B = sc.nextDouble();
 		double C = sc.nextDouble();
-		
 		
 		double traingulo = A * C / 2;
 		double circulo   = pi * Math.pow(C,2);
