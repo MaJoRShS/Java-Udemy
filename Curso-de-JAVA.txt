@@ -326,3 +326,37 @@ Faça um nextLine() extra antes de fazer o nextLine() de seu interesse.
 
 
 O eclipse deu uma call interessante, ele aqui tranformou o meu objeto "sc" do Scanner em uma variavel statica ou seja eu não vou alterala nem ninguém , e ai eu declaro ele na inicialização do programa e ainda já era, fica tudo certo.
+
+
+26. Funções matemáticas em Java
+
+Aqui ele está mostrando que existe uma classe em java que é responsavel por calculos matematicos, e que praticamente já está tudo la pronto para uso.
+
+A = Math.sqrt(x);   Variável A recebe a raiz quadrada de x
+A = Math.pow(x, y); Variável A recebe o resultado de x elevado a y
+A = Math.abs(x);    Variável A recebe o valor absoluto de x
+
+• sqrt – raiz quadrada
+• pow – potenciação
+• abs – valor absoluto
+
+e que é possivel executar funções complexas com java apenas concatenando esses metodos.
+
+
+
+27. AVISO: exercícios para iniciantes PARTE 1
+
+Aqui ele está explicando que tem exercicios propostos em uma aula do youtube e tals e que os questionarios respondidos estão em um repo no github, ai é meio que obrigatório para quem é iniciante na parada e opcional para quem já desenrola na logica de programação.
+
+vou fazer FODA-SE.
+
+28. Exercícios para Iniciantes - PARTE 1
+
+Baixie o conteudo, vou ver o video e mandar os exercicios.
+
+
+Video do youtube tem um exercicio. [ done ]
+
+Execicos do PDF
+
+acho que vou mandar uma classe por aula, mesmo que fique bastante conteúdo é melhor mais organizado e bem mais facil a consulta depois.
