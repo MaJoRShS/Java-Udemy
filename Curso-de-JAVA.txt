@@ -360,3 +360,35 @@ Video do youtube tem um exercicio. [ done ]
 Execicos do PDF
 
 acho que vou mandar uma classe por aula, mesmo que fique bastante conteúdo é melhor mais organizado e bem mais facil a consulta depois.
+
+
+Seção 5: Estrutura condicional
+
+29. Visão geral do capítulo
+Deu uma Introdução bem simplista.
+
+30. Material de apoio do capítulo
+Download do material do modulo.
+
+31. Expressões comparativas
+
+Aqui ele está mostrando os operadores comparativos igual o da maioria das linguagens
+Operador Significado
+>        maior
+<        menor
+>=        maior ou igual
+<=        menor ou igual
+==        igual
+!=        diferente
+
+
+
+32. Expressões lógicas
+
+Operador Significado
+&&       E
+||       OU
+!        NÃO
+
+
+Aqui é o mesmo esquema da logica matematica, e que também tem em toda linguagem de programação, ele nos exemplos não está usando nada de programação só tabela verdade.
