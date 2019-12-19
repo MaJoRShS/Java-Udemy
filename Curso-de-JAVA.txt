@@ -392,5 +392,3 @@ Operador Significado
 
 
 Aqui é o mesmo esquema da logica matematica, e que também tem em toda linguagem de programação, ele nos exemplos não está usando nada de programação só tabela verdade.
-
-    
