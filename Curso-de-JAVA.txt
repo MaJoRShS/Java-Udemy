@@ -430,4 +430,99 @@ Aviso e mais nada, mesmo assim vou fazer os exercicios e dane-se.
 
 
 35. Exercícios para Iniciantes - PARTE 2
+Termieni os exercicios.
+
+
+36. Sintaxe opcional - operadores de atribuição cumulativa
+Aqui ele mostra que fazer do jeito que ele costuma fazer da certo mais é melhor fazer utilizando os operadores de atribuição acumulativa.
+
+
+a += b;     a = a + b;
+a -= b;     a = a - b;
+a *= b;     a = a * b;
+a /= b;     a = a / b;
+a %= b;     a = a % b;
+
+
+37. Sintaxe opcional - switch-case
+
+Aqui ele mostrou a syntax do switch-case, que nada mais é que uma alternativa para você não ter que ficar fazendo inumeros if else, claro que não é só isso, ele tem inumeras vantagens, e ainda deixa o código mais legivel.
+
+padrão igual a maioria das linguagens abre o "switch(){}" com uma expressão ou variavel como parâmetro, e ai vem as condições dentro das chaves todas elas com seus "case" a syntax é essa.
+
+switch ( expressão ) {
+    case valor1:
+        comando1
+        comando2
+        break;
+    case valor2:
+        comando3
+        comando4
+        break;
+    default:
+        comando5
+        comando6
+        break;
+}
+
+Caso exista e você quiser colocar quando você usa o "default" se nenhum dos valores do case existirem ele apresenta essa mensagem.
+
+
+
+38. Expressão condicional ternária
+
+Aqui ele mostra a syntax da condicional ternária que serve para simplificar código if else, e claro se você não tiver muitas condições para serem verificadas.
+
+syntax:
+( condição ) ? valor_se_verdadeiro : valor_se_falso
+
+( 2 > 4 ) ? 50 : 80 = Aqui o resultado vai ser 80 porque o resultado da expressão é negativo, então ele vai para o 80
+( 10 != 3 ) ? "Maria" : "Alex" = Aqui o resultado é maria porque o resultado da expressão é verdadeiro
+
+Aqui é claro vai depender muito a utilização, nem todo mundo conhece a ternaria, e mesmo assim é para coisas bem simples, mais ainda assim acho que como sempre o if else é o mais utilizado nem lembramos do ternario.
+
+
+39. Escopo e inicialização
+
+Aqui ele mostra os escopos dentro do programa, e mostra que no java as variaveis para terem sido iniciadas não basta apenas terem sido declaradas, elas tem que possuir algum valor, mesmo que "0". e que também variaveis que foram declaradas dentro de funções não existem no escopo fora da função a menos que você declare ela no escopo global não adianta ela não vai funcionar. 
+
+
+Seção 6: Estruturas repetitivas
+40. Visão geral do capítulo
+
+falou como que vai funcionar o modulo.
+
+41. Material de apoio do capítulo
+baixei o material de apoio.
+
+42. Como utilizar o DEBUG no Eclipse(execução passo a passo)
+
+Mostrou utilizar o DEBUG no eclipse , é bem simples ao invés de executar com java aplication usa o "debug as " e ai sim o java aplication, ele vai mudar a perspectiva para o modo debug caso voce aperte sim para  a mensagem que aparecer.
+para passa linha a linha é só usar o "F6" e ai ele vai passando linha a linha a execução do programa.
+
+
+43. Estrutura repetitiva enquanto (while)
+
+Aqui ele mostrou como funcina o while, e que ele é utilizando para repetir uma ação ou executar algo enquanto uma condição for verdadeira, e que ele é mais utilizado para quando não se sabe ao certo a quantidade de vezes que será necessario executar.
+
+syntax
+while ( condição ) {
+    comando 1
+    comando 2
+}
+
+
+44. Teste de mesa com estrutura repetitiva enquanto
+
+ele executou um teste de mesa com while, e fez executando linha a linha para conseguirmos enteder como funciona a execução do programa e como se da composição de valores em uma estrutura como o while.
+
+45. Exercícios de teste de mesa com while
+
+Disse que tem exercicios no PDF como teste de mesa, eu fiz todos , é bem maneiro,porque você acaba percebendo como que ele vai ser executado e talvez consiga perver algum erro.
+
+
+46. AVISO: exercícios para iniciantes PARTE 3
+Aviso para fazer o exercicio quem é iniciante, ou tem dificuldade de entender.
+
+47. Exercícios para Iniciantes - PARTE 3
 
