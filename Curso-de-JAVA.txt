@@ -552,3 +552,8 @@ fiz todos, acho agora que fazer essas paradas não são perca de tempo, acredito
 52. Exercícios para iniciantes PARTE 4
 
 Fiz todos os exercicios.
+
+
+53. Estrutura repetitiva faça-enquanto (do-while)
+
+Aqui é bem interessante porque ele executa o bloco de instrução antes de fazer a validação, o que é util quando você sabe que precisa pelo menos uma unica vez executar todo o seu bloco.
