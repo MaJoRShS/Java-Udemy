@@ -525,4 +525,25 @@ Disse que tem exercicios no PDF como teste de mesa, eu fiz todos , é bem maneir
 Aviso para fazer o exercicio quem é iniciante, ou tem dificuldade de entender.
 
 47. Exercícios para Iniciantes - PARTE 3
+Exercicios feitos.
 
+
+
+48. Estrutura repetitiva para (for)
+
+O for serve para quando você já sabe previamente a quantidade de vezes em que você vai precisar executar uma ação, tem que praticar porque é um pouco diferente a forma de usar para pegar os valores digitados pelo usuario, eu sempre usei o for para retorno de BD.
+
+
+49. Teste de mesa com estrutura repetitiva para
+
+Acompanhei ele fazendo o teste de mesa.
+
+
+50. Exercícios de testes de mesa com for
+
+Falou que vai ter exercicios.
+
+51. AVISO: exercícios para iniciantes PARTE 4
+
+vou fazer do mesmo jeito, são exercicios de teste de mesa que estão no material de apoio, to acertando suave.
+fiz todos, acho agora que fazer essas paradas não são perca de tempo, acredito que além de fixação serve muito para fazer sua cabeça pensar em como tudo isso funciona e como deve funcionar.
