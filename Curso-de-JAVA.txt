@@ -557,3 +557,35 @@ Fiz todos os exercicios.
 53. Estrutura repetitiva faça-enquanto (do-while)
 
 Aqui é bem interessante porque ele executa o bloco de instrução antes de fazer a validação, o que é util quando você sabe que precisa pelo menos uma unica vez executar todo o seu bloco.
+
+
+Seção 7: Outros tópicos básicos sobre Java
+54. Material de apoio do capítulo
+Baixei o material
+
+55. Restrições e convenções para nomes
+
+Aqui nada mais é que o padrão de nomenclatura 
+
+Camel case: lastName
+    pacotes
+    atributos
+    métodos
+    variaveis e parâmetros
+
+
+Pascal Case: ProductService
+    classes
+
+
+56. Operadores bitwise
+
+Aqui ele está falando que essas operações bitwise são operações bit a bit, e que se eu passar dois valores binarios por exemplo para serem comparados ele vai comparar usando a tabela verdade bit a bit dos dois numeros binarios que eu passei.
+
+tem as operações logicas normais.
+
+
+usa normal 
+var_1 & var_2; E
+var_1 | var_2; OU
+var_1 & var_2; OU-exclusivo
