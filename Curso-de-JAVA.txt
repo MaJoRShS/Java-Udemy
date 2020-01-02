@@ -589,3 +589,22 @@ usa normal
 var_1 & var_2; E
 var_1 | var_2; OU
 var_1 & var_2; OU-exclusivo
+
+
+57. Funções interessantes para String
+
+Aqui as paradas para formatação de string ou para trabalhar com string são bem pareceidas com o PHP, mais ainda assim em algumas diferenças, mais assim como o PHP eu tenho que dar uma olhada ainda melhor nos DOCS, deve ter muito mais coisa para string.
+
+
+58. Comentários em Java (básico) 
+
+Comentário de bloco é quando eu abro com "/*" e no final do bloco independente de em qual linha eu fechei o "*/" esse é o bloco de Comentário.
+
+o Comentário de linha é só mandar um "//" e ai ele comenta tudo naquela linha
+
+
+59. Funções (sintaxe)
+
+Explicou como funciona uma função em java,e explicou o que é uma função, vantagens e desvantagens.
+
+
