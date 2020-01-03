@@ -29,7 +29,7 @@ Programa = é um Algoritmo executado pelo Computador
 5. O que é preciso para se fazer um programa de computador
 
 IDE = uma interface de Desenvolvimento
-Compilador = transforma o codigo java em programa de computador
+Compilador = transforma o código java em programa de computador
 
 
 6. Linguagem de programação, léxica, sintática
@@ -64,7 +64,7 @@ ou seja longo suporte pela oracle.
 
 JAVA é uma linguagem de programação mais também é uma plataforma de Desenvolvimento e execução, ou seja tem que instalar os JDKS e todo o ambiente de desenvolvimento.
 
-O java surgiu para resolver o problema de alocação de memoria e o suporte a varios dispositivos com o mesmo codigo e a mesma aplicação.
+O java surgiu para resolver o problema de alocação de memoria e o suporte a vários dispositivos com o mesmo código e a mesma aplicação.
 
 JAVA ME  - micro edition = usada para IOT por ser mais leve 
 
@@ -78,9 +78,9 @@ JAVA EE  - Enterprise Edition = Aplicações corporativas
 
 JVM - JAVA VIRTUAL MACHINE
 
-essa aqui é a maquina virtual do java que interpreta e compila o codigo.
+essa aqui é a maquina virtual do java que interpreta e compila o código.
 
-aqui ele mostra que o java é uma linguagem que está no meio termo entre as compiladas e as interprestadas, segundo ele o java interpreta o código e já corrige erros na syntax e na semantica e ai gera o byte code, que ja é otimizado, ai sim ele compila o código já performado , na JVM de cada SO e ai roda lindo.
+aqui ele mostra que o java é uma linguagem que está no meio termo entre as compiladas e as interpretadas, segundo ele o java interpreta o código e já corrige erros na syntax e na semântica e ai gera o byte code, que ja é otimizado, ai sim ele compila o código já performado , na JVM de cada SO e ai roda lindo.
 
 
 13. Estrutura de uma aplicação Java
@@ -402,7 +402,7 @@ Estrutura condicional é uma estrutura de controle, que depende de uma condiçã
 
 existe três tipos de estrutura condicional a simples, composta e aninhada ou encadeadas.
 
-Aqui tem umas dicas, se você tem apenas uma condição no seu if não precisa colocar as chaves, é opcional, mais mesmo assim é o esquema colocar para não se perder no codigo.
+Aqui tem umas dicas, se você tem apenas uma condição no seu if não precisa colocar as chaves, é opcional, mais mesmo assim é o esquema colocar para não se perder no código.
 
 não tem condição no else, e da para mandar o else if mais ou menos igual no php , ai se usa dessa forma aqui
 
@@ -608,3 +608,31 @@ o Comentário de linha é só mandar um "//" e ai ele comenta tudo naquela linha
 Explicou como funciona uma função em java,e explicou o que é uma função, vantagens e desvantagens.
 
 
+Seção 8: Introdução à Programação Orientada a Objetos
+60. Visão geral do capítulo
+
+61. Material de apoio do capítulo
+
+
+62. Resolvendo um problema sem orientação a objetos
+
+Aqui ele meteu marcha e fez logo um programa que calcula a area de 2 triangulos e ainda vê qual deles tem a area maior, ele fez no procedural mesmo, e na proxima aula vai mandar no Orientado a Objetos.
+
+E ele também está mudando a estrutura de pastas, agora ele está colocando o "String Args" no package aplication.
+
+
+63. Criando uma classe com três atributos para representar melhor o triângulo
+
+Aqui ele explica melhor o que é uma classe, e que ela tem atributos e metodos e que os atributos são as caracteristicas da classe, e que os metodos são funções que essa classe executa, e recebe o nome de metodo porque só faz parte da classe e não do escopo todo do programa.
+
+falou sobreos pricipios de uma classe, mais bem preve, e mostrou que todas as vezes que você instancia uma classe na real na "STACK" o valor que fica armazenado na varivel do tipo "Object" é uma referencia de memoria que aponta(ponteiro) para a area da "HEAP" onde realmente está os valores armazenados para cada atributo daquele objeto, e que os objetos por serem assim precisam ser instanciados, e isso é feito com o comando "new" e isso que diz ao programa para armazenar aquela referencia de memoria onde ele vai armazenar os valores.
+
+64. Criando um método para obtermos os benefícios de reaproveitamento e delegação
+
+Aqui ele passou todo a função que calcula  area do triangulo para dentro da classe tornando assim um metodo, e ainda simplificou poruque ele criou o metodo uma vez e utilizou para dois triangulos diferentes.
+
+muita coisa está comentada nos códigos quando for mais conceitual eu mando aqui, ou vou intercalando, o que for mais importante deixar la eu deixo e o que for conteúdo normal eu mando aqui mesmo.
+
+Falou sobre o projeto de classe em UML, que facilita a visualização do que tem que ser construido e como deve ficar, com seus atributos e metódos , e com seus respectivos tipos de dados.
+ 
+e frizou mais uma vez que com classes você reutiliza código, o que torna o processo mais agil e e menos caro, e que com as classes você consegue delegar responsabilidade, para cada classe ser especializada naquilo que ele faz.
