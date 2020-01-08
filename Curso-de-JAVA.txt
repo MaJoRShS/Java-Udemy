@@ -636,6 +636,8 @@ Aqui ele explica melhor o que é uma classe, e que ela tem atributos e metodos e
 
 falou sobreos pricipios de uma classe, mais bem preve, e mostrou que todas as vezes que você instancia uma classe na real na "STACK" o valor que fica armazenado na varivel do tipo "Object" é uma referencia de memoria que aponta(ponteiro) para a area da "HEAP" onde realmente está os valores armazenados para cada atributo daquele objeto, e que os objetos por serem assim precisam ser instanciados, e isso é feito com o comando "new" e isso que diz ao programa para armazenar aquela referencia de memoria onde ele vai armazenar os valores.
 
+
+
 64. Criando um método para obtermos os benefícios de reaproveitamento e delegação
 
 Aqui ele passou todo a função que calcula  area do triangulo para dentro da classe tornando assim um metodo, e ainda simplificou poruque ele criou o metodo uma vez e utilizou para dois triangulos diferentes.
@@ -645,3 +647,21 @@ muita coisa está comentada nos códigos quando for mais conceitual eu mando aqu
 Falou sobre o projeto de classe em UML, que facilita a visualização do que tem que ser construido e como deve ficar, com seus atributos e metódos , e com seus respectivos tipos de dados.
  
 e frizou mais uma vez que com classes você reutiliza código, o que torna o processo mais agil e e menos caro, e que com as classes você consegue delegar responsabilidade, para cada classe ser especializada naquilo que ele faz.
+
+
+
+65. Começando a resolver um segundo problema exemplo
+
+Aqui ele fez uma classe de produto que tem 3 metodos e 3 atributos, nada muito complexo mais bem legalzin para ir fixano as paradas na mente.
+
+
+OBS. acho que vou começar a criar um pacote por aula, ou fazer tudo que tiver que fazer commitar e apagar porque ta foda, o eclipse entra em loop na hora de builda as paradas e ainda fica dando erro porque tem mais de um metódo inicial.
+
+
+66. Object e toString
+
+Aqui ele apresenta o "toString();"  esse cara basicamente é nativo do Object em java que é a classe pai de todos os objetos, e aqui ele consegue sobrescrever o metodo nativo e alterar o comportamento dele, o que não muda a utilização do metódo mais sim o retorno dele.
+
+ainda apresentou o "String.format(format, args)" que serve para formatar strings basicamente ali ele fala o formato que ele quer que saia e quala variavel que vai ser formatada assim.
+
+OBS. ainda falta mudar os valores mais está funcionando certinho até as chamadas dos metódos.
