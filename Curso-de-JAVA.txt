@@ -669,3 +669,8 @@ OBS. ainda falta mudar os valores mais está funcionando certinho até as chamad
 67. Finalizando o programa
 
 Aqui finalizamos o programa colocando as informações formatadas e apenas somando a quantidade de produtos em estoque, achei que eu já tivesse colocado as informações no github mais se pans não o fiz.
+
+
+68. Exercícios de fixação
+
+Fiz todos os exercicios de fixação , eu só fiquei pistola porque o ultimo exercicio que o cara mandou fazer não tinha exemplo e o melhor ele deu peso para as notas, mais ai no exemplo dele não tem peso nenhuma nas notas, até porque o peso que ele deu valeria de porra nenhuma peso doido da peste.
