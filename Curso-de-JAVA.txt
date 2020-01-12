@@ -760,3 +760,21 @@ O objeto deve sempre estar em um estado consistente e a classe deve garantir iss
 ou seja só deve receber dados via get() e set() FODA-SE.
 
 
+78. Gerando automaticamente construtores, getters e setters com Eclipse
+
+Aqui é bem simples na real vai no eclipse e clica no botão direito vai em " source -> Generate Constructor using Fields " isso para gerar os construtores e ainda você escolhe quais parâmetros você vai colocar no seu construtor.
+
+para gerar os Getters e os Setters vai em " source -> Generate Getters and Setters " e escolhe também quais parâmetros você que seja criado os getters e setters.
+
+
+79. Modificadores de acesso
+
+private: o membro só pode ser acessado na própria classe
+
+(nada): o membro só pode ser acessado nas classes do mesmo pacote
+
+protected: o membro só pode ser acessado no mesmo pacote, bem como em
+
+subclasses de pacotes diferentes
+
+public: o membro é acessado por todas classes (ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
