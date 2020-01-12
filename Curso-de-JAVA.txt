@@ -17,7 +17,7 @@ Seção 1: Introdução
 
 1. Introdução: visão geral do curso
 
-Está apresentando o curso e as principais qualidades que ele julga necessarias para ser um bom dev de JAVA, ainda deixou um arquivo que vai ser utilizado no curso.
+Está apresentando o curso e as principais qualidades que ele julga necessárias para ser um bom dev de JAVA, ainda deixou um arquivo que vai ser utilizado no curso.
 
 
 Seção 2: Conceitos de programação
@@ -64,7 +64,7 @@ Seção 3: Introdução à linguagem Java
 
 10. Entendendo as versões do Java
 
-LTS - long time suport
+LTS - long time support
 
 ou seja longo suporte pela oracle.
 
@@ -94,13 +94,13 @@ aqui ele mostra que o java é uma linguagem que está no meio termo entre as com
 
 13. Estrutura de uma aplicação Java
 
-Todo código java tem que estar em clases, e essas classes agrupadas são os pacotes(packages), e varios pacotes agrupados foram um modulo, que por sua vez com varios outros modulos agrupados formam um sistema.
+Todo código java tem que estar em classes, e essas classes agrupadas são os pacotes(packages), e vários pacotes agrupados foram um modulo, que por sua vez com vários outros módulos agrupados formam um sistema.
 Run-time = é a compilação ou build de um determinado grupo de pacotes para serem instalados em algum dispositivo.
 
 
 14. Instalando Java
 
-Essas aulas eram no Windows, que é nivel macaco e eu já adotei como ambiente de desenvolvimento o LINUX
+Essas aulas eram no Windows, que é nível macaco e eu já adotei como ambiente de desenvolvimento o LINUX
 
 15. Instalando o Eclipse
 
@@ -109,11 +109,11 @@ Igual a aula anterior
 
 16. Primeiro programa em Java no Eclipse
 
-Aqui ele fala do "workspace" que é o diretório que seus projetos seram salvos, e todas as vezes que o eclipse for inicializado ele vai te perguntar se você quer mudar esse diretório.
+Aqui ele fala do "workspace" que é o diretório que seus projetos serão salvos, e todas as vezes que o eclipse for inicializado ele vai te perguntar se você quer mudar esse diretório.
 
-outra coisa é a perspectiva, no nosso caso estamos utilizando a JAVA, é só ir em "window > perspective > open perspective > java" caso não tenha vai em "other..." e escolhe o java.
+outra coisa é a perspetiva, no nosso caso estamos utilizando a JAVA, é só ir em "window > perspective > open perspective > java" caso não tenha vai em "other..." e escolhe o java.
 
-para voltar a perspectiva igual ao padrão vai no mesmo caminho e clica em "reset perspective"
+para voltar a perspetiva igual ao padrão vai no mesmo caminho e clica em "reset perspective"
 
 Mostra o console "Window > show view > console"
 
@@ -121,12 +121,12 @@ Mostra o console "Window > show view > console"
 ***
 Aqui tem um bizu 
 
-Usando o comando 'sudo alternatives --config java' eu consigo escolher no meu fedora entre quais opçoes do java eu quero usar, das que estão instaladas no PC.
+Usando o comando 'sudo alternatives --config java' eu consigo escolher no meu fedora entre quais opções do java eu quero usar, das que estão instaladas no PC.
 
 
 ***
 
-criou o primeiro programa em java, mostrou que sou obrigado a criar uma classe para executar qualquer coisa no java e ainda deixou a classe como sendo executavel.
+criou o primeiro programa em java, mostrou que sou obrigado a criar uma classe para executar qualquer coisa no java e ainda deixou a classe como sendo executável.
 
 Seção 4: Estrutura sequencial
 
@@ -137,25 +137,25 @@ Seção 4: Estrutura sequencial
 
 
 19. Expressões aritméticas
-Aqui ele mostrou os 5 tipos de operadores aritméticos, e mostrou que mesmo em java temos precedencia de execução, como na matematica normal, isso significa que tudo que estiver entre parenteses"()" vai ser executado primeiro.
-obs. em programação não existe chaves nem colchetes para expressões aritméticas só os parenteses.
+Aqui ele mostrou os 5 tipos de operadores aritméticos, e mostrou que mesmo em java temos precedência de execução, como na matemática normal, isso significa que tudo que estiver entre parênteses"()" vai ser executado primeiro.
+obs. em programação não existe chaves nem colchetes para expressões aritméticas só os parênteses.
 
 
 20. Variáveis e tipos básicos em Java
 
-Demonstrou como devem ser declarados os tipos de variavel no java, explicou como são armazenadas na memoria e que toda variavel tem um nome ou identificador, e que possiu um tipo (existem varios ele mostrou apenas os 8 primitivos).
+Demonstrou como devem ser declarados os tipos de variável no java, explicou como são armazenadas na memoria e que toda variável tem um nome ou identificador, e que possui um tipo (existem vários ele mostrou apenas os 8 primitivos).
 
-Numericos Inteiros
+Numéricos Inteiros
 byte   - 8 bites
 short  - 16 bites
 int    - 32 bites
 long   - 64 bites
 
-Numericos com Ponto flutuante
+Numéricos com Ponto flutuante
 float   - 32 bites
 double  - 64 bites
 
-Caractere Unicode
+Carácter Unicode
 char - 16 bites
 
 Valor Verdade
@@ -164,9 +164,9 @@ boolean - 1 bite
 String
 Armazena uma cadeia de Caracteres.
 
-Padrão de nomenclatura de variavel
-Nunca inicia com numeros , sempre com letras ou _
-Não pode ter espaçoes em branco entre o nome da variavel
+Padrão de nomenclatura de variável
+Nunca inicia com números , sempre com letras ou _
+Não pode ter espaçoes em branco entre o nome da variável
 Não se usa acentuação nem caracater especial
 E usa-se o padrão Camel Case, ou seja a primeira letra de cada palavra tem que ser maiuscula.
 
@@ -206,7 +206,7 @@ int x = 32;
 double y = 10.35784
 System.out.printf("%.2f%n",y);
 
-Aqui o printf é para formatar o numero, e o "%.2f%" é o indicador de que eu só quero duas casas decimais, e o %n serve para quebra de linha na apresentação dos dados, já o proxima valor após a virgula é a variavel que eu quero apresentar formatada.
+Aqui o printf é para formatar o numero, e o "%.2f%" é o indicador de que eu só quero duas casas decimais, e o %n serve para quebra de linha na apresentação dos dados, já o proxima valor após a virgula é a variável que eu quero apresentar formatada.
 
 Aqui ainda tem um esquema na formatação que é para apresentação com "." ou "," por padrão o comando "System.out.printf();" ele pega as configurações do seu computador para usar como padrão por isso aqui ele sempre apresenta com "," e para apresentarmos com "." temos que utilizar uma classe padrão do java que é a "Locale"
 
@@ -223,7 +223,7 @@ System.out.println("Texto qualquer " + y + " Final do texto qualquer");
 já nesse exemplo estou concatenando texto formatado com 2 casas decimais, a unica diferença é que se eu tivesse mais alguma coisa para printar na tela e precisaria de mais alguns "%.N" e ai as variaveis tem que ser colocadas na ordem em que eu defini os %.
 System.out.printf("Resultado = %.2f  Metros%n", y);
 
-Aqui temos outro exemplo porém concatenando varios tipos de dados no mesmo retorno, ou seja uma string, um inteiro e um double, e para fazer isso temos algumas marcações no JAVA como por exemplo:
+Aqui temos outro exemplo porém concatenando vários tipos de dados no mesmo retorno, ou seja uma string, um inteiro e um double, e para fazer isso temos algumas marcações no JAVA como por exemplo:
 
 %s = String
 
@@ -239,12 +239,12 @@ System.out.println("%s tem %d anos e ganha R$ : %.2f reais %n", nome, idade, ren
 
 Deixou um exercicio de fixação. 
 
-Obs. Movi todo o repositório do git para dentro do meu workspace do eclipse para que assim eu consiga subir os códigos da aula e dos exercicios de fixação.
+Obs. Movi todo o repositório do git para dentro do meu workspace do eclipse para que assim eu consiga subir os códigos da aula e dos exercícios de fixação.
 
 
 23. Processamento de dados em Java, Casting
 
-Aqui ele fala que o processamento de dados em java é igual qualquer outra lingaguem onde você cria uma variavel e ai depois você atribui uma expressão a ela, ou um valor direto.
+Aqui ele fala que o processamento de dados em java é igual qualquer outra lingaguem onde você cria uma variável e ai depois você atribui uma expressão a ela, ou um valor direto.
 
 e que o casting é quando você faz a conversão explisita de tipos de dados.
 
@@ -257,7 +257,7 @@ O casting seria no caso de uma perda de dados ou conversão de tipos de dados en
 
 24. Entrada de dados em Java - Parte 1
 
-Aqui ele mostra que os dados que são digitados via teclado tem uma classe que já pega os dados, a Scanner, é só dar aquele importe que tudo funciona, para pegar os dados cada tipo tem um metodo especifico.
+Aqui ele mostra que os dados que são digitados via teclado tem uma classe que já pega os dados, a Scanner, é só dar aquele importe que tudo funciona, para pegar os dados cada tipo tem um método especifico.
 
 declaração do Scanner.
 
@@ -334,12 +334,12 @@ Faça um nextLine() extra antes de fazer o nextLine() de seu interesse.
     System.out.println(s3);
 
 
-O eclipse deu uma call interessante, ele aqui tranformou o meu objeto "sc" do Scanner em uma variavel statica ou seja eu não vou alterala nem ninguém , e ai eu declaro ele na inicialização do programa e ainda já era, fica tudo certo.
+O eclipse deu uma call interessante, ele aqui transformou o meu objeto "sc" do Scanner em uma variável statica ou seja eu não vou altera-la nem ninguém , e ai eu declaro ele na inicialização do programa e ainda já era, fica tudo certo.
 
 
 26. Funções matemáticas em Java
 
-Aqui ele está mostrando que existe uma classe em java que é responsavel por calculos matematicos, e que praticamente já está tudo la pronto para uso.
+Aqui ele está mostrando que existe uma classe em java que é responsável por cálculos matemáticos, e que praticamente já está tudo la pronto para uso.
 
 A = Math.sqrt(x);   Variável A recebe a raiz quadrada de x
 A = Math.pow(x, y); Variável A recebe o resultado de x elevado a y
@@ -349,19 +349,19 @@ A = Math.abs(x);    Variável A recebe o valor absoluto de x
 • pow – potenciação
 • abs – valor absoluto
 
-e que é possivel executar funções complexas com java apenas concatenando esses metodos.
+e que é possível executar funções complexas com java apenas concatenando esses métodos.
 
 
 
 27. AVISO: exercícios para iniciantes PARTE 1
 
-Aqui ele está explicando que tem exercicios propostos em uma aula do youtube e tals e que os questionarios respondidos estão em um repo no github, ai é meio que obrigatório para quem é iniciante na parada e opcional para quem já desenrola na logica de programação.
+Aqui ele está explicando que tem exercícios propostos em uma aula do youtube e tals e que os questionarios respondidos estão em um repo no github, ai é meio que obrigatório para quem é iniciante na parada e opcional para quem já desenrola na logica de programação.
 
 vou fazer FODA-SE.
 
 28. Exercícios para Iniciantes - PARTE 1
 
-Baixie o conteudo, vou ver o video e mandar os exercicios.
+Baixie o conteudo, vou ver o video e mandar os exercícios.
 
 
 Video do youtube tem um exercicio. [ done ]
@@ -435,11 +435,11 @@ else {
 
 
 34. AVISO: exercícios para iniciantes
-Aviso e mais nada, mesmo assim vou fazer os exercicios e dane-se.
+Aviso e mais nada, mesmo assim vou fazer os exercícios e dane-se.
 
 
 35. Exercícios para Iniciantes - PARTE 2
-Termieni os exercicios.
+Termieni os exercícios.
 
 
 36. Sintaxe opcional - operadores de atribuição cumulativa
@@ -455,9 +455,9 @@ a %= b;     a = a % b;
 
 37. Sintaxe opcional - switch-case
 
-Aqui ele mostrou a syntax do switch-case, que nada mais é que uma alternativa para você não ter que ficar fazendo inumeros if else, claro que não é só isso, ele tem inumeras vantagens, e ainda deixa o código mais legivel.
+Aqui ele mostrou a syntax do switch-case, que nada mais é que uma alternativa para você não ter que ficar fazendo inúmeros if else, claro que não é só isso, ele tem inúmeras vantagens, e ainda deixa o código mais legível.
 
-padrão igual a maioria das linguagens abre o "switch(){}" com uma expressão ou variavel como parâmetro, e ai vem as condições dentro das chaves todas elas com seus "case" a syntax é essa.
+padrão igual a maioria das linguagens abre o "switch(){}" com uma expressão ou variável como parâmetro, e ai vem as condições dentro das chaves todas elas com seus "case" a syntax é essa.
 
 switch ( expressão ) {
     case valor1:
@@ -480,7 +480,7 @@ Caso exista e você quiser colocar quando você usa o "default" se nenhum dos va
 
 38. Expressão condicional ternária
 
-Aqui ele mostra a syntax da condicional ternária que serve para simplificar código if else, e claro se você não tiver muitas condições para serem verificadas.
+Aqui ele mostra a syntax da condicional ternário que serve para simplificar código if else, e claro se você não tiver muitas condições para serem verificadas.
 
 syntax:
 ( condição ) ? valor_se_verdadeiro : valor_se_falso
@@ -488,7 +488,7 @@ syntax:
 ( 2 > 4 ) ? 50 : 80 = Aqui o resultado vai ser 80 porque o resultado da expressão é negativo, então ele vai para o 80
 ( 10 != 3 ) ? "Maria" : "Alex" = Aqui o resultado é maria porque o resultado da expressão é verdadeiro
 
-Aqui é claro vai depender muito a utilização, nem todo mundo conhece a ternaria, e mesmo assim é para coisas bem simples, mais ainda assim acho que como sempre o if else é o mais utilizado nem lembramos do ternario.
+Aqui é claro vai depender muito a utilização, nem todo mundo conhece a ternário, e mesmo assim é para coisas bem simples, mais ainda assim acho que como sempre o if else é o mais utilizado nem lembramos do ternário.
 
 
 39. Escopo e inicialização
@@ -527,14 +527,14 @@ ele executou um teste de mesa com while, e fez executando linha a linha para con
 
 45. Exercícios de teste de mesa com while
 
-Disse que tem exercicios no PDF como teste de mesa, eu fiz todos , é bem maneiro,porque você acaba percebendo como que ele vai ser executado e talvez consiga perver algum erro.
+Disse que tem exercícios no PDF como teste de mesa, eu fiz todos , é bem maneiro,porque você acaba percebendo como que ele vai ser executado e talvez consiga perver algum erro.
 
 
 46. AVISO: exercícios para iniciantes PARTE 3
 Aviso para fazer o exercicio quem é iniciante, ou tem dificuldade de entender.
 
 47. Exercícios para Iniciantes - PARTE 3
-Exercicios feitos.
+exercícios feitos.
 
 
 
@@ -550,17 +550,17 @@ Acompanhei ele fazendo o teste de mesa.
 
 50. Exercícios de testes de mesa com for
 
-Falou que vai ter exercicios.
+Falou que vai ter exercícios.
 
 51. AVISO: exercícios para iniciantes PARTE 4
 
-vou fazer do mesmo jeito, são exercicios de teste de mesa que estão no material de apoio, to acertando suave.
+vou fazer do mesmo jeito, são exercícios de teste de mesa que estão no material de apoio, to acertando suave.
 fiz todos, acho agora que fazer essas paradas não são perca de tempo, acredito que além de fixação serve muito para fazer sua cabeça pensar em como tudo isso funciona e como deve funcionar.
 
 
 52. Exercícios para iniciantes PARTE 4
 
-Fiz todos os exercicios.
+Fiz todos os exercícios.
 
 
 53. Estrutura repetitiva faça-enquanto (do-while)
@@ -589,7 +589,7 @@ Pascal Case: ProductService
 
 56. Operadores bitwise
 
-Aqui ele está falando que essas operações bitwise são operações bit a bit, e que se eu passar dois valores binarios por exemplo para serem comparados ele vai comparar usando a tabela verdade bit a bit dos dois numeros binarios que eu passei.
+Aqui ele está falando que essas operações bitwise são operações bit a bit, e que se eu passar dois valores binarios por exemplo para serem comparados ele vai comparar usando a tabela verdade bit a bit dos dois números binarios que eu passei.
 
 tem as operações logicas normais.
 
@@ -632,7 +632,7 @@ E ele também está mudando a estrutura de pastas, agora ele está colocando o "
 
 63. Criando uma classe com três atributos para representar melhor o triângulo
 
-Aqui ele explica melhor o que é uma classe, e que ela tem atributos e metodos e que os atributos são as caracteristicas da classe, e que os metodos são funções que essa classe executa, e recebe o nome de metodo porque só faz parte da classe e não do escopo todo do programa.
+Aqui ele explica melhor o que é uma classe, e que ela tem atributos e métodos e que os atributos são as caracteristicas da classe, e que os métodos são funções que essa classe executa, e recebe o nome de método porque só faz parte da classe e não do escopo todo do programa.
 
 falou sobreos pricipios de uma classe, mais bem preve, e mostrou que todas as vezes que você instancia uma classe na real na "STACK" o valor que fica armazenado na varivel do tipo "Object" é uma referencia de memoria que aponta(ponteiro) para a area da "HEAP" onde realmente está os valores armazenados para cada atributo daquele objeto, e que os objetos por serem assim precisam ser instanciados, e isso é feito com o comando "new" e isso que diz ao programa para armazenar aquela referencia de memoria onde ele vai armazenar os valores.
 
@@ -640,11 +640,11 @@ falou sobreos pricipios de uma classe, mais bem preve, e mostrou que todas as ve
 
 64. Criando um método para obtermos os benefícios de reaproveitamento e delegação
 
-Aqui ele passou todo a função que calcula  area do triangulo para dentro da classe tornando assim um metodo, e ainda simplificou poruque ele criou o metodo uma vez e utilizou para dois triangulos diferentes.
+Aqui ele passou todo a função que calcula  area do triangulo para dentro da classe tornando assim um método, e ainda simplificou poruque ele criou o método uma vez e utilizou para dois triangulos diferentes.
 
 muita coisa está comentada nos códigos quando for mais conceitual eu mando aqui, ou vou intercalando, o que for mais importante deixar la eu deixo e o que for conteúdo normal eu mando aqui mesmo.
 
-Falou sobre o projeto de classe em UML, que facilita a visualização do que tem que ser construido e como deve ficar, com seus atributos e metódos , e com seus respectivos tipos de dados.
+Falou sobre o projeto de classe em UML, que facilita a visualização do que tem que ser construido e como deve ficar, com seus atributos e métodos , e com seus respectivos tipos de dados.
  
 e frizou mais uma vez que com classes você reutiliza código, o que torna o processo mais agil e e menos caro, e que com as classes você consegue delegar responsabilidade, para cada classe ser especializada naquilo que ele faz.
 
@@ -652,19 +652,19 @@ e frizou mais uma vez que com classes você reutiliza código, o que torna o pro
 
 65. Começando a resolver um segundo problema exemplo
 
-Aqui ele fez uma classe de produto que tem 3 metodos e 3 atributos, nada muito complexo mais bem legalzin para ir fixano as paradas na mente.
+Aqui ele fez uma classe de produto que tem 3 métodos e 3 atributos, nada muito complexo mais bem legalzin para ir fixano as paradas na mente.
 
 
-OBS. acho que vou começar a criar um pacote por aula, ou fazer tudo que tiver que fazer commitar e apagar porque ta foda, o eclipse entra em loop na hora de builda as paradas e ainda fica dando erro porque tem mais de um metódo inicial.
+OBS. acho que vou começar a criar um pacote por aula, ou fazer tudo que tiver que fazer commitar e apagar porque ta foda, o eclipse entra em loop na hora de builda as paradas e ainda fica dando erro porque tem mais de um método inicial.
 
 
 66. Object e toString
 
-Aqui ele apresenta o "toString();"  esse cara basicamente é nativo do Object em java que é a classe pai de todos os objetos, e aqui ele consegue sobrescrever o metodo nativo e alterar o comportamento dele, o que não muda a utilização do metódo mais sim o retorno dele.
+Aqui ele apresenta o "toString();"  esse cara basicamente é nativo do Object em java que é a classe pai de todos os objetos, e aqui ele consegue sobrescrever o método nativo e alterar o comportamento dele, o que não muda a utilização do método mais sim o retorno dele.
 
-ainda apresentou o "String.format(format, args)" que serve para formatar strings basicamente ali ele fala o formato que ele quer que saia e quala variavel que vai ser formatada assim.
+ainda apresentou o "String.format(format, args)" que serve para formatar strings basicamente ali ele fala o formato que ele quer que saia e quala variável que vai ser formatada assim.
 
-OBS. ainda falta mudar os valores mais está funcionando certinho até as chamadas dos metódos.
+OBS. ainda falta mudar os valores mais está funcionando certinho até as chamadas dos métodos.
 
 67. Finalizando o programa
 
@@ -673,4 +673,90 @@ Aqui finalizamos o programa colocando as informações formatadas e apenas soman
 
 68. Exercícios de fixação
 
-Fiz todos os exercicios de fixação , eu só fiquei pistola porque o ultimo exercicio que o cara mandou fazer não tinha exemplo e o melhor ele deu peso para as notas, mais ai no exemplo dele não tem peso nenhuma nas notas, até porque o peso que ele deu valeria de porra nenhuma peso doido da peste.
+Fiz todos os exercícios de fixação , eu só fiquei pistola porque o ultimo exercicio que o cara mandou fazer não tinha exemplo e o melhor ele deu peso para as notas, mais ai no exemplo dele não tem peso nenhuma nas notas, até porque o peso que ele deu valeria de porra nenhuma peso doido da peste.
+
+
+A Partir daqui eu vou ter que criar um projeto por aula, ou pelo menos qundo for importante, porque o eclipse aqui do linux buga lindo quando eu tenho mais de uma classe com o método de inicialização, e quando tiver mais conteúdo da mesmo aula acho que vou comentar dentro da propria classe o exemplo ai fica mais facil de achar depois.
+
+
+
+69. Membros estáticos - Parte 1
+
+
+Membros estaticos são membros da classe, e eles não precisam de objetos para serem chamados e sim apenas a classe, como por exemplo o "Math.sqrt()", aqui é um exemplo de membro estatico , eu não preciso ter um objeto instanciado para executalos, ou chamalos.
+
+
+Dica : NÃO É possível CHAMAR métodoS QUE NÃO SEJAM ESTATICOS DENTRO DE UM OUTRO método ESTATICO, POR EXEMPLO CHAMAR UM método QUE NÃO SEJA STATICO DENTRO O PROGRAMA PRINCIPAL, SE ELE PERTENCE A UMA CLASSE E TEM UMA INSTANCIA BELEZA CASO CONTRARIO ESQUECE, métodoS ESTATICOS SÓ PODEM SER CHAMADOS DENTRO DA PROPRIA CLASSE AO QUAL ELES PERTENCEM.
+
+
+E para declara constantes é bem simples é só mandar um "public static final" e declarar o nome da constante tudo em letras maiusculas.
+
+Aqui eu intendi que na real tudo depende de onde e como você vai utilizar, depende da necessidade de negócio da sua aplicação, porque os dois jeitos funcionam, e ainda tem o terceiro que vai ser apresentado na aula 2.
+
+
+70. Membros estáticos - Parte 2
+
+
+Aqui ele deixou tudo como estava basicamente, porque ele voltou tudo para "static" mais ainda assim ele deixou dentro da classe, acho que tudo que tenha uma formula e que essa formula não mude pode ser deixado como "static" claro que as vezes não é tão rapido e pratico assim mais da para fazer.
+
+
+Aqui basicamente ele criou métodos porém com a diferença de não precisar instanciar nenhum objeto só chama ele com o nome da classe e o nome do método.
+
+
+
+71. Exercício de fixação
+
+Aqui na real não intendi muita coisa, só que eu fiz tudo certo e no final das contas não deu certo, acho que o eclipse estava tudo bugado, eu não conseguia executar as paradas direito,acho que ele tava com informação na memoria e conflitava com a que eu queria executar.
+
+além disso eu não intendi o porque dele colocar o valor do IOF que era uma porcentagem para ser multiplicado e ainda somar esse valor com 1.0, mais vamo ai.
+
+
+
+Seção 9: Construtores, palavra this,sobrecarga, encapsulamento
+
+72. Visão geral do capítulo
+
+
+73. Material de apoio do capítulo
+
+
+74. Construtores
+
+Todas as classes tem um método construtor e ele é executado na hora que instanciamos a classe, quando utilizamos o "new" ele é acionado para fazer a construção/instacição do objeto na memoria.
+
+Basicamente todos os objetos possuem um método construtor padrão,  e ele não espera nada como parâmetro de entrada, porém é possivel previnir possiveis erros na hora da utilização da sua classe, criando um construtor.
+
+assim esse construtor que você criou vai sobrescrever o default e toda vez que alguém for utilizar sua classe(instanciar) ele vai ser obrigado a passar todos os parâmetros que sua classe precisa porque você obriga isso na instanciação.
+
+
+Nessa aula ele alterou o código de gerenciamento de estoque, fazendo com que na hora da construção eu seja obrigado a passar todos os parâmetros do objeto, porque segundo a lenda não faz sentido eu criar um objeto vazio primeiro para depois passar os valores para dentro dele,só que também não faz sentido criar variaveis temporarias para isso, mais cada louco com suas loucuras.
+
+
+São os Arquivos que estão no projeto "aula_65".
+
+
+75. Palavra this
+
+Palavra this serve para diferenciar atributos de variaveis locais, ou seja quando dentro do método eu uso "this.algumaCoisa" eu to falando que esse meu atributo é valor que foi passado para o objeto e não o que está na variavel local do programa, ou seja eu não corro o risco de pegar um valor que já pode ter sido alterado, e vou pegar o valor que foi passado para o objeto.
+
+
+Também da para usar o "this" para passar um objeto como argumento/parâmetro dentro de uma função.
+
+
+76. Sobrecarga
+
+Aqui eu vou criar um projeto novo para essa aula usando o que já ta pronto da aula_65 e que foi modificado na aula 74, acho melhor e evita erros no eclipse, até porque isso é como se fosse um repositório meu, um lugar onde eu posso voltar para buscar informações e esclarecimentos.
+
+Aqui basicamente ele mostra que sobrecarga é o processo de disponibilizar mais de uma forma de instancia de uma mesma classe, ou seja eu consigo ter uma mesma classe que obriga o cara a digitar o nome e a idade e também é possivel eu criar um objeto dessa classe passando apenas o nome, poruq eu tenho varios metodos construtores  que possibilitam isso, na pratica é para o caso de eu por exemplo fazer uma operação matemática onde eu não tenha algum dos valores e tenha que descobrir esse valor ai utilizo o construtor que não obriga a passagem dele e fecho.
+
+
+77. Encapsulamento
+
+Consistem em esconder informaçãoes importantes da aplicação ou até acesso a dados da classe, expondo as apenas por meio de uma operação segura.
+
+O objeto deve sempre estar em um estado consistente e a classe deve garantir isso, fazendo com que qualquer dado que entre na classe entre por um determinado acesso.
+
+
+ou seja só deve receber dados via get() e set() FODA-SE.
+
+
