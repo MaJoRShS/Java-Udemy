@@ -854,3 +854,19 @@ garbage collector é um assistem de desalocação dinamica de memória, o que el
 Desalocação por escopo é quando eu tenho um escopo de execução seja uma função  ou um if, quando eu declarar variaveis dentro do escopo dessa função ou desse if a variavel só existe ali, e após a execução desse cara essa variavel é desalocada , mais não pelo garbage collector e sim porque o escopo onde aquela variavel foi declarada terminou sua execução.
 
 OBS. garbage collector só existe para limpar objetos que não estão mais em uso da memória, porque variaveis normais com escopo local são removidas da memória imediatamente após o termino do escopo.
+
+
+
+87. Vetores - Parte 1
+
+Basicamente é chamado de vetor porque ele tem apenas valores na vertical, e em inglês fica array porque o nome do vetor seria arranjo de valores, dai o array.
+
+esse cara quando você cria ele e passa a quantidade de valores que ele vai ter dentro dele ela automaticamente já cria na memoria espaço para a quantidade de valores que você colocar.
+
+obs. padrão array começa com 0.
+
+vantagens é que se eu tentar acessar qualquer posição dele eu consigo facilmente.
+
+desvantagens é que se eu precisar remover um valor do meu array eu sou obrigado a jogar todos os outros valores para cima o que da muito trabalho , isso claro falando de valores no meio do array , se for o 1 item do array ou o ultimo é mais facil.
+
+Felizmente não tem muito como correr para percorre um vetor segue ainda aquele padrão for.
