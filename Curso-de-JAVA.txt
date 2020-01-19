@@ -844,3 +844,13 @@ Y = X;
 "Objetos" são desalocados imediatamente quando
 
 seu escopo de execução é finalizado 
+
+
+86. Desalocação de memória - garbage collector e escopo local
+
+garbage collector é um assistem de desalocação dinamica de memória, o que ele faz basicamente ele fica meio que escaneando o código para tentar encontrar variaveis que foram instanciadas e perderam a referencia, ou seja estão na memoria STACK porém apontam para o mesmo lugar na memória HEAP
+
+
+Desalocação por escopo é quando eu tenho um escopo de execução seja uma função  ou um if, quando eu declarar variaveis dentro do escopo dessa função ou desse if a variavel só existe ali, e após a execução desse cara essa variavel é desalocada , mais não pelo garbage collector e sim porque o escopo onde aquela variavel foi declarada terminou sua execução.
+
+OBS. garbage collector só existe para limpar objetos que não estão mais em uso da memória, porque variaveis normais com escopo local são removidas da memória imediatamente após o termino do escopo.
