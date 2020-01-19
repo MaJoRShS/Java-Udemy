@@ -870,3 +870,11 @@ vantagens é que se eu tentar acessar qualquer posição dele eu consigo facilme
 desvantagens é que se eu precisar remover um valor do meu array eu sou obrigado a jogar todos os outros valores para cima o que da muito trabalho , isso claro falando de valores no meio do array , se for o 1 item do array ou o ultimo é mais facil.
 
 Felizmente não tem muito como correr para percorre um vetor segue ainda aquele padrão for.
+
+
+
+88. Vetores - Parte 2
+
+Aqui ele mostrou como se cria um array de objetos, basicamente como a maioria das coisas no java é referencia e memoria, o array de objetos também é, aqui você primeiro cria um array passa para elea quantidade de itens que ele vai ter e quando for para atribuir os valores para dentro do array você passa uma instancia de um objeto, ai ele vai armazenar naquela possição a referencia de memoria daquele objeto que foi instanciado.
+
+É meio complicado e meio dificil de intender mais ao mesmo tempo faz um sentido pela arquitetura da linguagem, como ela sempre tem a parada de referenciar objetos com suas posições na memoria nos vetores não foi diferente, acho que fica meio complicado fazer assim mais vamos que vamo.
