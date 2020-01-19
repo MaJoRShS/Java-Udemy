@@ -778,3 +778,69 @@ protected: o membro só pode ser acessado no mesmo pacote, bem como em
 subclasses de pacotes diferentes
 
 public: o membro é acessado por todas classes (ao menos que ele resida em um módulo diferente que não exporte o pacote onde ele está)
+
+
+
+81. Correção do exercício de fixação - Parte 1
+
+Basicamente eu não tinha percebido que aqui ele já queria que eu usase encapsulamento e que na real a regra era toda em apenas uma classe, acho que preciso mesmo focar em logica de programação.
+
+
+
+82. Correção do exercício de fixação - Parte 2
+
+Aqui ele termina a explicação do exercicio, na real é até que bem simples mais tenho que mudar minha cabeça quando se trata de programação, ainda penso estruturado e fico meio perdido na hora de codar uma classe e pensar em como funciona, mais a pratica leva a perfeição e assim começando cedo termina cedo.
+
+
+Seção 10: Comportamento de memória, arrays, listas
+83. Visão geral do capítulo
+84. Material de apoio do capítulo
+
+85. Tipos referência vs. tipos valor
+
+Aqui basicamente o que ele disse foi o seguinte, que são do tipo referência todas as classes porque quando eu estancio uma classe ela na realidade recebe um valor de memoria que indica exatamente onde os valores daquele objeto está, ou seja na memoria STACK ele fica com o valor de memoria HEAP onde estão todos os valores daquele objeto.
+
+isso é chamado de alocamento dinamico de memoria.
+
+quando inicio uma variavel com tipo mesmo, na memoria STACK fica o valor propriamente dito, porque ele não precisa de mais espaço ele é o que é.
+
+e toda variavel de tipo valor tem que ter sido inicializada com um valor, porque se não a propria IDE já avisa que vai dar erro.
+
+
+Tipos referência vs. tipos valor
+CLASSE 
+Vantagem: usufrui de todos recursos OO
+
+Variáveis são ponteiros
+
+Objetos precisam ser instanciados usando new, ou apontar para um objeto já existente.
+
+Aceita valor null
+
+Y = X;
+"Y passa a apontar para onde X aponta"
+
+Objetos instanciados no heap
+
+Objetos não utilizados são desalocados em um
+
+momento próximo pelo garbage collector
+
+TIPO PRIMITIVO
+
+Vantagem: é mais simples e mais performático
+
+Variáveis são caixas
+
+Não instancia. Uma vez declarados, estão prontos para uso.
+
+Não aceita valor null
+
+Y = X;
+"Y recebe uma cópia de X"
+
+"Objetos" instanciados no stack
+
+"Objetos" são desalocados imediatamente quando
+
+seu escopo de execução é finalizado 
