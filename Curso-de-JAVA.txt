@@ -896,3 +896,14 @@ wrapper classes são classes padrão do java que servem para que eu consiga torn
 basicamente esses caras aqui são utilizados para fazer com que eu consiga converter variaveis de tipos primitivos em objetos e que eu consiga armazenas valores nullos nelas, porque as variaveis de tipos primitivos padrão não aceitam nulo.
 
 OBS. toda variavel de tipos primitivo tem uma wrapper class correspondente, para que seja possivel utilizar esses caras sem fazer canting .
+
+
+91. Laço for each
+
+O for each é uma estrutura de repetição que executa enquanto tiver intens dentro de uma coleção(array), e ele tem quase a mesma syntax do for normal.
+
+for(tipo apelido : coleção){
+
+}
+
+é um pouco mais simples do que o for mais não sei qual as vantagens de usar ele.
