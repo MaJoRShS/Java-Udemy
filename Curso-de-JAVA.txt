@@ -878,3 +878,21 @@ Felizmente não tem muito como correr para percorre um vetor segue ainda aquele 
 Aqui ele mostrou como se cria um array de objetos, basicamente como a maioria das coisas no java é referencia e memoria, o array de objetos também é, aqui você primeiro cria um array passa para elea quantidade de itens que ele vai ter e quando for para atribuir os valores para dentro do array você passa uma instancia de um objeto, ai ele vai armazenar naquela possição a referencia de memoria daquele objeto que foi instanciado.
 
 É meio complicado e meio dificil de intender mais ao mesmo tempo faz um sentido pela arquitetura da linguagem, como ela sempre tem a parada de referenciar objetos com suas posições na memoria nos vetores não foi diferente, acho que fica meio complicado fazer assim mais vamos que vamo.
+
+
+89. Exercício de fixação
+
+Já fiz o exercicio e commitei no repositório.
+
+
+90. Boxing, unboxing e wrapper classes
+
+Boxing é o processo de criar um objeto apartir de uma variavel de tipo primitivo, ou seja eu tenho uma variavel int e com ela eu crio uma um novo objeto que recebe o valor dela.
+
+unboxing é quando eu crio uma variavel de tipo primitivo apartir de um objeto no caso eu preciso fazer o casting para o tipo equivalente do dado para dar certo.
+
+wrapper classes são classes padrão do java que servem para que eu consiga tornar todas as minhas variaveis de tipos primitivos em objeto para que não de erro quando eu for fazer o meu programa.
+
+basicamente esses caras aqui são utilizados para fazer com que eu consiga converter variaveis de tipos primitivos em objetos e que eu consiga armazenas valores nullos nelas, porque as variaveis de tipos primitivos padrão não aceitam nulo.
+
+OBS. toda variavel de tipos primitivo tem uma wrapper class correspondente, para que seja possivel utilizar esses caras sem fazer canting .
