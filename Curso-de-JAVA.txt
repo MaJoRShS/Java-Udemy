@@ -907,3 +907,39 @@ for(tipo apelido : coleção){
 }
 
 é um pouco mais simples do que o for mais não sei qual as vantagens de usar ele.
+
+92. Listas - Parte 1
+
+Listas são estruturas de dados homogeneos ou seja sempre os valores são do mesmo tipo, e todas as listas iniciam vazias e eu posso ir alocando novos itens conforme necessidade, e tem mais cada item da lista conhece tem uma referencia para o proximo nodo(no), e os itens da lista são ordenados e acessados igual array.
+
+toda lista é do tipo 'List' e esses caras são Interfaces
+
+(Interface são classes que definem um padrão de campos e do que vai ser utilizado o B.O é que tem que ser instanciado apartir de uma classe.)
+
+Vantagens de usar List
+    tamanho flexivel
+    facilidade para se realizar inserções e deleções
+Desvantagens
+    Acesso sequencial aos elementos
+
+essa parada de acesso sequencial é o seguinte se eu quiser pegar o item 3 da minha lista eu preciso percorrer ela toda , passando por todos os elementos até chegar na posição que eu quero, isso ai da muita merda, mais tem alguns tipos de busca otimizada nas listas por exemplo o ArrayList, que é uma mistura de array com lista que permite percorrer a lista como se fosse um array.
+
+Aqui como o tipo List é uma interface eu preciso de uma classe que implemente essa interface porque eu não consigo instanciar uma interface(acho que em nenhuma linguagem da para fazer isso)
+
+
+93. Listas - Parte 2
+
+Tamanho da lista: size()
+
+Obter o elemento de uma posição: get(position)
+
+Inserir elemento na lista: add(obj), add(int, obj)
+
+Remover elementos da lista: remove(obj), remove(int), removeIf(Predicate)
+
+Encontrar posição de elemento: indexOf(obj), lastIndexOf(obj)
+
+Filtrar lista com base em predicado:List<Integer> result = list.stream().filter(x -> x > 4).collect(Collectors.toList());
+
+Encontrar primeira ocorrência com base em predicado:Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
+
