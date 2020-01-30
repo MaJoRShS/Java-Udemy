@@ -943,3 +943,7 @@ Filtrar lista com base em predicado:List<Integer> result = list.stream().filter(
 
 Encontrar primeira ocorrência com base em predicado:Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
 
+
+
+94. Exercício proposto
+
