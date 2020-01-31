@@ -947,3 +947,12 @@ Encontrar primeira ocorrência com base em predicado:Integer result = list.strea
 
 94. Exercício proposto
 
+Finalizei o exercicio mais tive que pegar o exemplo dele, porque eu ainda não peguei direito como usar array e listas.
+
+
+95. Matrizes
+
+Aqui basicamente ele fez uma revisão  mostrando o que são matrizes, que na real é um vetor de vetores, um array bidimensional, ou um array com outros arrays dentro, formando quase que uma tabela.
+
+
+96. Exercício resolvido
