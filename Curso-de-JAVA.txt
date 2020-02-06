@@ -956,3 +956,5 @@ Aqui basicamente ele fez uma revisão  mostrando o que são matrizes, que na rea
 
 
 96. Exercício resolvido
+
+Aqui ele resolveu um exercicio onde eu setava valores para uma matriz, onde o usuario passa a quandidade de linhas e colunas da minha matriz, ai eu tenho que atribuir esses valores no array interno e na possição em que foi digitado, é relativamente simples, o problema é que se não treinar e se não correr atrás nunca vai pegar e sempre vai se lascar quando precisar utilizar.
