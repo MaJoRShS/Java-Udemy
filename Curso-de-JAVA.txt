@@ -968,3 +968,8 @@ Seção 11: Tópicos especiais em Java
 99. Trabalhando com datas - Date
 
 Aqui o cara apresenta varias formas de como se trabalhar com data no JAVA, tem as paradas normais mais tem classes especificas para isso, que já são proprias para isso e que ainda auxiliam na formatação dos campos data, o b.o é que nego precisa de pelo menos umas 15 classes para conseguir fazer a formatação    
+
+
+100. Manipulando um Date com Calendar
+
+Basicamente a classe Calendar tem um monte de metodo, para todos os tipos de manipulação de data, ele deu alguns exemplos pegando dia, e minutos para exemplificar que é possivel, mais eu achei meio imbassado que na real eu sempre preciso setar uma variavel com do Calendar, ai eu pego a data que eu setei e ai passo ela para o calendar, ai eu começo a trabalhar e usar as funções do calendar para manipular data, muia volta para pouca coisa na real.
