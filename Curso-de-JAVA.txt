@@ -960,3 +960,11 @@ Aqui basicamente ele fez uma revisão  mostrando o que são matrizes, que na rea
 Aqui ele resolveu um exercicio onde eu setava valores para uma matriz, onde o usuario passa a quandidade de linhas e colunas da minha matriz, ai eu tenho que atribuir esses valores no array interno e na possição em que foi digitado, é relativamente simples, o problema é que se não treinar e se não correr atrás nunca vai pegar e sempre vai se lascar quando precisar utilizar.
 
 mais uma parada que eu preciso fortemente estudar, sei la começar a resolver exercicios basicos da net mesmo e ver como eu me saio.
+
+Seção 11: Tópicos especiais em Java
+
+98. Material de apoio do capítulo
+
+99. Trabalhando com datas - Date
+
+Aqui o cara apresenta varias formas de como se trabalhar com data no JAVA, tem as paradas normais mais tem classes especificas para isso, que já são proprias para isso e que ainda auxiliam na formatação dos campos data, o b.o é que nego precisa de pelo menos umas 15 classes para conseguir fazer a formatação    
