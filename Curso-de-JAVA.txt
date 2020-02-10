@@ -973,3 +973,15 @@ Aqui o cara apresenta varias formas de como se trabalhar com data no JAVA, tem a
 100. Manipulando um Date com Calendar
 
 Basicamente a classe Calendar tem um monte de metodo, para todos os tipos de manipulação de data, ele deu alguns exemplos pegando dia, e minutos para exemplificar que é possivel, mais eu achei meio imbassado que na real eu sempre preciso setar uma variavel com do Calendar, ai eu pego a data que eu setei e ai passo ela para o calendar, ai eu começo a trabalhar e usar as funções do calendar para manipular data, muia volta para pouca coisa na real.
+
+
+
+Seção 12: Bônus - nivelamento sobre Git e Github
+
+101. Visão geral do capítulo Git e Github
+
+102. Material de apoio do capítulo
+
+
+103. O que é Git e Github
+
