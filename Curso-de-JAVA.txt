@@ -985,3 +985,45 @@ Seção 12: Bônus - nivelamento sobre Git e Github
 
 103. O que é Git e Github
 
+Bem padrão explicou o que é cada um deles e explicou o que é o que faz.
+
+104. Instalação do Git no Windows
+
+Padrão
+
+
+105. Demo - criando um novo projeto
+
+Mostrou o passo a passo de como criar um repositório local e um remoto e como sincronizlos, além do passo a passo de como subir arquivos para seu repositório remoto e todo paranaue envolvido.
+
+106. Arquivo .gitignore
+
+Explicou que serve basicamente para não versionar arquivos que realmente não precisam ser versionados.
+
+
+107. Demo - trabalhando com um projeto existente
+
+Aqui ele mostrou como subir alterações no repositório que já possuem alterações e coisas, ai você precisa baixar tudo o que tem no remoto e ai você corrige / altera e sobe
+
+
+108. Importante entender - a sequência de commits deve ser respeitada
+
+Aqui ele fala que você precisa sempre trazer tudo que está no seu repositório remoto para o seu local, porque se não vai dar conflito nas linhas do commit, e ai você vai ter que fazer o merge ta porra toda.
+
+
+109. Kit de primeiros socorros
+
+Aqui ele gerou uma listinha com os comandos mais uteis em caso de problema no repositório, apagar alterações e tals.
+
+
+
+Seção 13: Enumerações, composição
+
+110. Visão geral do capítulo Enumerações e Composição
+
+111. Material de apoio do capítulo
+
+
+112. Enumerações
+
+Tipos enumerados são basicamente utilizados para armazenar estados, e para representar com UML só coloca uma anotação emcima do nome da classe informando que é um enum e passa os nomes que você vai aceitar, e na sequencia passa os valores corresponentes aos seus estados.
