@@ -1044,3 +1044,12 @@ Aqui ele da uma introdução teorica sobre composição, e fala que classes que 
 Aqui ele começa a apresentar os conceitos de composição quando uma classe tem associação com outra, e ai como funciona ele vai criando varias classes separadas cada uma com sua reponsabilidade, e com seus respectivos dados, sempre permitem ou não acesso aos dados.
 
 tem 4 classes mais a principal que vai usar tudo isso e apresentar para o usuario,é um meio complicado no começo mais quando começa eu começo a pensar nos conceitos de O.O ai vai ficando mais facil de intender o que e como é para ser feito..
+
+
+116. Exercício resolvido 1 - Parte 2
+
+Aqui ele conclui o programa, e mostra como é bem simples fazer a associação de classes , claro primeiro precisa ficar bem claro na sua cabeça a ordem como tudo vai funcionar se não você vai se perder nas associações, por isso acho que é bem importante ter um modelo visual de como tudo vai funcionar e se relacionar(associar).
+
+acho que quanto mais eu praticar e estudar melhor eu vou ficar.
+
+funciona o programa,acho que eu consigo mandar isso em qualquer lingaguem e em qualquer projeto só focar em como eu devo fazer e aprender a como fazer na ferramenta e na linguagem que eu trabalho.
