@@ -1053,3 +1053,8 @@ Aqui ele conclui o programa, e mostra como é bem simples fazer a associação d
 acho que quanto mais eu praticar e estudar melhor eu vou ficar.
 
 funciona o programa,acho que eu consigo mandar isso em qualquer lingaguem e em qualquer projeto só focar em como eu devo fazer e aprender a como fazer na ferramenta e na linguagem que eu trabalho.
+
+
+117. Exercício resolvido 2 (demo StringBuilder)
+
+Aqui ele criou um esquema de Post e comentarios na pegada de blog, foi um exemplo de como usar a composição de classe e ainda mostra a classe stringBuilder, na real essa classe serve para que você não tenho que ficar igual um demente colocando aspas("") e mais (+) na sua system.out.println, a propria classe tem um metodo que se chama "append()", que serve justamente para isso, e ai você consegue ir colocando texto nesses append's e vai criando seu texto.
