@@ -1058,3 +1058,12 @@ funciona o programa,acho que eu consigo mandar isso em qualquer lingaguem e em q
 117. Exercício resolvido 2 (demo StringBuilder)
 
 Aqui ele criou um esquema de Post e comentarios na pegada de blog, foi um exemplo de como usar a composição de classe e ainda mostra a classe stringBuilder, na real essa classe serve para que você não tenho que ficar igual um demente colocando aspas("") e mais (+) na sua system.out.println, a propria classe tem um metodo que se chama "append()", que serve justamente para isso, e ai você consegue ir colocando texto nesses append's e vai criando seu texto.
+
+
+118. Exercício de fixação
+
+
+Na real eu até consigo compreender o que ele fez e ir acompanhando mais não da para continuar assim , preciso treinar mais, focar em resolver exercicios,porque acredito que do jeito que o mano faz deve facilitar e muito o desenvolvimento além de que pode ser o jeito mais rapido e prático de se desenvolver programas.
+
+
+#FOCONOSESTUDOS
