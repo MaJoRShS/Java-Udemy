@@ -1067,3 +1067,28 @@ Na real eu até consigo compreender o que ele fez e ir acompanhando mais não da
 
 
 #FOCONOSESTUDOS
+
+
+Seção 14: Herança e polimorfismo
+
+119. Visão geral do capítulo Herança e Polimorfismo
+
+
+120. Material de apoio do capítulo
+
+
+121. Herança
+
+Herança é quando uma classe herda os atributos e metodos de uma outra classe, o que significa que todas as vezes que eu instanciar uma classe que é extenção de uma outra eu não crio duas classes como na composição mais sim apenas uma classe com todos os atributos e metodos das duas classes.
+
+Conceitos em Herança
+
+"é um" -> quer dizer que um carro "é um" automovel, ou seja carro é um automovel assim como caminhão é um automovel, isso é utilizado para pensar em se devemos usar herança ou composição.
+
+Generalização / espeicialização -> quer dizer que a classe pai ou super classe é o tipo mais basico de um objeto e por isso é a Generalização e o que seus filhos são especializados em fazer alguma coisa por isso espeicialização.
+
+Superclasse (classe base) / Subclasse (classe derivada) -> A super classe como dito no conceito acima é a classe pai que dela na teoria vem todos os atributos e metodos que todos devem ter por isso é a super, e ai entra aquele esquema que o eclipse coloca de "super();" esse cara é o que garante que todos as propriedades da classe pai estejam nos filhos, e subclasse é a classe filha que extende de uma outra classe mais generica, e que na teoria deve ser especializada em alguma coisa.
+
+Herança / extensão -> como eu estou literalmente extendendo uma classe com seus metodos e atributos e acrescendo mais coisa nela essa classe filha é uma extensão da classe pai.
+
+Herança é uma associação entre classes e não entre objetos -> como tido em algum lugar acima quando eu instancio uma classe extendida eu não crio dois objetos mais um só isso siginifica que elas são uma parte da outra não da para instanciar um carro sem que ele já venha com as paradas do automovel.
