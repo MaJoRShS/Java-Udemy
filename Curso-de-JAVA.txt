@@ -1092,3 +1092,16 @@ Superclasse (classe base) / Subclasse (classe derivada) -> A super classe como d
 Herança / extensão -> como eu estou literalmente extendendo uma classe com seus metodos e atributos e acrescendo mais coisa nela essa classe filha é uma extensão da classe pai.
 
 Herança é uma associação entre classes e não entre objetos -> como tido em algum lugar acima quando eu instancio uma classe extendida eu não crio dois objetos mais um só isso siginifica que elas são uma parte da outra não da para instanciar um carro sem que ele já venha com as paradas do automovel.
+
+Aqui faltou apenas colocar que quando o uso correto dos modificadores de acesso também impacta na hora da codificação, porque se eu preciso mexer em um atributo de um classe mais esse atribtuto vem da classe pai, ele tem que estar como protected.
+
+
+122. Upcasting e downcasting
+
+Aqui é bem simples a parada, quando eu to fazendo o Upcasting eu to criando uma instancia de um objeto filho e jogando ele dentro de uma instancia do objeto pai.
+
+ou seja eu tenho uma businessAccount que é um filha de Account, e ai eu crio uma businessAccount mais como tipo dela Account, fazendo com que ele seja literalmente um businessAccount do tipo Account, mais por dentro é uma businessAccount.
+
+e o downcasting é o contrario, eu to criando um objeto do tipo businessAccount e/ou qualquer outro objeto de um tipo filho e tento atribur um objeto pai nele, o que por si só da um erro de compilação, a menos que eu crie o Casting manual informando o tipo daquele objeto para que não de erro.
+
+basicamente essas duas loucuras aqui são para você criar instancias de um determinado tipo mesmo que na verdade o objeto seja de um outro tipo, e pelo que eu vi isso só da para fazer com classes pai e filhas.
