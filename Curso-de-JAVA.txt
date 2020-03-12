@@ -1123,3 +1123,12 @@ Palavra super, é igual quando eu quero fazer um Upcasting ou Downcasting só qu
 
 Aqui basicamente ele mostrou para que serve a palavra final e que é possivel utilizar ela tanto em classes quanto em metodos.
 Basicamente serve para imperdir que uma classe quando ela for final ela não consiga ser herdada por mais ninguém, e o mesmo acontece com quando um metódo tem o "final" no seu nome, ele disse que basicamente isso se aplica quando a regra de negócio necessita, e quando você precisa de uma certa agilidade em tempo de execução porque alguns tipos de dados são executados mais rapidamente quando estão em classes finais.
+
+
+
+125. Introdução ao polimorfismo
+
+Aqui ele mostra que o mesmo esquema que já tinha sido feito anteriormente já serve como um exemplo de polimorfismo, porque eu vou ter dois objetos do mesmo tipo chamando metodos com o mesmo nome porém com comportamentos diferentes.
+
+no exemplo da aula não fica igual estou acostumado a ver que é duas instancias da mesma classe com o mesmo tipo chamando os mesmos métodos terem comportamento diferente, mais ainda assim deu mais uma exemplificada.
+
