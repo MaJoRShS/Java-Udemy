@@ -1106,3 +1106,15 @@ e o downcasting é o contrario, eu to criando um objeto do tipo businessAccount 
 
 basicamente essas duas loucuras aqui são para você criar instancias de um determinado tipo mesmo que na verdade o objeto seja de um outro tipo, e pelo que eu vi isso só da para fazer com classes pai e filhas.
 
+
+
+123. Sobreposição, palavra super, anotação @Override
+
+
+Aqui é o seguinte, existe duas paradas, Sobreposição é quando eu implemento um metodo de uma Superclasse em uma subclasse, porém não é possivel alterar os parâmetros nem o retorno mais é possivel mudar o comportamento para que atenda as minhas necessidades.
+
+tem a Sobrecarga que eu consigo mudar tudo, até mesmo os parâmetros.
+
+Aqui tem uma sacada do JAVA que ele utiliza uma anotação para indicar ao compilador que se trata de uma Sobreposição que é o "@Override", eu não sou obrigado a informar essa anotação mais como boa pratica e convenção é fortemente aconselhavel que seja utilizada.
+
+Palavra super, é igual quando eu quero fazer um Upcasting ou Downcasting só que para metodos, eu utilizo o "super.nomeDoMetododaSuperClasse" assim eu consigo utilizar os metodos da Superclasse nas filhas, e até mesmo mudar o comportamento igual o mano fez na aula.
