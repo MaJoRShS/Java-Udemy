@@ -1132,3 +1132,6 @@ Aqui ele mostra que o mesmo esquema que já tinha sido feito anteriormente já s
 
 no exemplo da aula não fica igual estou acostumado a ver que é duas instancias da mesma classe com o mesmo tipo chamando os mesmos métodos terem comportamento diferente, mais ainda assim deu mais uma exemplificada.
 
+126. Exercício resolvido
+
+Aqui ele mostra como fazer a parada do polimorfismo de método em um exemplo bem simples, além de ajudar mostrando novamente as paradas das listas, vou ter que estudar ainda mais sobre listas , arrays, Sobreposição e sobrecarga mais isso sempre.
