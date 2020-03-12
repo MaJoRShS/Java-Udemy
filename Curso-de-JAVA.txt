@@ -1118,3 +1118,8 @@ tem a Sobrecarga que eu consigo mudar tudo, até mesmo os parâmetros.
 Aqui tem uma sacada do JAVA que ele utiliza uma anotação para indicar ao compilador que se trata de uma Sobreposição que é o "@Override", eu não sou obrigado a informar essa anotação mais como boa pratica e convenção é fortemente aconselhavel que seja utilizada.
 
 Palavra super, é igual quando eu quero fazer um Upcasting ou Downcasting só que para metodos, eu utilizo o "super.nomeDoMetododaSuperClasse" assim eu consigo utilizar os metodos da Superclasse nas filhas, e até mesmo mudar o comportamento igual o mano fez na aula.
+
+124. Classes e métodos final
+
+Aqui basicamente ele mostrou para que serve a palavra final e que é possivel utilizar ela tanto em classes quanto em metodos.
+Basicamente serve para imperdir que uma classe quando ela for final ela não consiga ser herdada por mais ninguém, e o mesmo acontece com quando um metódo tem o "final" no seu nome, ele disse que basicamente isso se aplica quando a regra de negócio necessita, e quando você precisa de uma certa agilidade em tempo de execução porque alguns tipos de dados são executados mais rapidamente quando estão em classes finais.
