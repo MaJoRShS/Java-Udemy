@@ -1135,3 +1135,8 @@ no exemplo da aula não fica igual estou acostumado a ver que é duas instancias
 126. Exercício resolvido
 
 Aqui ele mostra como fazer a parada do polimorfismo de método em um exemplo bem simples, além de ajudar mostrando novamente as paradas das listas, vou ter que estudar ainda mais sobre listas , arrays, Sobreposição e sobrecarga mais isso sempre.
+
+
+127. Exercício de fixação
+
+Consegui fazer o exercicio praticamente todo, claro que fui seguindo a aula passada mais ainda assim consegui fazer, o que achei meio sacanagem é que ele inicia o contador em "1" para conseguir deixar o contador certo, e que na hora de devolver a data eu tava usando o "getManufactureDate" quando na verdade era usa o proprio atributo "manufactureDate" que dava certo usando o "SimpleDateFormat"
