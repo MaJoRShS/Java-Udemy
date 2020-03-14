@@ -1140,3 +1140,8 @@ Aqui ele mostra como fazer a parada do polimorfismo de método em um exemplo bem
 127. Exercício de fixação
 
 Consegui fazer o exercicio praticamente todo, claro que fui seguindo a aula passada mais ainda assim consegui fazer, o que achei meio sacanagem é que ele inicia o contador em "1" para conseguir deixar o contador certo, e que na hora de devolver a data eu tava usando o "getManufactureDate" quando na verdade era usa o proprio atributo "manufactureDate" que dava certo usando o "SimpleDateFormat"
+
+
+128. Classes abstratas
+
+Classes abstratas são classes do tipo mais generico possivel, elas não podem ser instanciadas porque devem ser genericas ,e só podem ser herdadas e polimorfadas, funcionam mais ou menos como um esqueleto, você consegue utilizar tudo que está la, e consegue usar ela em qualquer lugar desde que não utilize uma instancia dela e sim uma herança.
