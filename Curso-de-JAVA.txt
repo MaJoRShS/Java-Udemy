@@ -1145,3 +1145,10 @@ Consegui fazer o exercicio praticamente todo, claro que fui seguindo a aula pass
 128. Classes abstratas
 
 Classes abstratas são classes do tipo mais generico possivel, elas não podem ser instanciadas porque devem ser genericas ,e só podem ser herdadas e polimorfadas, funcionam mais ou menos como um esqueleto, você consegue utilizar tudo que está la, e consegue usar ela em qualquer lugar desde que não utilize uma instancia dela e sim uma herança.
+
+
+129. Métodos abstratos
+
+Métodos abstratos são metodos que não possuem implementação, ou seja eles obrigatóriamente devem ser polimorfados, eles sõa utilizados quando a classe é generica de mais para conter sua implementação.
+
+Obs. se a classe tiver um método abstrato obrigatóriamente essa classe vai ser abstrata, e a representação de método e classe abstrata em UML é com nome em italico.
