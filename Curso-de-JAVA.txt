@@ -1152,3 +1152,8 @@ Classes abstratas são classes do tipo mais generico possivel, elas não podem s
 Métodos abstratos são metodos que não possuem implementação, ou seja eles obrigatóriamente devem ser polimorfados, eles sõa utilizados quando a classe é generica de mais para conter sua implementação.
 
 Obs. se a classe tiver um método abstrato obrigatóriamente essa classe vai ser abstrata, e a representação de método e classe abstrata em UML é com nome em italico.
+
+
+130. Exercício de fixação
+
+Exercicio finalizado com alguns inroscos, mais nada muito complicado tive que dar uma olhada porque eu estava querendo fazer muito mais coisa do que precisava, acho que essa maturidade vem com o tempo.
