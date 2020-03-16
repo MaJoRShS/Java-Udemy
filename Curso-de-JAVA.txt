@@ -1397,3 +1397,11 @@ public class Reservation {
 				+ ", " + duration() + " nights";
 	}
 }
+
+
+
+140. Terceira solução - boa
+
+Aqui ele separou a responsabilidade de cada classe, deixando o programa principal sem nenhuma validação nem regra de negócio e ainda trata todos os tipos de erros, porque ele trata os erros conhecidos e o desconhecido ele manda uma execeção generica.
+
+é a ultima versão do programa que tá na pasta.
