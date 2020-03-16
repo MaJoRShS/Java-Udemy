@@ -40,10 +40,10 @@ public class Program {
 		catch(DomainException e){
 			System.out.println(e.getMessage());
 		}catch(InputMismatchException e) {
-			System.out.println("Type of data is wrong "+ e.getMessage());
+			System.out.println("The data type is incorrect. ");
 		}
 		catch (RuntimeException e) {
-			System.out.println("Unexpected error");
+			System.out.println("Unexpected error. ");
 		}
 		sc.close();
 	}
