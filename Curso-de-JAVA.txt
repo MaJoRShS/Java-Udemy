@@ -1405,3 +1405,8 @@ public class Reservation {
 Aqui ele separou a responsabilidade de cada classe, deixando o programa principal sem nenhuma validação nem regra de negócio e ainda trata todos os tipos de erros, porque ele trata os erros conhecidos e o desconhecido ele manda uma execeção generica.
 
 é a ultima versão do programa que tá na pasta.
+
+
+141. Exercício de fixação
+
+Terminei a o exercicio como sempre colando o exercicio anterior, mais que desenrolei quase tudo solo, mais vendo o dele é bem interresante também, porque ai fico pouca coisa mais organizado, mais ta legal o meu também.
