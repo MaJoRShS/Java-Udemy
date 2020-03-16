@@ -1157,3 +1157,18 @@ Obs. se a classe tiver um método abstrato obrigatóriamente essa classe vai ser
 130. Exercício de fixação
 
 Exercicio finalizado com alguns inroscos, mais nada muito complicado tive que dar uma olhada porque eu estava querendo fazer muito mais coisa do que precisava, acho que essa maturidade vem com o tempo.
+
+
+Seção 15: Tratamento de exceções
+
+131. Visão geral do capítulo Tratamento de Exceções
+
+132. Material de apoio do capítulo
+
+133. Discussão inicial sobre exceções
+
+Uma breve introdução sobre exceções, existe no java uma classe que trata erros e exceções, essa classe tem uma hierarquia de tratamento e varios tipos de exceções, e por ser  uma classe ela pode conter atributos, o ideal é que quem deve tratar as execeções é a propria classe que contém a regra de negócio, mantendo assim aquele principio de responsabilidade clara, e é ideial que sejam tratados os erros ao invés de travar a aplicação.
+
+
+134. Estrutura try-catch
+
