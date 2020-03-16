@@ -1183,3 +1183,34 @@ Essa parada de stack trace, serve para mostrar exatamente onde aconteceu o erro,
 136. Bloco finally
 
 Esse cara aqui serve basicamente como um "default" do switch-case, porque ele vai ser executado independente de sucesso ou erro na execução da sua aplicação, e como no exemplo eu teria que fechar o arquivo , coloca o bloco "finally" e nele coloca o que for preciso mesmo ser executado.
+
+
+137. Criando exceções personalizadas
+
+Aqui ele já vai começar a trabalhar com versionamento do GIT, ele vai criar um repositório e colocar todas as versões de tratamento de execeções tanto a muito ruim quando mais indicada, acho que vai ser meio osso ficar escrevendo diretó no código mais ai vou tentar detalhar o melhor possivel aqui mesmo no arquivo de notas.
+
+Reservation.java
+
+Por enquanto ele só fez a classe "Reservation.java" e que tem minhas considerações.
+	/*
+	 * Aqui é uma parada de uma classe nova, ele mostrou que é possivel calcular
+	 * datas atrás de milisegundos e que isso é muito usado no java, aqui ele ta pegando a data que foi digitada 
+	 */
+	public long duration() {
+		long diff = checkOut.getTime() - checkIn.getTime();
+		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+	}
+
+
+
+	/*
+	 * Aqui basicamente ele fez o simples e colocou um método toString para poder
+	 * retornar os dados, mais ainda não tem tratamento nenhum de nada, pelo que eu
+	 * vejo.
+	 */
+	@Override
+	public String toString() {
+		return "Room " + roomNumber + ", check-in: " + sdf.format(checkIn) + ", check-out: " + sdf.format(checkOut)
+				+ ", " + duration() + " nights";
+	}
+
