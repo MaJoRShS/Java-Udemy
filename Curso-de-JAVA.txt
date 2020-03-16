@@ -1172,3 +1172,9 @@ Uma breve introdução sobre exceções, existe no java uma classe que trata err
 
 134. Estrutura try-catch
 
+Aqui ele apresentou a estrutura de try-catch que como eu coloquei direto no código serve mais ou menos como um if-else, porém para tratar erros e execeções, o que eu achei problematico, você precisa conhecer os tipos de erros que sua aplicação pode gerar ou sofrer para poder colocar porque se não ele não funciona, você pode mapear todos os tipos de erros que sua aplicação pode gerar mais ainda assim você vai precisar conhecer os nomes dos métodos de exceção para poder colcar uma ação que seu programa vai tomar quando ela acontecer.
+
+
+135. Pilha de chamadas de métodos (stack trace)
+
+Essa parada de stack trace, serve para mostrar exatamente onde aconteceu o erro, ele vai mostrando desde onde ocorreu o erro até sua classe "main", no exemplo do aula ele criou dois métodos e um chamava o outro, e dentro deles ocorreu um erro e ele tinha colocado para ser apresentado o stack trace, que nada mais é que aquelas informações de erro que aparecem no console da aplicação, porém quando se usa o try-catch não encerra a aplicação na hora em que ocorre um erro, porque na teoria você tratou aquele erro e mandou seu programa tomar alguma alção quando ele acontecer, porém esse stack trace serve só mesmo para isso para mostrar onde deu o erro igual no console normal do java, mais como vai estar dentro de um try-cathc ele não vai terminar a execução da aplicação.
