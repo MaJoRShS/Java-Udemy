@@ -1178,3 +1178,8 @@ Aqui ele apresentou a estrutura de try-catch que como eu coloquei direto no cód
 135. Pilha de chamadas de métodos (stack trace)
 
 Essa parada de stack trace, serve para mostrar exatamente onde aconteceu o erro, ele vai mostrando desde onde ocorreu o erro até sua classe "main", no exemplo do aula ele criou dois métodos e um chamava o outro, e dentro deles ocorreu um erro e ele tinha colocado para ser apresentado o stack trace, que nada mais é que aquelas informações de erro que aparecem no console da aplicação, porém quando se usa o try-catch não encerra a aplicação na hora em que ocorre um erro, porque na teoria você tratou aquele erro e mandou seu programa tomar alguma alção quando ele acontecer, porém esse stack trace serve só mesmo para isso para mostrar onde deu o erro igual no console normal do java, mais como vai estar dentro de um try-cathc ele não vai terminar a execução da aplicação.
+
+
+136. Bloco finally
+
+Esse cara aqui serve basicamente como um "default" do switch-case, porque ele vai ser executado independente de sucesso ou erro na execução da sua aplicação, e como no exemplo eu teria que fechar o arquivo , coloca o bloco "finally" e nele coloca o que for preciso mesmo ser executado.
