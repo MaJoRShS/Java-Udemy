@@ -1410,3 +1410,15 @@ Aqui ele separou a responsabilidade de cada classe, deixando o programa principa
 141. Exercício de fixação
 
 Terminei a o exercicio como sempre colando o exercicio anterior, mais que desenrolei quase tudo solo, mais vendo o dele é bem interresante também, porque ai fico pouca coisa mais organizado, mais ta legal o meu também.
+
+
+Seção 16: Projeto: Sistema jogo de xadrez
+
+142. Visão geral do capítulo Sistema Jogo de Xadrez
+Carai boracha , parece ser bem loko essa parada, agora eu animei com o javinha.
+
+143. Material de apoio do capítulo
+
+144. Criando projeto e repositório Git
+
+Mano aqui ele sugeriu criar um repositório novo para o jogo de xadrez, acho que vou criar esse novo repositório mais vou deixa-lo como um submodulo, igual ficou o ultimo modulo la dele.
