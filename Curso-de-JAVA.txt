@@ -1431,3 +1431,7 @@ Primeira Aula apenas a criação de uma classe de posição que vai mostra a pos
 146. Começando a implementar Board e Piece
 
 Aqui fez a inserção de mais duas classes para o programa de xadrez, a unica coisa que tem aqui de importante por enquanto é a modelagem que ele fez e utilizou.
+
+147. Camada Chess e imprimindo o tabuleiro
+
+Nessa aula printamos o tabuleiro de xadrez, e criamos a logica de apresentação das pessas, como ainda não tinha peça nenhuma ficou tudo como traço(-), mais as proximas implementações acho que resolvemos isso.
