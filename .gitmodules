@@ -1,3 +1,5 @@
 [submodule "Seção"]
 	path = Seção
 	url = https://github.com/acenelio/exceptions1-java.git
+[submodule "Seção 15/exceptions1-java"]
+	url = https://github.com/acenelio/exceptions1-java.git
