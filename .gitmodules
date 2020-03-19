@@ -1,12 +1,3 @@
 [submodule "Seção"]
 	path = Seção
 	url = https://github.com/acenelio/exceptions1-java.git
-[submodule "chess-system"]
-	path = chess-system
-	url = git@github.com:MaJoRShS/chess-system.git
-[submodule "Seção 16/Seção"]
-	path = Seção 16/Seção
-	url = https://github.com/MaJoRShS/chess-system.git
-[submodule "Seção 16/chess-system"]
-	path = Seção 16/chess-system
-	url = https://github.com/MaJoRShS/chess-system.git
