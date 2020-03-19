@@ -1422,3 +1422,9 @@ Carai boracha , parece ser bem loko essa parada, agora eu animei com o javinha.
 144. Criando projeto e repositório Git
 
 Mano aqui ele sugeriu criar um repositório novo para o jogo de xadrez, acho que vou criar esse novo repositório mais vou deixa-lo como um submodulo, igual ficou o ultimo modulo la dele.
+
+
+145. Primeira classe - Position
+
+Primeira Aula apenas a criação de uma classe de posição que vai mostra a posição das peças na tela.
+
