@@ -1446,3 +1446,8 @@ OBS. Tive problemas por não copiar corretamente as classes, perdi ai uns 30 min
 149. BoardException e programação defensiva
 
 Criamos uma classe de execeção personalizada, e adicionamos validações para evitar que de erro na instanciação, colocar as peças dentro do tabuleiro, não deixar peças sobre peças.
+
+
+150. ChessException e ChessPosition
+
+Basicamente foi muita coisa, mais ta ficando cada vez mais interessante, porque agora convertemos valores de um tabuleiro em posições de uma matriz e vice versa, além de que temos agora Exceptions personalizadas
