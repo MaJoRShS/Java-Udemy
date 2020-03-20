@@ -1441,3 +1441,8 @@ Nessa aula printamos o tabuleiro de xadrez, e criamos a logica de apresentação
 Aqui já criamos duas peças o rei e a torre, ainda bem simples sem regras sem nada apenas a classe e o retorno dela, o posicionamento ainda é manual mais ja funciona.
 
 OBS. Tive problemas por não copiar corretamente as classes, perdi ai uns 30 min voltando e procurando onde tava o erro.
+
+
+149. BoardException e programação defensiva
+
+Criamos uma classe de execeção personalizada, e adicionamos validações para evitar que de erro na instanciação, colocar as peças dentro do tabuleiro, não deixar peças sobre peças.
