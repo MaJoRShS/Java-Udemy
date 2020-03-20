@@ -1435,3 +1435,9 @@ Aqui fez a inserção de mais duas classes para o programa de xadrez, a unica co
 147. Camada Chess e imprimindo o tabuleiro
 
 Nessa aula printamos o tabuleiro de xadrez, e criamos a logica de apresentação das pessas, como ainda não tinha peça nenhuma ficou tudo como traço(-), mais as proximas implementações acho que resolvemos isso.
+
+148. Colocando peças no tabuleiro
+
+Aqui já criamos duas peças o rei e a torre, ainda bem simples sem regras sem nada apenas a classe e o retorno dela, o posicionamento ainda é manual mais ja funciona.
+
+OBS. Tive problemas por não copiar corretamente as classes, perdi ai uns 30 min voltando e procurando onde tava o erro.
