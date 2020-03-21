@@ -1455,3 +1455,9 @@ Basicamente foi muita coisa, mais ta ficando cada vez mais interessante, porque 
 151. Pequena melhoria na impressão do tabuleiro
 
 Mudamos aqui para apresentar as peças no tabuleiro com cor diferente,e agora para visualizar essa alteração precisaremos abrir ele no terminal do sistema operacional ou abrir o terminal no eclipse.
+
+OBS. Estou com alguns penos problemas por ainda não ser muito pro nessa parte de SUBMODULO, é a segunda vez que perco informações de um commit, para o outro, tenho que sempre tomar cuidado para não tomar na taraqueta.
+
+152. Movendo peças
+
+Aqui adicionamos os métodos para poder mover as peças, é até que bem simples, primeiro capturamos as posiçoes de xadrez e passamos para um método que vai verificar se existe peça naquela posição de origem, se não houver execeção, se houver remove ela de la, e verifica se tem alguma peça na posição destino, ai remove a posivel peça que estiver la e já coloca a peça removida da origem no destino.
