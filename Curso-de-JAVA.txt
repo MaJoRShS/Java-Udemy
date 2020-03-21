@@ -1461,3 +1461,8 @@ OBS. Estou com alguns penos problemas por ainda não ser muito pro nessa parte d
 152. Movendo peças
 
 Aqui adicionamos os métodos para poder mover as peças, é até que bem simples, primeiro capturamos as posiçoes de xadrez e passamos para um método que vai verificar se existe peça naquela posição de origem, se não houver execeção, se houver remove ela de la, e verifica se tem alguma peça na posição destino, ai remove a posivel peça que estiver la e já coloca a peça removida da origem no destino.
+
+
+153. Tratando exceções e limpando a tela
+
+Apenas adicionamos um código da net que fica llimpando a tela impedindo que fique com scroll, e adicionamos tratamento de execeções no programa principal.
