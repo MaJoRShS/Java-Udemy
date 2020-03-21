@@ -1451,3 +1451,7 @@ Criamos uma classe de execeção personalizada, e adicionamos validações para 
 150. ChessException e ChessPosition
 
 Basicamente foi muita coisa, mais ta ficando cada vez mais interessante, porque agora convertemos valores de um tabuleiro em posições de uma matriz e vice versa, além de que temos agora Exceptions personalizadas
+
+151. Pequena melhoria na impressão do tabuleiro
+
+Mudamos aqui para apresentar as peças no tabuleiro com cor diferente,e agora para visualizar essa alteração precisaremos abrir ele no terminal do sistema operacional ou abrir o terminal no eclipse.
