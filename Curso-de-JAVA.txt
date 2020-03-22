@@ -1471,3 +1471,9 @@ Apenas adicionamos um código da net que fica llimpando a tela impedindo que fiq
 154. Movimentos possíveis de uma peça
 
 Aqui começamos a verificar quais seriam os movimentos possiveis de uma peça, claro que cada peça e responsavel por informar para onde que ela vai, mais ainda assim começamos a fazer as validações para ver quais são os movimentos possieis de cada peça e para saber onde que a peça está e dados os movimentos possieis de cada peça e sua posição daremos uma mensagem de erro se ela estiver presa.
+
+155. Implementando movimentos possíveis da Torre
+
+Adicionamos todas as movimentações posiveis da torre, é meio complexo e complicado mais bem simples depois de pensar direitinho.
+
+OBS. o meu programa depois de dar uma exceção sempre mostra a mensgem de que 
