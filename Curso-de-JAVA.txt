@@ -1479,3 +1479,8 @@ Adicionamos todas as movimentações posiveis da torre, é meio complexo e compl
 OBS. o meu programa depois de dar uma exceção sempre mostra a mensgem de que .
 
 Tinha eu corrigi todos os erros.
+
+
+156. Imprimindo os movimentos possíveis
+
+Aqui já pintamos o fundo de cada movimento possivel após selecionarmos uma peça qualquer, é meio confuso sim, mais nada que não de para entender.
