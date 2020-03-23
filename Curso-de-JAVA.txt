@@ -1484,3 +1484,7 @@ Tinha eu corrigi todos os erros.
 156. Imprimindo os movimentos possíveis
 
 Aqui já pintamos o fundo de cada movimento possivel após selecionarmos uma peça qualquer, é meio confuso sim, mais nada que não de para entender.
+
+157. Implementando os movimentos possíveis do Rei
+
+Aqui estamos implementando todos os movimentos possiveis de um rei, é muita coisa porque tem que colocar todas as direções e posições possiveis em que ele pode se mover, mais ao mesmo tempo é ver na matriza as posições o resto é bem tranquilo.
