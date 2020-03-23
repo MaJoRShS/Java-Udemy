@@ -1488,3 +1488,7 @@ Aqui já pintamos o fundo de cada movimento possivel após selecionarmos uma pe�
 157. Implementando os movimentos possíveis do Rei
 
 Aqui estamos implementando todos os movimentos possiveis de um rei, é muita coisa porque tem que colocar todas as direções e posições possiveis em que ele pode se mover, mais ao mesmo tempo é ver na matriza as posições o resto é bem tranquilo.
+
+158. Trocando de jogador a cada turno
+
+Aqui eu adicionei o método que mostra em qual rodada estamos e qual é o jogador da vez além de validar quem ta jogando para que não mova peças do adversario, foi até que simples mais mesmo sendo didatico acho que fica meio complicado fazer assim pedações de cada vez das classes.
