@@ -1492,3 +1492,8 @@ Aqui estamos implementando todos os movimentos possiveis de um rei, é muita coi
 158. Trocando de jogador a cada turno
 
 Aqui eu adicionei o método que mostra em qual rodada estamos e qual é o jogador da vez além de validar quem ta jogando para que não mova peças do adversario, foi até que simples mais mesmo sendo didatico acho que fica meio complicado fazer assim pedações de cada vez das classes.
+
+
+159. Manipulando peças capturadas
+
+Aqui tivemos que alterar algumas classes para poder fazer dar certo, mais agora estamos capturando as peças e jogando em listas e apresentando essas listas.
