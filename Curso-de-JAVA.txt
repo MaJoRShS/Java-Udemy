@@ -1497,3 +1497,8 @@ Aqui eu adicionei o método que mostra em qual rodada estamos e qual é o jogado
 159. Manipulando peças capturadas
 
 Aqui tivemos que alterar algumas classes para poder fazer dar certo, mais agora estamos capturando as peças e jogando em listas e apresentando essas listas.
+
+
+160. Lógica de xeque - PARTE 1
+
+Colocamos uma logica que faz a validação para ver se existe um rei da cor do jogador no tabuleiro, caso não exista vai dar muito ruim e provavelmente acabar o jogo, mais tirando isso devemos conseguir validar a cor do rei e onde ele está no tabuleiro, além de poder também desfazer a jogada caso o jogador se coloque em posição de check o que não é permitido.
