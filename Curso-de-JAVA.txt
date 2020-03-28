@@ -1537,3 +1537,13 @@ Adicionamos o cavalo no jogo e todas as regras dele.
 167. Rainha
 
 Adicionamos o rainha no jogo e todas as regras dele, tinha um erro no peão preto que foi corrigido.
+
+
+168. Jogada especial Roque - PARTE 1
+
+Aqui é uma jogada especial chamada roque, que consistem em quando seu rei ainda não se mexeu nem as torres ai se as duas casas para os lados do rei estiverem vazias você pode se mover para la com o REI, mais só nesse caso e ainda essa jogada move a torre junto assim que tu mexe o rei, ficou faltando a implementaçao da regra no makeMove e undoMove.
+
+
+169. Jogada especial Roque - PARTE 2
+
+Aqui ele finaliza colocando a logica do makeMove e do undoMove, na real ele movemanualmente a torre em caso de roque.
