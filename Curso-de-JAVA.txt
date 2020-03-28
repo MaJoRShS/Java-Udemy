@@ -1517,3 +1517,8 @@ Mano que bagaceira, coisa de maluco mesmo, foi e voltou umas trinta vezes, ele m
 163. Contagem de movimentos das peças
 
 Aqui criamos métodos para fazer a contagem dos movimentos das peças, e claro se necessario desfazer a jogado ele retira esse valor do contador.
+
+
+164. Peão
+
+Criamos a classe peão e adicionamos tadas as logicas relacionadas.
