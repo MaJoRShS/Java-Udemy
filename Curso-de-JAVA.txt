@@ -1507,3 +1507,8 @@ Colocamos uma logica que faz a validação para ver se existe um rei da cor do j
 161. Lógica de xeque - PARTE 2
 
 Finalizamosa logica de check, na real a primeira aula deixou tudo meio que encaminhando, ele aqui só criou um get para o check, e colocou no printMatch o check em caso de ser true.
+
+
+162. Lógica de xequemate
+
+Mano que bagaceira, coisa de maluco mesmo, foi e voltou umas trinta vezes, ele move as peças para as pocições que destino e depois desfaz e ve se ficou em check mate, sei la que porra doida que foi essa, acho que deve existir algumas coisas mais simples.
