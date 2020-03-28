@@ -1522,3 +1522,7 @@ Aqui criamos métodos para fazer a contagem dos movimentos das peças, e claro s
 164. Peão
 
 Criamos a classe peão e adicionamos tadas as logicas relacionadas.
+
+165. Bispo
+
+Adicionamos o bispo e colocamos todas as regras dele.
