@@ -1523,6 +1523,12 @@ Aqui criamos métodos para fazer a contagem dos movimentos das peças, e claro s
 
 Criamos a classe peão e adicionamos tadas as logicas relacionadas.
 
+
 165. Bispo
 
 Adicionamos o bispo e colocamos todas as regras dele.
+
+
+166. Cavalo
+
+Adicionamos o cavalo no jogo e todas as regras dele.
