@@ -1512,3 +1512,8 @@ Finalizamosa logica de check, na real a primeira aula deixou tudo meio que encam
 162. Lógica de xequemate
 
 Mano que bagaceira, coisa de maluco mesmo, foi e voltou umas trinta vezes, ele move as peças para as pocições que destino e depois desfaz e ve se ficou em check mate, sei la que porra doida que foi essa, acho que deve existir algumas coisas mais simples.
+
+
+163. Contagem de movimentos das peças
+
+Aqui criamos métodos para fazer a contagem dos movimentos das peças, e claro se necessario desfazer a jogado ele retira esse valor do contador.
