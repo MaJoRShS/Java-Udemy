@@ -1568,3 +1568,11 @@ Finalizando o moviemnto espeical En Passant colocando as movimentações dos pe�
 173. Jogada especial promoção
 
 Aqui ele promove o peão que percorre o tabuleiro todo chegando até o outro lado fazendo ele virar qualquer outra peça que seja mais poderosa, foi bem interresante a forma como ele teve que ir criando metodos auxiliares para poder fazer a parada funcionar.
+
+
+Seção 17: Trabalhando com arquivos
+
+176. Visão geral do capítulo Trabalhando com Arquivos
+
+177. Material de apoio do capítulo
+
