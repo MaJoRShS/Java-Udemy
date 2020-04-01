@@ -1563,3 +1563,8 @@ Aqui é mais uma jogada especial do xadrez, e que serve para capturas de peão, 
 172. Jogada especial en passant - PARTE 2
 
 Finalizando o moviemnto espeical En Passant colocando as movimentações dos peões pretos e brancos e fazendo os undoMove deles.
+
+
+173. Jogada especial promoção
+
+Aqui ele promove o peão que percorre o tabuleiro todo chegando até o outro lado fazendo ele virar qualquer outra peça que seja mais poderosa, foi bem interresante a forma como ele teve que ir criando metodos auxiliares para poder fazer a parada funcionar.
