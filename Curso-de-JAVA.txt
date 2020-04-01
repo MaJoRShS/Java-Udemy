@@ -1558,3 +1558,8 @@ Aqui ele finaliza colocando a logica do makeMove e do undoMove, na real ele move
 171. Jogada especial en passant - PARTE 1
 
 Aqui é mais uma jogada especial do xadrez, e que serve para capturas de peão, aqui vai mudar legal no arquivo de anotações porque eu percebi hoje que eu tinha pulado uma aula, e que todos os numeros de aula estavam errados, corrigi e pau no gato.
+
+
+172. Jogada especial en passant - PARTE 2
+
+Finalizando o moviemnto espeical En Passant colocando as movimentações dos peões pretos e brancos e fazendo os undoMove deles.
