@@ -1419,60 +1419,66 @@ Carai boracha , parece ser bem loko essa parada, agora eu animei com o javinha.
 
 143. Material de apoio do capítulo
 
-144. Criando projeto e repositório Git
+144. Dica importante para erros funcionais no projeto
+
+Eu não tinha visto essa aula, não sei que merda aconteceu, mais pulei sem querer saporra, e ainda era mais ou menos dicas de como seguir com os projetos.
+
+
+145. Criando projeto e repositório Git
 
 Mano aqui ele sugeriu criar um repositório novo para o jogo de xadrez, acho que vou criar esse novo repositório mais vou deixa-lo como um submodulo, igual ficou o ultimo modulo la dele.
 
 
-145. Primeira classe - Position
+146. Primeira classe - Position
 
 Primeira Aula apenas a criação de uma classe de posição que vai mostra a posição das peças na tela.
 
-146. Começando a implementar Board e Piece
+
+147. Começando a implementar Board e Piece
 
 Aqui fez a inserção de mais duas classes para o programa de xadrez, a unica coisa que tem aqui de importante por enquanto é a modelagem que ele fez e utilizou.
 
-147. Camada Chess e imprimindo o tabuleiro
+148. Camada Chess e imprimindo o tabuleiro
 
 Nessa aula printamos o tabuleiro de xadrez, e criamos a logica de apresentação das pessas, como ainda não tinha peça nenhuma ficou tudo como traço(-), mais as proximas implementações acho que resolvemos isso.
 
-148. Colocando peças no tabuleiro
+149. Colocando peças no tabuleiro
 
 Aqui já criamos duas peças o rei e a torre, ainda bem simples sem regras sem nada apenas a classe e o retorno dela, o posicionamento ainda é manual mais ja funciona.
 
 OBS. Tive problemas por não copiar corretamente as classes, perdi ai uns 30 min voltando e procurando onde tava o erro.
 
 
-149. BoardException e programação defensiva
+150. BoardException e programação defensiva
 
 Criamos uma classe de execeção personalizada, e adicionamos validações para evitar que de erro na instanciação, colocar as peças dentro do tabuleiro, não deixar peças sobre peças.
 
 
-150. ChessException e ChessPosition
+151. ChessException e ChessPosition
 
 Basicamente foi muita coisa, mais ta ficando cada vez mais interessante, porque agora convertemos valores de um tabuleiro em posições de uma matriz e vice versa, além de que temos agora Exceptions personalizadas
 
-151. Pequena melhoria na impressão do tabuleiro
+152. Pequena melhoria na impressão do tabuleiro
 
 Mudamos aqui para apresentar as peças no tabuleiro com cor diferente,e agora para visualizar essa alteração precisaremos abrir ele no terminal do sistema operacional ou abrir o terminal no eclipse.
 
 OBS. Estou com alguns penos problemas por ainda não ser muito pro nessa parte de SUBMODULO, é a segunda vez que perco informações de um commit, para o outro, tenho que sempre tomar cuidado para não tomar na taraqueta.
 
-152. Movendo peças
+153. Movendo peças
 
 Aqui adicionamos os métodos para poder mover as peças, é até que bem simples, primeiro capturamos as posiçoes de xadrez e passamos para um método que vai verificar se existe peça naquela posição de origem, se não houver execeção, se houver remove ela de la, e verifica se tem alguma peça na posição destino, ai remove a posivel peça que estiver la e já coloca a peça removida da origem no destino.
 
 
-153. Tratando exceções e limpando a tela
+154. Tratando exceções e limpando a tela
 
 Apenas adicionamos um código da net que fica llimpando a tela impedindo que fique com scroll, e adicionamos tratamento de execeções no programa principal.
 
 
-154. Movimentos possíveis de uma peça
+155. Movimentos possíveis de uma peça
 
 Aqui começamos a verificar quais seriam os movimentos possiveis de uma peça, claro que cada peça e responsavel por informar para onde que ela vai, mais ainda assim começamos a fazer as validações para ver quais são os movimentos possieis de cada peça e para saber onde que a peça está e dados os movimentos possieis de cada peça e sua posição daremos uma mensagem de erro se ela estiver presa.
 
-155. Implementando movimentos possíveis da Torre
+156. Implementando movimentos possíveis da Torre
 
 Adicionamos todas as movimentações posiveis da torre, é meio complexo e complicado mais bem simples depois de pensar direitinho.
 
@@ -1481,69 +1487,74 @@ OBS. o meu programa depois de dar uma exceção sempre mostra a mensgem de que .
 Tinha eu corrigi todos os erros.
 
 
-156. Imprimindo os movimentos possíveis
+157. Imprimindo os movimentos possíveis
 
 Aqui já pintamos o fundo de cada movimento possivel após selecionarmos uma peça qualquer, é meio confuso sim, mais nada que não de para entender.
 
-157. Implementando os movimentos possíveis do Rei
+158. Implementando os movimentos possíveis do Rei
 
 Aqui estamos implementando todos os movimentos possiveis de um rei, é muita coisa porque tem que colocar todas as direções e posições possiveis em que ele pode se mover, mais ao mesmo tempo é ver na matriza as posições o resto é bem tranquilo.
 
-158. Trocando de jogador a cada turno
+159. Trocando de jogador a cada turno
 
 Aqui eu adicionei o método que mostra em qual rodada estamos e qual é o jogador da vez além de validar quem ta jogando para que não mova peças do adversario, foi até que simples mais mesmo sendo didatico acho que fica meio complicado fazer assim pedações de cada vez das classes.
 
 
-159. Manipulando peças capturadas
+160. Manipulando peças capturadas
 
 Aqui tivemos que alterar algumas classes para poder fazer dar certo, mais agora estamos capturando as peças e jogando em listas e apresentando essas listas.
 
 
-160. Lógica de xeque - PARTE 1
+161. Lógica de xeque - PARTE 1
 
 Colocamos uma logica que faz a validação para ver se existe um rei da cor do jogador no tabuleiro, caso não exista vai dar muito ruim e provavelmente acabar o jogo, mais tirando isso devemos conseguir validar a cor do rei e onde ele está no tabuleiro, além de poder também desfazer a jogada caso o jogador se coloque em posição de check o que não é permitido.
 
 
-161. Lógica de xeque - PARTE 2
+162. Lógica de xeque - PARTE 2
 
 Finalizamosa logica de check, na real a primeira aula deixou tudo meio que encaminhando, ele aqui só criou um get para o check, e colocou no printMatch o check em caso de ser true.
 
 
-162. Lógica de xequemate
+163. Lógica de xequemate
 
 Mano que bagaceira, coisa de maluco mesmo, foi e voltou umas trinta vezes, ele move as peças para as pocições que destino e depois desfaz e ve se ficou em check mate, sei la que porra doida que foi essa, acho que deve existir algumas coisas mais simples.
 
 
-163. Contagem de movimentos das peças
+164. Contagem de movimentos das peças
 
 Aqui criamos métodos para fazer a contagem dos movimentos das peças, e claro se necessario desfazer a jogado ele retira esse valor do contador.
 
 
-164. Peão
+165. Peão
 
 Criamos a classe peão e adicionamos tadas as logicas relacionadas.
 
 
-165. Bispo
+166. Bispo
 
 Adicionamos o bispo e colocamos todas as regras dele.
 
 
-166. Cavalo
+167. Cavalo
 
 Adicionamos o cavalo no jogo e todas as regras dele.
 
 
-167. Rainha
+168. Rainha
 
 Adicionamos o rainha no jogo e todas as regras dele, tinha um erro no peão preto que foi corrigido.
 
 
-168. Jogada especial Roque - PARTE 1
+169. Jogada especial Roque - PARTE 1
 
 Aqui é uma jogada especial chamada roque, que consistem em quando seu rei ainda não se mexeu nem as torres ai se as duas casas para os lados do rei estiverem vazias você pode se mover para la com o REI, mais só nesse caso e ainda essa jogada move a torre junto assim que tu mexe o rei, ficou faltando a implementaçao da regra no makeMove e undoMove.
 
 
-169. Jogada especial Roque - PARTE 2
+170. Jogada especial Roque - PARTE 2
 
 Aqui ele finaliza colocando a logica do makeMove e do undoMove, na real ele movemanualmente a torre em caso de roque.
+
+
+171. Jogada especial en passant - PARTE 1
+
+Aqui é mais uma jogada especial do xadrez, e que serve para capturas de peão, aqui vai mudar legal no arquivo de anotações porque eu percebi hoje que eu tinha pulado uma aula, e que todos os numeros de aula estavam errados, corrigi e pau no gato.
