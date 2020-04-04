@@ -1579,3 +1579,10 @@ Seção 17: Trabalhando com arquivos
 177. Lendo arquivo texto com classes File e Scanner
 
 interresante, tem classes especificas no java para leitura de arquivo, claro que meio que tu é obrigado a usar as paradas prontas, mais da para se virar, nada muito diferente do que em outras linguagens.
+
+
+178. FileReader e BufferedReader
+
+O FileReader é um "stream" (sequencia) de caracteres dentro de um arquivo, mais parece que ele não é muito otimizado, e deve ser meio lento quando utilizado solo
+
+o BufferedReader é instanciado apartir do FileReader e ele implementa otimizações de leitura dessa sequencia de caracteres, o que faz com que sempre utilizemos os dois juntos.
