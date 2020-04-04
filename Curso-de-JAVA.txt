@@ -1586,3 +1586,10 @@ interresante, tem classes especificas no java para leitura de arquivo, claro que
 O FileReader é um "stream" (sequencia) de caracteres dentro de um arquivo, mais parece que ele não é muito otimizado, e deve ser meio lento quando utilizado solo
 
 o BufferedReader é instanciado apartir do FileReader e ele implementa otimizações de leitura dessa sequencia de caracteres, o que faz com que sempre utilizemos os dois juntos.
+
+
+179. Bloco try-with-resources
+
+Essa parada aqui funciona assim, você instancia as suas classes que pode dar erro direto detro do bloco try, e ai você não precisa instanciar as suas classes nem dentro nem fora do try porque tudo vai estar no escopo do try, e não vai mais precisar do método finally com outro try, porque a instanciação está dentro do método try.
+
+aqui basicamente serve para o tratamento de stream's para que você não precise ficar fechando as paradas.
