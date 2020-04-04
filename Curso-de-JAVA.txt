@@ -1572,7 +1572,10 @@ Aqui ele promove o peão que percorre o tabuleiro todo chegando até o outro lad
 
 Seção 17: Trabalhando com arquivos
 
-176. Visão geral do capítulo Trabalhando com Arquivos
+175. Visão geral do capítulo Trabalhando com Arquivos
 
-177. Material de apoio do capítulo
+176. Material de apoio do capítulo
 
+177. Lendo arquivo texto com classes File e Scanner
+
+interresante, tem classes especificas no java para leitura de arquivo, claro que meio que tu é obrigado a usar as paradas prontas, mais da para se virar, nada muito diferente do que em outras linguagens.
