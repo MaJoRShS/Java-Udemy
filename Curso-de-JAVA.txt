@@ -1603,3 +1603,8 @@ Essas classes servem para escrever no arquivo ou criar um arquivo e escrever o c
 181. Manipulando pastas com File
 
 A clase file serve para manipular arquivos e diretórios , aqui nessa aula eu mostra mais ou menos como usar ela, é bem simples, não tem muito segredo.
+
+
+182. Informações do caminho do arquivo
+
+Aqui tem algumas das funcionalidades da classe File, que mostra o nome do arquivo apenas, mostra o caminho completo mais o nome do arquivo e que mostra só até o diretórios onde você está.
