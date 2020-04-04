@@ -1593,3 +1593,8 @@ o BufferedReader é instanciado apartir do FileReader e ele implementa otimizaç
 Essa parada aqui funciona assim, você instancia as suas classes que pode dar erro direto detro do bloco try, e ai você não precisa instanciar as suas classes nem dentro nem fora do try porque tudo vai estar no escopo do try, e não vai mais precisar do método finally com outro try, porque a instanciação está dentro do método try.
 
 aqui basicamente serve para o tratamento de stream's para que você não precise ficar fechando as paradas.
+
+
+180. FileWriter e BufferedWriter
+
+Essas classes servem para escrever no arquivo ou criar um arquivo e escrever o conteudo nele caso ele não exista, e como as de leitura o BufferedWriter é otimizado, funciona igual, só que o BufferedWriter, não tem quebra de linha no comando "write()" então você é obrigado a usar o "newLine()" junto com ele para sempre que terminar ele quebre uma linha no arquivo.
