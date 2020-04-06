@@ -1613,3 +1613,15 @@ Aqui tem algumas das funcionalidades da classe File, que mostra o nome do arquiv
 183. Exercício proposto
 
 Bom não consegui fazer o arquivo, e percebi que eu não ia conseguir quando vi o exercicio resolvido, preciso mesmo de mais pratica e treino, depois olhando o dele é até simples e faz sentido mais ainda não penso assim.
+
+
+Seção 18: Interfaces
+
+184. Visão geral do capítulo Interfaces
+
+185. Material de apoio do capítulo
+
+
+186. Interfaces
+
+Aqui ele trás uma breve introdução sobre o que é interfaces em java, e mostra que basicamente é uma classe abstrata com métodos abstratos, porém ele ainda vai discutir a utilização de ambas, e explicar quando e porque escolher uma ou outra, mais basicamente o que ele diz é que interfaces são como "CONTRATOS" que você deve seguri e respeitar ao implementar uma interface.
