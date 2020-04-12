@@ -1665,3 +1665,9 @@ quando você cumpre o contrato você apenas implementa um método de uma interfa
 tem ainda a implementação dos dois, você cria uma interface com o contrato e uma classe abstrata que vai conter o que precisa ser reutilizado, ai você faz a classe abstrata implementar a interface e ai quem herdar a classe abstrata vai ter que implementar a interface porque a classe abstrata obriga a isso, e ainda vai reutilizar tudo que tem na classe abstrata porque a classe abstrata obriga a isso.
 
 como de costume eu to tomando um sacode no java, mais vou ficar pro nessa porra igual eu fiz com o PHP , HTML, CSS, e vou fazer com JS, Linux, BD.
+
+
+193. Herança múltipla e o problema do diamante
+
+
+Aqui ele explica que não é possivel herdar de duas classes diferentes no java, o que é possivel fazer é herdar de uma classe e implementar varias interfaces, o que não é considerado herança multipla porque não existe herança entre implementação de interfaces.
