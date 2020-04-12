@@ -1640,3 +1640,11 @@ Aqui ele fez as implementações com as classes apenas sem usar interfaces ainda
 189. Solução do problema - PARTE 3
 
 Aqui o que aconteceu ele criou uma interface para que a classe "RentalService" faça a implementação do imposto, o que faz com que não importe o tipo de imposto ele sempre vai alterar só o imposto, ai deixa a classe com um baixo ou quase zero acoplamento, e na proprio programa principal eu posso passar o tipo do imposto na instancia do meu "RentalService" se tivesse mais de uma classe de imposto poderia passar ela ali também.
+
+
+190. Inversão de controle e injeção de dependência
+
+Inversão de controle - é quando uma classe não instancia todas as suas dependencias, fazendo assim com que não tenha um alto acoplamento
+
+injeção de dependencia - é uma forma de Inversão de controle mais que consistem em fazer com que outra classe ou lugar instancie as dependencias de uma classe e "injete" essa dependencia na classe pai.
+
