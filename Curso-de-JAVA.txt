@@ -1648,3 +1648,7 @@ Inversão de controle - é quando uma classe não instancia todas as suas depend
 
 injeção de dependencia - é uma forma de Inversão de controle mais que consistem em fazer com que outra classe ou lugar instancie as dependencias de uma classe e "injete" essa dependencia na classe pai.
 
+
+191. Exercício de fixação
+
+Aqui tomei e tomaria mais um sacode, eu não tinha iniciado corretamente a classe com listas, o que me foderia no final, acho que me falta a vivencia basica do java de olhar listas e já pensar em ArrayList, mais clonei e deu tudo certo, preciso voltar pesado nesses pontos.
