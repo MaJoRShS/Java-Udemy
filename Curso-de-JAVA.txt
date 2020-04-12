@@ -1625,3 +1625,8 @@ Seção 18: Interfaces
 186. Interfaces
 
 Aqui ele trás uma breve introdução sobre o que é interfaces em java, e mostra que basicamente é uma classe abstrata com métodos abstratos, porém ele ainda vai discutir a utilização de ambas, e explicar quando e porque escolher uma ou outra, mais basicamente o que ele diz é que interfaces são como "CONTRATOS" que você deve seguri e respeitar ao implementar uma interface.
+
+
+187. Solução do problema - PARTE 1
+
+Aqui ele começou a fazer as implementações de classes sem as interfaces pelo que percebi e vai fazer assim para que seja possivel fazer o comparativo depois com a implementação das interfaces.
