@@ -1630,3 +1630,8 @@ Aqui ele trás uma breve introdução sobre o que é interfaces em java, e mostr
 187. Solução do problema - PARTE 1
 
 Aqui ele começou a fazer as implementações de classes sem as interfaces pelo que percebi e vai fazer assim para que seja possivel fazer o comparativo depois com a implementação das interfaces.
+
+
+188. Solução do problema - PARTE 2 (sem interface)
+
+Aqui ele fez as implementações com as classes apenas sem usar interfaces ainda , é meio comlexo essa parada de você instanciar objetos dentro da declaração de outro objeto gerando assim dependencia entre eles, mais é assim que o java se propoem a trabalhar.
