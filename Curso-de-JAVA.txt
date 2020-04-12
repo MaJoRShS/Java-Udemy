@@ -1652,3 +1652,16 @@ injeção de dependencia - é uma forma de Inversão de controle mais que consis
 191. Exercício de fixação
 
 Aqui tomei e tomaria mais um sacode, eu não tinha iniciado corretamente a classe com listas, o que me foderia no final, acho que me falta a vivencia basica do java de olhar listas e já pensar em ArrayList, mais clonei e deu tudo certo, preciso voltar pesado nesses pontos.
+
+
+192. Herdar vs. cumprir contrato
+
+Aqui ele mostra quais as diferenças entre herdar e cumprir contrato, como o nome já diz.
+
+quando você herda você reutiliza partes daquela classe mais generica, e ai você não precisa reescrever o código, porém sempre que tiver você vai ser obrigado a implementar ou utilizar coisas que talvez a classe mais especializada não precisaria.
+
+quando você cumpre o contrato você apenas implementa um método de uma interface e não reutiliza nada, apenas implementa o que tem no contrato.
+
+tem ainda a implementação dos dois, você cria uma interface com o contrato e uma classe abstrata que vai conter o que precisa ser reutilizado, ai você faz a classe abstrata implementar a interface e ai quem herdar a classe abstrata vai ter que implementar a interface porque a classe abstrata obriga a isso, e ainda vai reutilizar tudo que tem na classe abstrata porque a classe abstrata obriga a isso.
+
+como de costume eu to tomando um sacode no java, mais vou ficar pro nessa porra igual eu fiz com o PHP , HTML, CSS, e vou fazer com JS, Linux, BD.
