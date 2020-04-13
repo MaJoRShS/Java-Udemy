@@ -1676,3 +1676,8 @@ Aqui ele explica que não é possivel herdar de duas classes diferentes no java,
 194. Interface Comparable
 
 Essa interface comparable serve para comparar objetos com outros objetos, e quando você precisa comparar você tem que mostrar o que ele vai comparar, que ai funciona, é mais uma facilidade do JAVA que preciso aprender e utilizar para melhorar a qualidade do meu código.
+
+
+195. Default methods
+
+Aqui ele mostra que é possivel sim criar métodos em interfaces e que esses métodos podem ser reaporveitados em classes que implementam essas interfaces, claro que é uma parada mais complexa , é simples mais mal implementada deve dar muita bosta.
