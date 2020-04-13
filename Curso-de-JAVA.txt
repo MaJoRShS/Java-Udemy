@@ -1681,3 +1681,14 @@ Essa interface comparable serve para comparar objetos com outros objetos, e quan
 195. Default methods
 
 Aqui ele mostra que é possivel sim criar métodos em interfaces e que esses métodos podem ser reaporveitados em classes que implementam essas interfaces, claro que é uma parada mais complexa , é simples mais mal implementada deve dar muita bosta.
+
+
+Seção 19: Generics, Set, Map
+
+196. Visão geral do capítulo Generics, Set, Map
+
+197. Material de apoio do capítulo
+
+198. Introdução aos Generics
+
+Aqui o generics é a respeito dos tipos de dados dentro de uma lista ou collection, o que ele faz ele simplesmente ao invés de instanciar uma lista com um tipo concreto , primitivo ou complexo ele instancia com um tipo generico que ele usa como exemplo "<T>" mais pode ser qualquer coisa, assim o tipo que eu declarar na instancia da minha lista acaba sendo o tipo da lista, o que permite que eu reutilize essa lista para todos os tipos de dados. 
