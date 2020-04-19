@@ -1715,3 +1715,11 @@ só é permitido acessar os dados da lista quando se faz a covariancia, tipo gen
 só é permitdo inserir dados dentro de uma lista quando se faz a contravaiancia que é do tipo generico para o supertipo dele.
 
 De qualquer modo é sempre um extends ou um super e cada um permite um tipo de operação.
+
+
+
+202. HashCode e Equals
+
+
+Basicamente o Equals tem 100% de eficacia porém ele é mais lento , já o HashCode pode não ser 100% mais ele é bem mais rapido, então a implementação dos dois é deve ser sempre junta, que ai primeiro ele usa o HashCode para fazer a busca mais rapida e depois ele usa o Equals para poder ver se é 100%.
+
