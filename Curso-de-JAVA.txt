@@ -1760,3 +1760,8 @@ Basicamente é uma insterface para trabalhar com listas, e como já está descri
 
 
 Aqui ele explica que na real a forma de testar igualdade é igual de outras listas que é via equals e hashCode  porque como ele instancia eles na memoria ele vai ser diferente e é por isso que tem que ter implementado o equals e hashCode.
+
+
+205. Como TreeSet compara os elementos
+
+Aqui ele diz que quando você está usando o  TreeSet você é obrigado a implementar o compareTo e sua classe ser um implements de Comparable<T>, porque como o TreeSet faz a inserção dentro da lista de forma ordenada eu sou obrigado a usar o equals e hashCode mais o compareTo e ai eu informo o que ele vai comparar.
