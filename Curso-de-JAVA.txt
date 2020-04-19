@@ -1703,3 +1703,15 @@ Aqui ele mostrou que existem algumas operações que você vai precisar delimita
 
 
 Tipos curinga pelo menos no exemplo que ele deu é o tipo curinga de uma lista é um '<?>' que isso aqui indica que na real pode ser de qualquer tipo, o que permite que eu instacie qualquer tipo de lista usando esse tipo curinga, só não consigo adicionar itens na lista porque o compilador vai dizer que não sabe se o itme que to tentando inserir na lista é do mesmo tipo que eu tenho na lista e por isso ele não deixa inserir itens novos.
+
+
+201. Curingas delimitados
+
+
+Aqui somos apresentados ao conseito de get/put ou covariancia/contravaiancia, que consistem em instanciar listas com tipos genericos ou tipos herdadados desse tipo generico(covariancia) , e quando é to tipo generico para o Pai do tipo generico(contravaiancia).
+
+só é permitido acessar os dados da lista quando se faz a covariancia, tipo generico e subtipos dele
+
+só é permitdo inserir dados dentro de uma lista quando se faz a contravaiancia que é do tipo generico para o supertipo dele.
+
+De qualquer modo é sempre um extends ou um super e cada um permite um tipo de operação.
