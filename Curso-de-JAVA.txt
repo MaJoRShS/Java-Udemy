@@ -1697,3 +1697,9 @@ Aqui o generics é a respeito dos tipos de dados dentro de uma lista ou collecti
 199. Genéricos delimitados
 
 Aqui ele mostrou que existem algumas operações que você vai precisar delimitar os tipos genericos, porque as vezes você vai querer comparar alguma coisa das suas listas, mais como ela é de um tipo generico você precisa fazer alguns ajustes na implementação para conseguir usar.
+
+
+200. Tipos curinga
+
+
+Tipos curinga pelo menos no exemplo que ele deu é o tipo curinga de uma lista é um '<?>' que isso aqui indica que na real pode ser de qualquer tipo, o que permite que eu instacie qualquer tipo de lista usando esse tipo curinga, só não consigo adicionar itens na lista porque o compilador vai dizer que não sabe se o itme que to tentando inserir na lista é do mesmo tipo que eu tenho na lista e por isso ele não deixa inserir itens novos.
