@@ -1770,3 +1770,31 @@ Aqui ele diz que quando você está usando o  TreeSet você é obrigado a implem
 206. Exercício resolvido (Set)
 
 Aqui ele mostra como deve ser a utilização do set e ainda mostra melhor que o set sempre vai impedir a duplicidade de itens dentro de uma coleção(ou lista).
+
+
+208. Map
+
+
+É uma coleção de pares chave / valor
+	• Não admite repetições do objeto chave
+	• Os elementos são indexados pelo objeto chave (não possuem posição)
+	• Acesso, inserção e remoção de elementos são rápidos
+	• Uso comum: cookies, local storage, qualquer modelo chave-valor
+	• Principais implementações:
+	• HashMap - mais rápido (operações O(1) em tabela hash) e não ordenado
+	• TreeMap - mais lento (operações O(log(n)) em árvore rubro-negra) e ordenado pelo
+
+compareTo do objeto (ou Comparator)
+	• LinkedHashMap - velocidade intermediária e elementos na ordem em que são adicionados
+
+
+Alguns métodos importantes
+	• put(key, value), remove(key), containsKey(key), get(key)
+	• Baseado em equals e hashCode
+	• Se equals e hashCode não existir, é usada comparação de ponteiros
+	• clear()
+	• size()
+	• keySet() - retorna um Set<K>
+	• values() - retornaa um Collection<V>
+
+Aqui eu sou obrigado e informar uma chave e um tipo para o valor, e sempre que eu for comparar um elemento com o outro eu tenho que usar o equals and hashcode, porque se não ele vai usar a referencia de ponteiro o que nunca vai ser igual a menos que você faça alguma gambiarra para isso acontecer.
