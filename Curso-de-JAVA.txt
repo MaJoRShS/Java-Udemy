@@ -1765,3 +1765,8 @@ Aqui ele explica que na real a forma de testar igualdade é igual de outras list
 205. Como TreeSet compara os elementos
 
 Aqui ele diz que quando você está usando o  TreeSet você é obrigado a implementar o compareTo e sua classe ser um implements de Comparable<T>, porque como o TreeSet faz a inserção dentro da lista de forma ordenada eu sou obrigado a usar o equals e hashCode mais o compareTo e ai eu informo o que ele vai comparar.
+
+
+206. Exercício resolvido (Set)
+
+Aqui ele mostra como deve ser a utilização do set e ainda mostra melhor que o set sempre vai impedir a duplicidade de itens dentro de uma coleção(ou lista).
