@@ -1798,3 +1798,7 @@ Alguns métodos importantes
 	• values() - retornaa um Collection<V>
 
 Aqui eu sou obrigado e informar uma chave e um tipo para o valor, e sempre que eu for comparar um elemento com o outro eu tenho que usar o equals and hashcode, porque se não ele vai usar a referencia de ponteiro o que nunca vai ser igual a menos que você faça alguma gambiarra para isso acontecer.
+
+209. Exercício de fixação (Map)
+
+Tive que pegar o dele mais sem problemas.
