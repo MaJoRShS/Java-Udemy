@@ -1802,3 +1802,16 @@ Aqui eu sou obrigado e informar uma chave e um tipo para o valor, e sempre que e
 209. Exercício de fixação (Map)
 
 Tive que pegar o dele mais sem problemas.
+
+
+Seção 20: Programação funcional e expressões lambda
+
+210. Visão geral do capítulo Programação Funcional e Expressões Lambda
+
+211. Material de apoio do capítulo
+
+212. Uma experiência com Comparator
+
+Aqui ele da uma iniciada no lambda e mostra as diferentes formas de se usar lambda no JAVA, é claro que só em uma pincelada não se aprende tudo mais deixa o código menor e mais bonitinho, claro que pode chegar em um ponto que ninguém mais intender.
+
+obs. baixei os exemplos dele e deixei no repositório.
