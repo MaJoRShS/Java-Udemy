@@ -4,3 +4,6 @@
 [submodule "chess-system"]
 	path = Seção 16/chess-system
 	url = git@github.com:MaJoRShS/chess-system.git
+[submodule "Seção 20/lambda1-java"]
+	path = Seção 20/lambda1-java
+	url = https://github.com/acenelio/lambda1-java
