@@ -1815,3 +1815,8 @@ Seção 20: Programação funcional e expressões lambda
 Aqui ele da uma iniciada no lambda e mostra as diferentes formas de se usar lambda no JAVA, é claro que só em uma pincelada não se aprende tudo mais deixa o código menor e mais bonitinho, claro que pode chegar em um ponto que ninguém mais intender.
 
 obs. baixei os exemplos dele e deixei no repositório.
+
+
+213. Programação funcional e cálculo lambda
+
+expressão lambda são funções anonimas de priomeira ordem, ou seja elas não são declaradas mais podem ser passadas como argumentos para outras funções, e que suas variaveis não precisam ser declaradas para serem utilizadas.
