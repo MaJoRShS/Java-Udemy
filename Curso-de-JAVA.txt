@@ -1892,3 +1892,8 @@ https://docs.oracle.com/javase/10/docs/api/java/util/Collection.html
 • Stream.iterate
 
 Bem o assunto é muito extenso porém muito importante que se tenha uma compreensão muito vasta e ampla para que seja ainda mais facilitado a codificação e a forma como resolvemos problemas.
+
+
+220. Pipeline (demo)
+
+Aqui ele na real so mostrou mais algumas operações nada de muito complexo nem muito aprofundado.
