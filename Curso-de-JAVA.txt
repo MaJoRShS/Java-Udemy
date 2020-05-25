@@ -1902,3 +1902,8 @@ Aqui ele na real so mostrou mais algumas operações nada de muito complexo nem 
 221. Exercício resolvido (stream)
 
 Resolveu um problema usando apenas lambda, é facil mais é muito verboso, sempre que se tem que fazer alguma coisa no java é verbo atrás de verbo, se é loko.
+
+
+222. Exercício de fixação
+
+copiei mesmo na alta o exercicio do dele, acho que a falta dessa pratica pode me fazer falta algum dia, mais por enquanto eu só quero terminar logo essa porra.
