@@ -1841,3 +1841,8 @@ Aqui ele mostrou a mesma declaração e utilização da interface do predicate n
 217. Function
 
 Aqui ele mostrou que essa interface function ela recebe alguma coisa e tranforma em alguma outra coisa, no caso ele recebeu uma lista do tipo product e devolveu uma lista do tipo string, esse cara você é obrigado a passar o tipo que vai entrar e o tipo que vai sair, esse aqui já é mais ousado e deve ter muito mais utilização.
+
+
+218. Criando funções que recebem funções como parâmetro
+
+Aqui ele mostrou como podemos criar as nossas classes para receber uma função como argumento, e na real ele preparou a classe para receber um predicado como parâmetro de chamada o que faz com que eu não precise mais alterar a classe que vai receber os parâmetros caso mude alguma regra.
