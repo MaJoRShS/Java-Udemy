@@ -1907,3 +1907,15 @@ Resolveu um problema usando apenas lambda, é facil mais é muito verboso, sempr
 222. Exercício de fixação
 
 copiei mesmo na alta o exercicio do dele, acho que a falta dessa pratica pode me fazer falta algum dia, mais por enquanto eu só quero terminar logo essa porra.
+
+
+Seção 21: Acesso a banco de dados com JDBC
+
+223. Visão geral do capítulo
+
+224. Material de apoio do capítulo
+
+225. Visão geral do JDBC
+
+Aqui ele explica que na real quando usamos o JDBC que é a biblioteca padrão do java para acesso a base de dados escrevemos código java e ai instalamos na nossa aplicação o drive do JDBC que converte nosso código java para a linguagem nativa do banco de dados , independente de qual seja.
+
