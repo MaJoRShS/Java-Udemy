@@ -1846,3 +1846,49 @@ Aqui ele mostrou que essa interface function ela recebe alguma coisa e tranforma
 218. Criando funções que recebem funções como parâmetro
 
 Aqui ele mostrou como podemos criar as nossas classes para receber uma função como argumento, e na real ele preparou a classe para receber um predicado como parâmetro de chamada o que faz com que eu não precise mais alterar a classe que vai receber os parâmetros caso mude alguma regra.
+
+
+219. Stream
+
+Aqui ele mostrou como fazer ou usar a stream, e basicamente a stream é uma sequencia de elementos que podem vir de qualquer lugar e que seram transformados em alguma outra coisa, ou em lista, ou coleção.
+
+
+Operações intermediárias
+• filter
+• map
+• flatmap
+• peek
+• distinct
+• sorted
+• skip
+• limit (*)
+* short-circuit
+
+
+Operações terminais
+• forEach
+• forEachOrdered
+• toArray
+• reduce
+• collect
+• min
+• max
+• count
+• anyMatch (*)
+• allMatch (*)
+• noneMatch (*)
+• findFirst (*)
+• findAny (*)
+* short-circuit
+
+
+Criar uma stream
+• Basta chamar o método stream() ou parallelStream() a partir
+de qualquer objeto Collection.
+https://docs.oracle.com/javase/10/docs/api/java/util/Collection.html
+• Outras formas de se criar uma stream incluem:
+• Stream.of
+• Stream.ofNullable
+• Stream.iterate
+
+Bem o assunto é muito extenso porém muito importante que se tenha uma compreensão muito vasta e ampla para que seja ainda mais facilitado a codificação e a forma como resolvemos problemas.
