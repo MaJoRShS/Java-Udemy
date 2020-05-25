@@ -1897,3 +1897,8 @@ Bem o assunto é muito extenso porém muito importante que se tenha uma compreen
 220. Pipeline (demo)
 
 Aqui ele na real so mostrou mais algumas operações nada de muito complexo nem muito aprofundado.
+
+
+221. Exercício resolvido (stream)
+
+Resolveu um problema usando apenas lambda, é facil mais é muito verboso, sempre que se tem que fazer alguma coisa no java é verbo atrás de verbo, se é loko.
