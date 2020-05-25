@@ -1820,3 +1820,14 @@ obs. baixei os exemplos dele e deixei no repositório.
 213. Programação funcional e cálculo lambda
 
 expressão lambda são funções anonimas de priomeira ordem, ou seja elas não são declaradas mais podem ser passadas como argumentos para outras funções, e que suas variaveis não precisam ser declaradas para serem utilizadas.
+
+
+
+214. Interface funcional
+
+Expressões lambda no fundo são interfaces funcionais, e uma interface funcional é uma interface que possui apenas um método abstrato.
+
+
+215. Predicate
+
+Aqui ele explicou melhor como funciona a parada do predicado, e as formas de se utilizar, acho que a mais simples de todas é passar direto uma expressão lambda do que ficar declarando uma caralhada de coisa e classes que talvez tu nunca vá utilizar, mais ainda assim algumas delas dependendo do problema da para ser utilizada sem problemas.
