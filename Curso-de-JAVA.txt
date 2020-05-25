@@ -1837,3 +1837,7 @@ Aqui ele explicou melhor como funciona a parada do predicado, e as formas de se 
 
 Aqui ele mostrou a mesma declaração e utilização da interface do predicate na interface consumer, é a interface consumer ela só executa uma ação, e não tem devolução nenhuma.
 
+
+217. Function
+
+Aqui ele mostrou que essa interface function ela recebe alguma coisa e tranforma em alguma outra coisa, no caso ele recebeu uma lista do tipo product e devolveu uma lista do tipo string, esse cara você é obrigado a passar o tipo que vai entrar e o tipo que vai sair, esse aqui já é mais ousado e deve ter muito mais utilização.
