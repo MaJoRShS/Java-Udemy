@@ -1831,3 +1831,9 @@ Expressões lambda no fundo são interfaces funcionais, e uma interface funciona
 215. Predicate
 
 Aqui ele explicou melhor como funciona a parada do predicado, e as formas de se utilizar, acho que a mais simples de todas é passar direto uma expressão lambda do que ficar declarando uma caralhada de coisa e classes que talvez tu nunca vá utilizar, mais ainda assim algumas delas dependendo do problema da para ser utilizada sem problemas.
+
+
+216. Consumer
+
+Aqui ele mostrou a mesma declaração e utilização da interface do predicate na interface consumer, é a interface consumer ela só executa uma ação, e não tem devolução nenhuma.
+
