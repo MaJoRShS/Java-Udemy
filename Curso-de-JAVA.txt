@@ -1922,3 +1922,8 @@ Aqui ele explica que na real quando usamos o JDBC que é a biblioteca padrão do
 226. Nivelamento: Álgebra Relacional e SQL
 
 Aqui ele fala apenas de SQL, como o nome da aula já diz "nivelamento".
+
+
+227. Instalando o MySQL
+
+Aqui ele mostra como instalar o MySQL no Windows, nada de anormal, pelo contrario tão padrão que da até nojo. rs
