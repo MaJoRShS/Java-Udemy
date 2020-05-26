@@ -1932,3 +1932,8 @@ Aqui ele mostra como instalar o MySQL no Windows, nada de anormal, pelo contrari
 228. Preparação do primeiro projeto no Eclipse - PARTE 1
 
 Aqui ele mostrou que temos que baixar o drive do mysql para poder utilizar no nosso projeto e que ainda temos que adicionalo ao eclipse manualmente para poder utilziar, ai iniciamos criando um arquivo de coneção com o banco e já começamos a criar uma classe personalizada de erro e uma classe que vai abrir e fechar a coneção porem essa classe ainda não foi implementada.
+
+
+229. Preparação do primeiro projeto no Eclipse - PARTE 2
+
+Aqui finalizamos a implementação da classe de coneção com banco de dados, foi simples mais como dito anteriormente o java é muito verboso, chato para um caraleo, mais deu tudo certo.
