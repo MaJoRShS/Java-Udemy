@@ -1919,3 +1919,6 @@ Seção 21: Acesso a banco de dados com JDBC
 
 Aqui ele explica que na real quando usamos o JDBC que é a biblioteca padrão do java para acesso a base de dados escrevemos código java e ai instalamos na nossa aplicação o drive do JDBC que converte nosso código java para a linguagem nativa do banco de dados , independente de qual seja.
 
+226. Nivelamento: Álgebra Relacional e SQL
+
+Aqui ele fala apenas de SQL, como o nome da aula já diz "nivelamento".
