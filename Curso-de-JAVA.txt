@@ -1937,3 +1937,13 @@ Aqui ele mostrou que temos que baixar o drive do mysql para poder utilizar no no
 229. Preparação do primeiro projeto no Eclipse - PARTE 2
 
 Aqui finalizamos a implementação da classe de coneção com banco de dados, foi simples mais como dito anteriormente o java é muito verboso, chato para um caraleo, mais deu tudo certo.
+
+OBS.Ele inseriu uma caralhada de videos novos de correção de exercicio por isso os numeros da aula estão bugados, depois eu arrumo saporra.
+
+234. Demo - recuperar dados
+
+
+Aqui ele mostrou de uma forma bem simples como recuperar dados de uma tabale com java, o problema é que é muito verboso, e você precisa saber muita coisa para conseguir trazer os dados, claro toda linguagem precisa de muita coisa mais no java é um pouco mais escrito.
+
+mais em fim , tem um arquivo de configuração de conexão com banco de dados que precisa existir, (igual qualquer linguagem), ai você precisa abrir a conexão, fazer preparar a sua consulta usando o "Statement" (classe nativa do JAVA) , e ai você executa, (meio que PDO a parada).
+e ai depois você vem fechando tudo que você abriu.
