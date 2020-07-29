@@ -1947,3 +1947,10 @@ Aqui ele mostrou de uma forma bem simples como recuperar dados de uma tabale com
 
 mais em fim , tem um arquivo de configuração de conexão com banco de dados que precisa existir, (igual qualquer linguagem), ai você precisa abrir a conexão, fazer preparar a sua consulta usando o "Statement" (classe nativa do JAVA) , e ai você executa, (meio que PDO a parada).
 e ai depois você vem fechando tudo que você abriu.
+
+
+235. Demo - inserir dados
+
+Aqui ele mostra como que temos que preparar os dados para poder inserir no banco de dados, é simples e muito parecido com qualquer outra lingaguem.
+
+e já da para recuperar os id's que foram inseridos no banco de dados, o que facilita 100% a vida do pião.
