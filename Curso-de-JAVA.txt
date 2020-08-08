@@ -1954,3 +1954,8 @@ e ai depois você vem fechando tudo que você abriu.
 Aqui ele mostra como que temos que preparar os dados para poder inserir no banco de dados, é simples e muito parecido com qualquer outra lingaguem.
 
 e já da para recuperar os id's que foram inseridos no banco de dados, o que facilita 100% a vida do pião.
+
+
+236. Demo - atualizar dados
+
+Basicamente o que ele fez de diferente do de inserir os dados no banco de dados foi que quando ele preparou a query ele usou os comando SQL de update, só isso.
