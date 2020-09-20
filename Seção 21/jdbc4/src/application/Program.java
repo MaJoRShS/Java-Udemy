@@ -10,18 +10,12 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Aqui é padrão ele ta instanciando a conexão,e e preparando a query na mão ai
-		 * depois ele pega os valores usando os esquemas de prepareStatement e executa,
-		 * ai como tudo no JAVA é muito verboso e trabalhoso é necessario fechar tudo
-		 * que tu abriu.
-		 */
 		Connection conn = null;
 		PreparedStatement st = null;
 		try {
-
 			conn = DB.getConnection();
 
+			// Padrão ele cria o SQL e depois passa os valores com a variaveis
 			st = conn.prepareStatement(
 					"UPDATE seller " + "SET BaseSalary = BaseSalary + ? " + "WHERE " + "(DepartmentId = ?)");
 

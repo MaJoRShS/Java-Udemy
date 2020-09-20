@@ -1959,3 +1959,14 @@ e já da para recuperar os id's que foram inseridos no banco de dados, o que fac
 236. Demo - atualizar dados
 
 Basicamente o que ele fez de diferente do de inserir os dados no banco de dados foi que quando ele preparou a query ele usou os comando SQL de update, só isso.
+
+
+237. Demo - atualizar dados
+
+**OBS . Os numeros das aulas estão todos errados novamente porque ele inseriu mais aulas.
+
+
+Basicamente ele cria toda a query na mão em uma variavel que tenha a conexão e passa os valores, ai depois ele exeuta e pronto, igual ao inserte porém o que muda é o comando sql dentro da query.
+
+
+238. Demo - deletar dados
