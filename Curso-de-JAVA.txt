@@ -2023,3 +2023,9 @@ Criamos as duas interfaces a do departamente e a do vendedor.
 Aqui instaciamos o SellerDaoJDBC que na verdade é uma implementação da interface SellerDao e ai fomos obrigados a declarar todos os métodos la, ai na classe DaoFactory que na real é uma "fabrica" de instanciação eu declaro uma instancia do SellerDao e crio um método que vai retornar uma instancia do SellerDaoJDBC que é onde eu tenho todas as operações da minha interface sendo assim eu não preciso mais chamar um (new SellerDao), porque o método que eu to chamando já contem essa instrução, com todos os métodos da inteface já declarados.
 
 JAVA SENDO JAVA
+
+
+246. Implementando findById
+
+Aqui implementamos o findById é até que relativamente simples, porém como tudo depende de tudo sempre que mexemos em algo precisamos alterar uma caralhada de coisa, mais é até que legalzin, tirando a parte de ser muito verboso.
+mais consegui implementar e ainda to conseguindo intender como funciona as paradas com java, e ainda porque é a cabeça de javeiro funciona assim, porque a propria linguagem te obriga a ser assim.
