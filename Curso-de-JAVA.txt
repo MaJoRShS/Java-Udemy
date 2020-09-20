@@ -2011,3 +2011,8 @@ Criamos a classe Department dentro do novo repo, e já deixamos ela prontinha pa
 243. Classe Seller
 
 Criamos a classe Seller com tudo que é necessario igual a department e já testamos e está tudo certo.
+
+
+244. Interfaces DepartmentDao e SellerDao
+
+Criamos as duas interfaces a do departamente e a do vendedor.
