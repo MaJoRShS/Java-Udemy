@@ -1970,3 +1970,6 @@ Basicamente ele cria toda a query na mão em uma variavel que tenha a conexão e
 
 
 238. Demo - deletar dados
+
+
+Mesma coisa, só o que muda é a query, e ainda ele criou uma classe de erro personalizada, não mostra o stackTrace mais ainda mostra o erro da maneira correta isso é só para mostra que da para capturar qualquer erro do jdbc e fazer um erro personalizado.
