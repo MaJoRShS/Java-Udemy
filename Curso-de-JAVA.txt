@@ -1973,3 +1973,23 @@ Basicamente ele cria toda a query na mão em uma variavel que tenha a conexão e
 
 
 Mesma coisa, só o que muda é a query, e ainda ele criou uma classe de erro personalizada, não mostra o stackTrace mais ainda mostra o erro da maneira correta isso é só para mostra que da para capturar qualquer erro do jdbc e fazer um erro personalizado.
+
+239. Demo - transações
+
+Basicamente ele mostrou como deve ser uma transação no JAVA, é necessario que você primeiro coloque o autoCommit como false, para que ele não commit qualquer operação antes de finalizar a sua transação.
+
+setAutoCommit(false);
+
+depois você usa o Statement para monstar sua query e ai ele jogou o result em uma variavel para poder ver o que foi feito.
+
+ai no final de tudo se manda ele commitar com o comando.
+
+commit();
+
+ai no método catch você coloca o rollback, porque caso tenha algum erro na execução ele automaticamente vai desfazer tudo que foi feito para não deixar isso ser executado pela metade.
+
+rollback();
+
+e como rollback pode dar erro é necessario um trycathc para o rollback também.
+
+É por isso que o JAVA é tão verboso.
