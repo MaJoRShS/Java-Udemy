@@ -1998,3 +1998,12 @@ e como rollback pode dar erro é necessario um trycathc para o rollback também.
 240. Padrão de projeto DAO (Data Access Object)
 
 Aula teorica mais bem ilustrativa de como funciona o tal do DAO, ele basicamente é uma abstração de tudo que eu vou precisar fazer no banco de dados com a minha entidade, ou seja CRUD completo e ainda algumas coisas a mais que forem necessarias.
+
+
+241. PROJETO - criando projeto e repositório Git
+
+Criamos um novo repositório para aprender tudo quanto a no mundo sobre DAO, e eu adicionei ele como um submodulo dentro da pasta Seção 21, porque nada mais é do que isso ai mesmo, e já fiz o primeiro commit.
+
+242. Classe Department
+
+Criamos a classe Department dentro do novo repo, e já deixamos ela prontinha para qualquer coisa, criamos os contrutores padrão e o com valores, os métodos get e set, adicionamos equals and hashCode para podermos comparar os objetos por conteudo e não só por ponteiros, um toString para poder retornar os valores no console, além de uma parada la de Serializable que ainda não sei para que o que serve mais é um interface.

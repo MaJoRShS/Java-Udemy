@@ -7,3 +7,6 @@
 [submodule "Seção 20/lambda1-java"]
 	path = Seção 20/lambda1-java
 	url = https://github.com/acenelio/lambda1-java
+[submodule "Seção 21/demo-dao-jdbc"]
+	path = Seção 21/demo-dao-jdbc
+	url = git@github.com:MaJoRShS/demo-dao-jdbc.git
