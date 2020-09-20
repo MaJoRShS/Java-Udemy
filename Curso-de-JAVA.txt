@@ -1993,3 +1993,8 @@ rollback();
 e como rollback pode dar erro é necessario um trycathc para o rollback também.
 
 É por isso que o JAVA é tão verboso.
+
+
+240. Padrão de projeto DAO (Data Access Object)
+
+Aula teorica mais bem ilustrativa de como funciona o tal do DAO, ele basicamente é uma abstração de tudo que eu vou precisar fazer no banco de dados com a minha entidade, ou seja CRUD completo e ainda algumas coisas a mais que forem necessarias.
