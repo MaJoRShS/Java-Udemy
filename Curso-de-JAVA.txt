@@ -2016,3 +2016,10 @@ Criamos a classe Seller com tudo que é necessario igual a department e já test
 244. Interfaces DepartmentDao e SellerDao
 
 Criamos as duas interfaces a do departamente e a do vendedor.
+
+
+245. SellerDaoJDBC e DaoFactory
+
+Aqui instaciamos o SellerDaoJDBC que na verdade é uma implementação da interface SellerDao e ai fomos obrigados a declarar todos os métodos la, ai na classe DaoFactory que na real é uma "fabrica" de instanciação eu declaro uma instancia do SellerDao e crio um método que vai retornar uma instancia do SellerDaoJDBC que é onde eu tenho todas as operações da minha interface sendo assim eu não preciso mais chamar um (new SellerDao), porque o método que eu to chamando já contem essa instrução, com todos os métodos da inteface já declarados.
+
+JAVA SENDO JAVA
