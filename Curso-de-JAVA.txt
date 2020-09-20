@@ -2007,3 +2007,7 @@ Criamos um novo repositório para aprender tudo quanto a no mundo sobre DAO, e e
 242. Classe Department
 
 Criamos a classe Department dentro do novo repo, e já deixamos ela prontinha para qualquer coisa, criamos os contrutores padrão e o com valores, os métodos get e set, adicionamos equals and hashCode para podermos comparar os objetos por conteudo e não só por ponteiros, um toString para poder retornar os valores no console, além de uma parada la de Serializable que ainda não sei para que o que serve mais é um interface.
+
+243. Classe Seller
+
+Criamos a classe Seller com tudo que é necessario igual a department e já testamos e está tudo certo.
