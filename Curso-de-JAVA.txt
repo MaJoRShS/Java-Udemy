@@ -2029,3 +2029,8 @@ JAVA SENDO JAVA
 
 Aqui implementamos o findById é até que relativamente simples, porém como tudo depende de tudo sempre que mexemos em algo precisamos alterar uma caralhada de coisa, mais é até que legalzin, tirando a parte de ser muito verboso.
 mais consegui implementar e ainda to conseguindo intender como funciona as paradas com java, e ainda porque é a cabeça de javeiro funciona assim, porque a propria linguagem te obriga a ser assim.
+
+
+247. Reutilizando a instanciação
+
+Aqui criamos métodos ou funções para reutilizar as instanciações das classes vendedores e departamento.
