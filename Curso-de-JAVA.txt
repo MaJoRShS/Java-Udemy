@@ -2034,3 +2034,8 @@ mais consegui implementar e ainda to conseguindo intender como funciona as parad
 247. Reutilizando a instanciação
 
 Aqui criamos métodos ou funções para reutilizar as instanciações das classes vendedores e departamento.
+
+
+248. Implementando findByDepartment
+
+Aqui ele basicamente fez um esquema para instanciar uma busca por ID de departamento, só que tem um macete, para não ficar instanciando varias vezes os mesmo objetos, da mesma forma, ele criou um esquema para poder reutilizar o mesmo objeto, primeiro ele valida para ver se não existe um objeto já instanciado com o mesmo id de departamento, se não tiver ele cria se já tiver ele só aponta para esse objeto já instanciado, imagino que isso sirva bem para economia de memoria.
