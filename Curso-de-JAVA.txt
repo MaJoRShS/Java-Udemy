@@ -2054,3 +2054,8 @@ Aqui é bem tranquilo fazer a implementação do insert, claro que tudo no java 
 251. Implementando update
 
 Aqui é igual, depois de monstar o insert basicamente o resto se mantem igual mudando apenas o comando SQL e algumas validações que por ventura voce quiser fazer, na real é até simples depois que faz um.
+
+
+252. Implementando delete
+
+mesma coisa, mudando o SQL e as validações mais é igual a mesma implementação.
