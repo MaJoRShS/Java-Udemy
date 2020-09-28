@@ -2043,4 +2043,9 @@ Aqui ele basicamente fez um esquema para instanciar uma busca por ID de departam
 
 249. Implementando findAll
 
-Aqui não mudou quase nada do método de busca por departamento, só que como eu não tenho que passar nenhum ID de departamento fica um pouco menor o código.
+Aqui não mudou quase nada do método de busca por departamento, só que como eu não tenho que passar nenhum ID de departamento fica um pouco menor o código.s
+
+
+250. Implementando insert
+
+Aqui é bem tranquilo fazer a implementação do insert, claro que tudo no java é muito verbo, muita escrita mais é relativamente tranquilo, acho que assim que eu mudar o mindSet para o Java já era, vai ficar tudo bem mais facil, mais para isso preciso muito forçar e treinar para aprender.
