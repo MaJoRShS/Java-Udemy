@@ -2081,3 +2081,8 @@ Introdução do modulo
 256. Visão Geral do JavaFX
 
 Nada de mais, visão geral mesmo
+
+
+257. Instalação do Scene Builder
+
+baixei o cara mais não preciso instalar, to no linux.
