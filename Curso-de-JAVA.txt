@@ -2059,3 +2059,10 @@ Aqui é igual, depois de monstar o insert basicamente o resto se mantem igual mu
 252. Implementando delete
 
 mesma coisa, mudando o SQL e as validações mais é igual a mesma implementação.
+
+
+253. Implementação e teste do DepartmentDao
+
+Aqui ele deixou um exercicio para implementarmos o Department com todos os parametros igual ao seller, em execução.
+
+Consegui fazer na copia do seller, não que eu tenha tido muitos probelmas mais ainda falta a aquela pratica e aquele costume com a linguagem.
