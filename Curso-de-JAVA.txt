@@ -2066,3 +2066,18 @@ mesma coisa, mudando o SQL e as validações mais é igual a mesma implementaç�
 Aqui ele deixou um exercicio para implementarmos o Department com todos os parametros igual ao seller, em execução.
 
 Consegui fazer na copia do seller, não que eu tenha tido muitos probelmas mais ainda falta a aquela pratica e aquele costume com a linguagem.
+
+
+
+Seção 22:Interface gráfica com JavaFX
+
+Introdução do modulo
+
+
+255. Material de apoio do capítulo
+
+
+
+256. Visão Geral do JavaFX
+
+Nada de mais, visão geral mesmo
