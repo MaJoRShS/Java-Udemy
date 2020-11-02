@@ -2103,3 +2103,10 @@ o Botão direito no projeto -> Run As -> Run Configurations -> Arguments -> VM A
 o Copiar o conteúdo abaixo, adaptando para sua pasta:
 --module-path caminho_onde_tu_instalou\java-libs\javafx-sdk\lib --add-modules=javafx.fxml,javafx.controls
 
+
+260. Testando o FXML
+
+
+Apanhei igual escravo no tronco para conseguir reconfigurar todo o meu ambiente com as coisa que eu preciso, porque é muita coisinha chata que precisa ser feita, até mesmo importar os pacotes ou libs no eclipse é um parto, além de que ainda tem muita coisa que não funciona ou está com erro.
+
+Fiz uma primeira tela bem boroca usando o sceneBuilder e o JavaFX, mais pelo menos para algumas coisa bem simples isso aqui deve servir.
