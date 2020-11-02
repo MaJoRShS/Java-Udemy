@@ -2086,3 +2086,10 @@ Nada de mais, visão geral mesmo
 257. Instalação do Scene Builder
 
 baixei o cara mais não preciso instalar, to no linux.
+
+
+258. Preparação do Eclipse
+
+
+Acho que consegui , tive que instalar o esquema do JavaFX pelo eclipse marketplace.
+
