@@ -2130,3 +2130,8 @@ Aqui basicamente já existe uma classe de alertas padrão, ai ele fez a implemen
 263. Usando TextField e Label (app para calcular soma)
 
 Aqui ele mostrou que é possivel além de colocar aquelas mensagem (placeholder do html) nos campos, ainda da para você fazer umas paradas maneiras com seu código, é a mesma coisa que trabalhar com html, css e js, tudo vai por ID e primeiro se tem que pegar o id para poder fazer a parada , mais ai aqui tu escreve o que deve acontecer e depois usa o scinebuilder para poder facilitar o desenvolvimento, da até para deixar tudo pronto via codigo e depois só usar o scinebuilder para fazer as "amarrações".
+
+
+264. Limitações para TextField, interface Initializable
+
+Aqui ele utiliza um classe chamada Initializable  que é padrão do JavaFX e que permite adicionar alguma configurações adicionais antes da instancia da sua classe ou na hora da instancialização, e ai usamos metodos padrão dessa classe para podermos tornar os campos apenas numeros e numeros double e ainda limitamos o tamanho maximo do campo(maxwidth do HTML5).
