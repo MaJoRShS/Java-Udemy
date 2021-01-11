@@ -2113,3 +2113,10 @@ o Copiar o conteúdo abaixo, adaptando para sua pasta:
 Apanhei igual escravo no tronco para conseguir reconfigurar todo o meu ambiente com as coisa que eu preciso, porque é muita coisinha chata que precisa ser feita, até mesmo importar os pacotes ou libs no eclipse é um parto, além de que ainda tem muita coisa que não funciona ou está com erro.
 
 Fiz uma primeira tela bem boroca usando o sceneBuilder e o JavaFX, mais pelo menos para algumas coisa bem simples isso aqui deve servir.
+
+Obs. Agora com o Ubunto 20.04 consegui configurar tudo corretamente e sem warnnigs, ta tudo funfando como deveria.
+
+
+261. Tratando eventos com JavaFX
+
+Aqui ele mostrou como funciona as paradas de colocar ações ou interações dos elementos que vão aparecer na tela, isso significa que para cada ação ou interação que o usuario tiver com a tela eu consigo configurar alga ação a ser executada.
