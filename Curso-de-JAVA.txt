@@ -2120,3 +2120,8 @@ Obs. Agora com o Ubunto 20.04 consegui configurar tudo corretamente e sem warnni
 261. Tratando eventos com JavaFX
 
 Aqui ele mostrou como funciona as paradas de colocar ações ou interações dos elementos que vão aparecer na tela, isso significa que para cada ação ou interação que o usuario tiver com a tela eu consigo configurar alga ação a ser executada.
+
+
+262. Mostrando Alert
+
+Aqui basicamente já existe uma classe de alertas padrão, ai ele fez a implementação padrão da classe padrão para podermos brincar.
