@@ -5,6 +5,9 @@ https://tecadmin.net/install-java-on-fedora/
 
 comando: sudo alternatives --config java
 
+Ubuntu
+sudo update-alternatives --config java
+
  
 
 Curso de JAVA completo Udemy
