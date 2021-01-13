@@ -10,3 +10,6 @@
 [submodule "Seção 21/demo-dao-jdbc"]
 	path = Seção 21/demo-dao-jdbc
 	url = git@github.com:MaJoRShS/demo-dao-jdbc.git
+[submodule "Seção 23/workshop-javafx-jdbc"]
+	path = Seção 23/workshop-javafx-jdbc
+	url = git@github.com:MaJoRShS/workshop-javafx-jdbc.git

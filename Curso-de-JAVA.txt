@@ -2145,3 +2145,17 @@ Aqui ele mostra como fazer um campo ComboBox na tela usando o sceneBuilder e as 
 266. Visão geral dos principais containers de layout
 
 Aqui ele apresenta apenas os item de tela mais utilizados por ele e acredito que pela maioria dos dev's de java para criar essas paradas de tela.
+
+
+Seção 23:Projeto: Aplicação desktop com JavaFX e banco de dados MySQL com JDBC
+
+
+267. Visão geral do capítulo
+
+
+268. Material de apoio do capítulo
+
+
+269. Criação do projeto
+
+Criei o projeto e segui com todas as configurações que ele indicou, mais vamos seguir da seguinte forma, vou copiar apenas os arquivos do diretório que eu la do eclipse para o repositório que está no diretório la do github porque eu adicionei um submodulo, ai vai ser igual o jogo de xadrez, mais vamo que vamo.
