@@ -2140,3 +2140,8 @@ Aqui ele utiliza um classe chamada Initializable  que é padrão do JavaFX e que
 265. ComboBox
 
 Aqui ele mostra como fazer um campo ComboBox na tela usando o sceneBuilder e as paradas com java, deve ser um saco trabalhar com isso, além, de uma canseira monstra, porém deve ser até que util para quem já conhece e se expecializou nisso ne.
+
+
+266. Visão geral dos principais containers de layout
+
+Aqui ele apresenta apenas os item de tela mais utilizados por ele e acredito que pela maioria dos dev's de java para criar essas paradas de tela.
