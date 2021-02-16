@@ -2164,3 +2164,8 @@ Criei o projeto e segui com todas as configurações que ele indicou, mais vamos
 270. Criação do projeto
 
 Criei o Projeto no eclipse ,e já tenho o repositório no github.
+
+
+271. Tela MainView
+
+Aqui apenas adicionamos uma classe que pelo que eu entendi vai ser a classe principal do projeto,sendo assim é isso ai.
