@@ -2159,3 +2159,8 @@ Seção 23:Projeto: Aplicação desktop com JavaFX e banco de dados MySQL com JD
 269. Criação do projeto
 
 Criei o projeto e segui com todas as configurações que ele indicou, mais vamos seguir da seguinte forma, vou copiar apenas os arquivos do diretório que eu la do eclipse para o repositório que está no diretório la do github porque eu adicionei um submodulo, ai vai ser igual o jogo de xadrez, mais vamo que vamo.
+
+
+270. Criação do projeto
+
+Criei o Projeto no eclipse ,e já tenho o repositório no github.
