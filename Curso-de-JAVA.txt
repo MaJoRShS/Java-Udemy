@@ -2169,3 +2169,9 @@ Criei o Projeto no eclipse ,e já tenho o repositório no github.
 271. Tela MainView
 
 Aqui apenas adicionamos uma classe que pelo que eu entendi vai ser a classe principal do projeto,sendo assim é isso ai.
+
+
+272. MainView design
+
+
+Basicamente já existem itens no prorpio java que conseguem garantir a responsividade dos itens na tela e fazer com que o dev não se mate, mais uma vez é muito berboso , mais vou virar pro nessa porra.
