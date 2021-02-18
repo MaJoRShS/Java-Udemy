@@ -2175,3 +2175,9 @@ Aqui apenas adicionamos uma classe que pelo que eu entendi vai ser a classe prin
 
 
 Basicamente já existem itens no prorpio java que conseguem garantir a responsividade dos itens na tela e fazer com que o dev não se mate, mais uma vez é muito berboso , mais vou virar pro nessa porra.
+
+
+273. MainView controller
+
+
+Aqui começamos a mapear os campos da tela e ainda a colocar eventos neles, ainda nada muito complexo  apenas mostrando o nome do método chamado quando clicamos em um botão, e o padrão de nomenclatura que ele utiliza é legal, fica extenso que só a porra mais da bom.
