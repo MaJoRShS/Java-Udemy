@@ -2181,3 +2181,8 @@ Basicamente já existem itens no prorpio java que conseguem garantir a responsiv
 
 
 Aqui começamos a mapear os campos da tela e ainda a colocar eventos neles, ainda nada muito complexo  apenas mostrando o nome do método chamado quando clicamos em um botão, e o padrão de nomenclatura que ele utiliza é legal, fica extenso que só a porra mais da bom.
+
+
+274. About view
+
+Basicamente aqui ele fica brincando de redesenhar a tela toda hora, quando ele adiciona um tela nova ele precisa limpar a tela antiga colocar a tela nova junto com os menus que já existiam na tela antiga.
