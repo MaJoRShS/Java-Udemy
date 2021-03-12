@@ -2186,3 +2186,8 @@ Aqui começamos a mapear os campos da tela e ainda a colocar eventos neles, aind
 274. About view
 
 Basicamente aqui ele fica brincando de redesenhar a tela toda hora, quando ele adiciona um tela nova ele precisa limpar a tela antiga colocar a tela nova junto com os menus que já existiam na tela antiga.
+
+
+275. DepartmentList view design
+
+Criamos mais uma tela, criar as telas com o sceneBuilder é padrão wix, nada contra facilita e muito tendo em vista que aqui é padrão carroã.
