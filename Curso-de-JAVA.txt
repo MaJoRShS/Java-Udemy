@@ -2191,3 +2191,4 @@ Basicamente aqui ele fica brincando de redesenhar a tela toda hora, quando ele a
 275. DepartmentList view design
 
 Criamos mais uma tela, criar as telas com o sceneBuilder é padrão wix, nada contra facilita e muito tendo em vista que aqui é padrão carroã.
+
