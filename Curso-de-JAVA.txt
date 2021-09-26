@@ -2192,3 +2192,25 @@ Basicamente aqui ele fica brincando de redesenhar a tela toda hora, quando ele a
 
 Criamos mais uma tela, criar as telas com o sceneBuilder é padrão wix, nada contra facilita e muito tendo em vista que aqui é padrão carroã.
 
+
+Seção 24: Java EE - Mapeamento objeto-relacional com JPA / Hibernate
+
+300. Visão geral do capítulo
+nada de mais
+
+301. Material de apoio do capítulo
+baixei
+
+302. Instalação do STS e Postman
+level monk
+
+303. Nivelamento JPA / Hibernate - PARTE 1
+on this part dont have nothing relevant, just basic things
+
+
+304. Nivelamento JPA / Hibernate - PARTE 2 (Trabalhando com Maven)
+Aqui criamos um projeto maven e adicionamos algumas denpendencias.
+
+
+305. Nivelamento JPA / Hibernate - PARTE 3
+Aqui ele  mostrou como listar os caras no banco, como deletar e explicou que só é possivel remover os caras do banco de dados quando a entidade está "monitorada" que basicamente é quando você ou acaboude inserir no banco de dados ou quando você acabou de recuperar do banco, e aind não pode esquecer de que tem que iniciar a transação e encerrar ela.
