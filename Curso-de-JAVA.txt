@@ -2227,8 +2227,9 @@ Seção 25: Projeto: Web services com Spring Boot e JPA / Hibernate
 308. Criação do projeto
 Project Created and add how submodule of git on my java course.
 
-309. Entidade User e seu resource
 
+309. Entidade User e seu resource
+Here we created one class User and one resource call UserResource, and make a test instantiating one User and responsing the object with the WebService or API
 
 310. Banco de dados H2, test profile, JPA
 
