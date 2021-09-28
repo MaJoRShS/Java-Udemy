@@ -16,6 +16,3 @@
 [submodule "Seção 25/SpringBoot-Course"]
 	path = Seção 25/SpringBoot-Course
 	url = git@github.com:MaJoRShS/SpringBoot-Course.git
-[submodule "SpringBoot-Course"]
-	path = SpringBoot-Course
-	url = git@github.com:MaJoRShS/SpringBoot-Course.git
