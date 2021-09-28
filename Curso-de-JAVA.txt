@@ -2231,7 +2231,9 @@ Project Created and add how submodule of git on my java course.
 309. Entidade User e seu resource
 Here we created one class User and one resource call UserResource, and make a test instantiating one User and responsing the object with the WebService or API
 
+
 310. Banco de dados H2, test profile, JPA
+Created database with H2, created profile off test what means created a another "user" to test the application, and insert de resources to run JPA.
 
 
 311. JPA repository, injeção de dependência,database seeding
