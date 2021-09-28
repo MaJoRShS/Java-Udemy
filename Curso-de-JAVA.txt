@@ -2214,3 +2214,101 @@ Aqui criamos um projeto maven e adicionamos algumas denpendencias.
 
 305. Nivelamento JPA / Hibernate - PARTE 3
 Aqui ele  mostrou como listar os caras no banco, como deletar e explicou que só é possivel remover os caras do banco de dados quando a entidade está "monitorada" que basicamente é quando você ou acaboude inserir no banco de dados ou quando você acabou de recuperar do banco, e aind não pode esquecer de que tem que iniciar a transação e encerrar ela.
+
+
+Seção 25: Projeto: Web services com Spring Boot e JPA / Hibernate
+
+306. Visão geral do capítulo
+
+
+307. Material de apoio do capítulo
+
+
+308. Criação do projeto
+Project Created and add how submodule of git on my java course.
+
+309. Entidade User e seu resource
+
+
+310. Banco de dados H2, test profile, JPA
+
+
+311. JPA repository, injeção de dependência,database seeding
+
+
+312. Camada de serviço, registro de componentes
+
+
+313. Entidade Pedido. Datas com Instant e padrão ISO 8601 - PARTE 1
+
+
+314. Entidade Pedido. Datas com Instant e padrão ISO 8601 - PARTE 2
+
+
+315. Enum OrderStatus
+
+
+316. Entidade Category
+
+
+317. Entidade Product
+
+
+318. Associação muitos-para-muitos com JoinTable
+
+
+319. Entidade OrderItem. Associação muitos-para-muitos com dados extras - PARTE 1
+
+
+320. Entidade OrderItem. Associação muitos-para-muitos com dados extras - PARTE 2
+
+
+321. Associação muitos para muitos entre Product e OrderItem
+
+
+322. Entidade Payment, associação um para um
+
+
+323. Métodos subtotal e total
+
+
+324. Inserção de User
+
+
+325. Deleção de User
+
+
+326. Atualização de User
+
+
+327. Tratamento de exceção - findById
+
+
+328. Tratamento de exceção - delete
+
+
+329. Tratamento de exceção - update
+
+
+330. Criando app Heroku e provisionando banco PostgreSQL
+
+
+331. Instalação do PostgreSQL
+
+
+332. Profile dev
+
+
+333. Obtendo script SQL a partir do PostgreSQL local
+
+
+334. Executando script SQL no servidor remoto
+
+
+335. Instalando o Heroku CLI
+
+
+336. Deploy do sistema no Heroku
+
+
+337. Testando o sistema em produção

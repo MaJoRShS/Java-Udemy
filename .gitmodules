@@ -13,3 +13,6 @@
 [submodule "Seção 23/workshop-javafx-jdbc"]
 	path = Seção 23/workshop-javafx-jdbc
 	url = git@github.com:MaJoRShS/workshop-javafx-jdbc.git
+[submodule "Seção 25/SpringBoot-Course"]
+	path = Seção 25/SpringBoot-Course
+	url = git@github.com:MaJoRShS/SpringBoot-Course.git
