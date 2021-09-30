@@ -2246,6 +2246,10 @@ Here we create the service layer, and this layer works to processing data what t
 
 313. Entidade Pedido. Datas com Instant e padrão ISO 8601 - PARTE 1
 
+Here is the created the table order, and how this is a table and we created by JPA we using the package entities, and create the relationship between tables.
+using the notation @Table(name = "tb_order") we declare the new name of table for dont using the name of class, using the notation @ManyToOne i create the sense of relationship and this is the foreign Key and using @JoinColumn(name = "client_id") I delcare the fiel to using for join tables.
+
+In the oderside I using @OneToMany(mappedBy = "client") to declare the primary Key on table client and to declare what my table client may have many order.
 
 314. Entidade Pedido. Datas com Instant e padrão ISO 8601 - PARTE 2
 
