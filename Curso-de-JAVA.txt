@@ -2238,6 +2238,7 @@ Created database with H2, created profile off test what means created a another 
 
 311. JPA repository, injeção de dependência,database seeding
 
+Here basic we created a new repository, and the repository is like a abstration of database, I don't using query to insert data on my database , and the same way i don't need query to make another operations in Database, and i create on profile 'Test' on rule to create a database and insert data on this database.
 
 312. Camada de serviço, registro de componentes
 
