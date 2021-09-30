@@ -2242,6 +2242,7 @@ Here basic we created a new repository, and the repository is like a abstration 
 
 312. Camada de serviço, registro de componentes
 
+Here we create the service layer, and this layer works to processing data what the programing recover to database, and this is the best pratice of programing because this way the data access is problem or responsibility of the repository and the service only processing ou make all i need with data.
 
 313. Entidade Pedido. Datas com Instant e padrão ISO 8601 - PARTE 1
 
