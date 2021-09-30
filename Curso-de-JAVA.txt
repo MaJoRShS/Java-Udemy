@@ -2253,19 +2253,6 @@ In the oderside I using @OneToMany(mappedBy = "client") to declare the primary K
 
 314. Entidade Pedido. Datas com Instant e padrão ISO 8601 - PARTE 2
 
-Lazy Loading is a method using to recover all data relationship on you data, for exemple my client have many orders, if I try recover all order togeter with cleint data for default is impossible, for this we using the Lazy Loading, to recover all data about one registry.
-
-Application.properties 
-spring.jpa.open-in-view=true
-
-this config enables to Jackson ( Serializable off data using to recover data like JSON) request all data depends the first data request.
-
-if I using the notation @JsonIgnore on my class User.java I can recover only the first data related to my client , if the notation stay on my class Order.java I can request all data related to my client.
-
-but I need have be carful because if my client have many data related I probably broken my app.
-
-
-And Have many configurations to make for datetime, but is "simple"
 
 315. Enum OrderStatus
 
