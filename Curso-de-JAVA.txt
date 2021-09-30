@@ -2265,7 +2265,7 @@ if I using the notation @JsonIgnore on my class User.java I can recover only the
 but I need have be carful because if my client have many data related I probably broken my app.
 
 
-And Have many configurations to make for datetime, but is "simple"
+And Have many configurations to make for datetime, but is "simple" 
 
 315. Enum OrderStatus
 
