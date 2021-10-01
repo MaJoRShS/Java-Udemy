@@ -2273,6 +2273,7 @@ Here we creating one Enum and this is like a list with numbers for all items, an
 
 316. Entidade Category
 
+Here noting bigger, just create the entitie Category, add on class test to insert on database on start, and criate the class Category on entities what is the representation of database on my program , create the Resource(routes), Repository(access to database) and Service(Intellgence of busines), and testing with insomnia( well i using insomnia, the teacher using postman)
 
 317. Entidade Product
 
