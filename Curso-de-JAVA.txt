@@ -2269,6 +2269,7 @@ And Have many configurations to make for datetime, but is "simple"
 
 315. Enum OrderStatus
 
+Here we creating one Enum and this is like a list with numbers for all items, and include this on class Order, and on class test responsible to create database and insert data.
 
 316. Entidade Category
 
