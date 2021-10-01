@@ -2277,6 +2277,7 @@ Here noting bigger, just create the entitie Category, add on class test to inser
 
 317. Entidade Product
 
+Here is the same as above, but here have one difference , I need create one relationship many-to-many and the teacher create the association with Set( set is another collection of Java, but is not a array is a collection, or a different type of collection ) and how not finished the association using the anotation  @Transient to JPA ignore the collection just to next class.
 
 318. Associação muitos-para-muitos com JoinTable
 
