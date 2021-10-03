@@ -2281,6 +2281,15 @@ Here is the same as above, but here have one difference , I need create one rela
 
 318. Associação muitos-para-muitos com JoinTable
 
+Class Test
+Here I instantiate new objects to insert data on new table created for keep the relationship between products and categories, this table is a auxiliary to save only the ID's
+
+Class Product
+Here I create the most part of configuration, Using the notations @ManyToMany to talk to JPA what this collection have two sense with category, and I use the @JoinTable to give the name of table and the parameter joinColumns = @JoinColumn to give the foreign key of class Product and parameter inverseJoinColumns = @JoinColumn to give the other foreign key of table category and work
+
+Class Category
+Here is more simple, I use the notatios @ManyToMany with the parameter (mappedBy = categories)  and this name is the name of collection on class product, and I need use the notation @JsonIgnore for not broken my application.
+
 
 319. Entidade OrderItem. Associação muitos-para-muitos com dados extras - PARTE 1
 
