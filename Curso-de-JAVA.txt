@@ -2293,6 +2293,7 @@ Here is more simple, I use the notatios @ManyToMany with the parameter (mappedBy
 
 319. Entidade OrderItem. Associação muitos-para-muitos com dados extras - PARTE 1
 
+Here is different because here I have one table extra , and this table is auxiliary and this table have more information about the order, is like a table of history beacuse this table save the information of price on this moment, and keep this save on database, to problem is , I need create the Order and Product manually because i need instantiate both, and I use the notation @EmbeddedId to say this Id is a composite primary key.
 
 320. Entidade OrderItem. Associação muitos-para-muitos com dados extras - PARTE 2
 
