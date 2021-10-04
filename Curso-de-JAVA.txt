@@ -2307,6 +2307,7 @@ I change the class product to recover data equals the module I have on the proje
 
 322. Entidade Payment, associação um para um
 
+Here have a new thin we learn about the relationship @OneToOne this anotation is using when we have a relationship between two tables but one this tables have the information and other is passive, and the dominant sent the same ID to other, and this is make using the anotation @OneToOne(mappedBy = "order", cascade = CascadeType.ALL) with this parameters , this make the id of order it is the same of payment.
 
 323. Métodos subtotal e total
 
