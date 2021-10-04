@@ -2297,6 +2297,7 @@ Here is different because here I have one table extra , and this table is auxili
 
 320. Entidade OrderItem. Associação muitos-para-muitos com dados extras - PARTE 2
 
+Here have so many mallet(macete) because have much peculiarities on process but basic I need to be careful with association if to hands, because the Json broken the app, I need understand better the relationship when have one auxiliary table and this table to create by code, because if create by data base I belive what is possible make a different way to recover data.
 
 321. Associação muitos para muitos entre Product e OrderItem
 
