@@ -2311,6 +2311,7 @@ Here have a new thin we learn about the relationship @OneToOne this anotation is
 
 323. Métodos subtotal e total
 
+Here I Create the two method, is very simple, the only thing I need have be careful is on class payment , I need input the @JsonIgnore on attribute Order to not broken my app.
 
 324. Inserção de User
 
