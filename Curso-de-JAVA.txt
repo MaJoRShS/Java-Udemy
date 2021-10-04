@@ -2301,6 +2301,9 @@ Here have so many mallet(macete) because have much peculiarities on process but 
 
 321. Associação muitos para muitos entre Product e OrderItem
 
+Here one more time I dont understand very well because the java is that way, but ok.
+
+I change the class product to recover data equals the module I have on the project, I recover the data relationship to Order and the customer placed the order and the items of order.
 
 322. Entidade Payment, associação um para um
 
