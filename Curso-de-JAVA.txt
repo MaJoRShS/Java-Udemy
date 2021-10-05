@@ -2335,6 +2335,9 @@ Using the notation @PostMapping I create a new route using the method post to se
 
 325. Deleção de User
 
+Here was more simple because don't have so many peculiarities, UserService create a new method to delete using the method of JPA , and the UserResource have particulaties but not complex.
+
+
 
 326. Atualização de User
 
