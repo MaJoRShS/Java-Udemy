@@ -2315,6 +2315,23 @@ Here I Create the two method, is very simple, the only thing I need have be care
 
 324. Inserção de User
 
+Here is very simple but the Java langague complicated all, here we changed the class UserService and UserResource on the service add the method to save a new user on table , and on class resource stay the shit because on java have so many peculiarities to insert a new user on database for the right way, I need create a new route but now using the method POST and have a specific configuration to send the data.
+
+Using the notation @PostMapping I create a new route using the method post to send data for database
+	@PostMapping
+	
+	Here is the start off method and the @RequestBody is to inform to Spring what I send a data whit Json on body and the response I need em Json too
+	public ResponseEntity<User> insert(@RequestBody User obj){
+		
+		Here I save the new user on database
+		obj = service.insert(obj);
+
+		Here is the problem of JAVA I need using all this to send my new user on database, include him and the response come to the path and the ID what my user recive like this: 	http://localhost:8080/users/3 the URI return because this line
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getId()).toUri();
+		
+		and here is return itself and detail if I dont inform this (.created) the response come to statusCode: 200 OK not statusCode: 201 Created. 
+		return ResponseEntity.created(uri).body(obj);
+	}
 
 325. Deleção de User
 
