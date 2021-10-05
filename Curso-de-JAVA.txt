@@ -2345,6 +2345,7 @@ Here is more a simple exemplo to update data on database, is relative simple and
 
 327. Tratamento de exceção - findById
 
+Here I create 3 new class and changed one class that already existed just to response erro or what dont have the ID answer , is very complicated like JAVA this way.
 
 328. Tratamento de exceção - delete
 
