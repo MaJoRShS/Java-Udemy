@@ -2362,6 +2362,7 @@ Here we start on application on Heroku, and add a Database Postgre on my applica
 
 331. Instalação do PostgreSQL
 
+Here I Create install and create a new database using a PostgreSQL, and using the PgAdmin4 I can create a new database and configs visual, look like good
 
 332. Profile dev
 
