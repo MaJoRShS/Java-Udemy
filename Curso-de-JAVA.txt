@@ -2372,6 +2372,8 @@ Here I create the Dev profile, and configurate this profile to conecta with Post
 333. Obtendo script SQL a partir do PostgreSQL local
 
 
+Create a script off database using the system of backup of Postgre, and I include this script on folder of project, I cant belive the Postgre is to more this.
+
 334. Executando script SQL no servidor remoto
 
 
