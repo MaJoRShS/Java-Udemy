@@ -2354,6 +2354,7 @@ Here I create a new Exception to response when my app cant make a delete of user
 
 329. Tratamento de exceção - update
 
+Here I Create the same thing but now for the update
 
 330. Criando app Heroku e provisionando banco PostgreSQL
 
