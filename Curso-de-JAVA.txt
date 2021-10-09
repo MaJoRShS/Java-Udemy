@@ -2376,6 +2376,13 @@ Create a script off database using the system of backup of Postgre, and I includ
 
 334. Executando script SQL no servidor remoto
 
+postgres://
+User: asnrqyunjybzix
+Pass: 865f41b2791efe1906ebd0ac9085d4ead436fee3665efc9b00f9626eb0db3196
+Server: ec2-34-227-120-94.compute-1.amazonaws.com:5432
+Database: d2c5rb9h918v72
+
+Here I use the script what I create on last class to create a my tables on database of Heroku, and I take this information on Heroku to conect my localhost to serverhost
 
 335. Instalando o Heroku CLI
 
