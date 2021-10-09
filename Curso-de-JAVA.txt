@@ -2366,6 +2366,8 @@ Here I Create install and create a new database using a PostgreSQL, and using th
 
 332. Profile dev
 
+Here I create the Dev profile, and configurate this profile to conecta with Postgre database, I had remove the spaces in the final of lines but works.
+
 
 333. Obtendo script SQL a partir do PostgreSQL local
 
