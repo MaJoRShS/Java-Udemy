@@ -2350,6 +2350,8 @@ Here I create 3 new class and changed one class that already existed just to res
 328. Tratamento de exceção - delete
 
 
+Here I create a new Exception to response when my app cant make a delete of user.
+
 329. Tratamento de exceção - update
 
 
