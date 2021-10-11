@@ -2386,6 +2386,7 @@ Here I use the script what I create on last class to create a my tables on datab
 
 335. Instalando o Heroku CLI
 
+Here dont have nothing we install Heroku CLI.
 
 336. Deploy do sistema no Heroku
 
