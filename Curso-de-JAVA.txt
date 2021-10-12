@@ -2390,5 +2390,8 @@ Here dont have nothing we install Heroku CLI.
 
 336. Deploy do sistema no Heroku
 
+Simples segui o passo a passo mais a plicação não sobe no heroku, diz que é erro no maven, vou tentar descobrir depois o que é essa porra.
 
 337. Testando o sistema em produção
+
+Aqui ele mostra rodando no heroku e sim somos idiotas e instalamos a porra do postgres de otario.
