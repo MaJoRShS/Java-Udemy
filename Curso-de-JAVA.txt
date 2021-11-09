@@ -2395,3 +2395,43 @@ Simples segui o passo a passo mais a plicação não sobe no heroku, diz que é 
 337. Testando o sistema em produção
 
 Aqui ele mostra rodando no heroku e sim somos idiotas e instalamos a porra do postgres de otario.
+
+
+Seção 26: Projeto: API Restful com Spring Boot e banco MongoDB (web services + NoSQL)
+
+338. Visão geral do capítulo Projeto MongoDB com Spring Boot
+
+Inital class.
+
+
+339. Material de apoio do capítulo
+
+Download of paper about course
+
+
+340. Instalação do STS e Postman
+
+I have the both and I know how make this.
+
+341. Instalação do MongoDB
+
+
+Here I make the download and install on my machine , bucause I want finished the most faster I can.
+
+342. Instalação do Mongo Compass
+
+Is the same thing.
+
+
+343. Nivelamento sobre NoSQL e MongoDB - PARTE 1
+
+Here The teacher explain why I need use the mongoDb.
+
+
+344. Nivelamento sobre NoSQL e MongoDB - PARTE 2
+
+Here is the same but have the conclusion about the dabase NoSQL
+
+
+345. Primeiro commit - Projeto criado
+

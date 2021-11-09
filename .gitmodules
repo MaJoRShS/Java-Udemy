@@ -16,3 +16,6 @@
 [submodule "Seção 25/SpringBoot-Course"]
 	path = Seção 25/SpringBoot-Course
 	url = git@github.com:MaJoRShS/SpringBoot-Course.git
+[submodule "Seção 26/workshop-spring-mongo"]
+	path = Seção 26/workshop-spring-mongo
+	url = git@github.com:MaJoRShS/workshop-spring-mongo.git
