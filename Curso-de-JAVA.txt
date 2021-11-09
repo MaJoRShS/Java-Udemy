@@ -2446,3 +2446,10 @@ Make the first class User and create a rout to send data using spring.
 347. Conectando ao MongoDB com repository e service
 
 Here I create the repository and the service to work on my project, I now use the method findAll created on my service calling my repository.
+
+
+348. Operação de instanciação da base de dados
+
+
+Here we creating the class of configuration for my application, and this config include data on database on start, so I don't need make more nothing to include data.
+
