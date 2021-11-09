@@ -2435,3 +2435,10 @@ Here is the same but have the conclusion about the dabase NoSQL
 
 345. Primeiro commit - Projeto criado
 
+Isso aqui foi , e foi tranquilo.
+
+
+346. Entity User e REST funcionando
+
+Make the first class User and create a rout to send data using spring.
+
