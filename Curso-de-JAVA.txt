@@ -2453,3 +2453,7 @@ Here I create the repository and the service to work on my project, I now use th
 
 Here we creating the class of configuration for my application, and this config include data on database on start, so I don't need make more nothing to include data.
 
+
+349. Usando padrão DTO para retornar usuários
+
+Creating the class DTO to return User, but this is not used today.
