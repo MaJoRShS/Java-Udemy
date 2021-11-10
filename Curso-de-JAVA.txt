@@ -2467,3 +2467,8 @@ Implements the method to response user by Id on service and resource, and creati
 351. Inserção de usuário com POST
 
 Creating the method insert with verb POST http, and here have a polemic because the teacher says to creating the convertion the UserDTO to User on class service, because this class have connection with database, but if he use the hexagonal architecture he make this on class model and entity and finished the problem, but ok.
+
+
+352. Deleção de usuário com DELETE
+
+Created the method delete on resource and service, but this is very simple and ok.
