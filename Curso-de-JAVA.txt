@@ -2457,3 +2457,8 @@ Here we creating the class of configuration for my application, and this config 
 349. Usando padrão DTO para retornar usuários
 
 Creating the class DTO to return User, but this is not used today.
+
+
+350. Obtendo um usuário por id
+
+Implements the method to response user by Id on service and resource, and creating the object default with reponse of error, and get error to response on API.
