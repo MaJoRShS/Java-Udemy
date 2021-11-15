@@ -2482,3 +2482,8 @@ this method is very similar to the method post but the diference is I need a new
 354. Discutindo o design do modelo de domínio
 
 Here He talk about the architecture of database, but this is ways to make the same thing.
+
+
+355. Criando entity Post com User aninhado
+
+Here I create the class POST on project , creating the class post and the repository for access database, and when I include the collection post on dataBase I include togeter the clone of collection user, is some like a nested objects.
