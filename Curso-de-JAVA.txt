@@ -2477,3 +2477,8 @@ Created the method delete on resource and service, but this is very simple and o
 353. Atualização de usuário com PUT
 
 this method is very similar to the method post but the diference is I need a new function/method to pass the the new data to object I recover to database.
+
+
+354. Discutindo o design do modelo de domínio
+
+Here He talk about the architecture of database, but this is ways to make the same thing.
