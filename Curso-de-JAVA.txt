@@ -2493,3 +2493,6 @@ Here I create the class POST on project , creating the class post and the reposi
 
 Here is simple, we creating a new class called AuthorDTO to send data with the correct data, only this.
 
+357. Referenciando os posts do usuário
+
+Here is simple to , creating a new parameter on my class User and Using the annontation @DBGRef I say to mongo this label is reference to another collection.
