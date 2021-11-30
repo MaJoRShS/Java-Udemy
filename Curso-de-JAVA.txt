@@ -2487,3 +2487,9 @@ Here He talk about the architecture of database, but this is ways to make the sa
 355. Criando entity Post com User aninhado
 
 Here I create the class POST on project , creating the class post and the repository for access database, and when I include the collection post on dataBase I include togeter the clone of collection user, is some like a nested objects.
+
+
+356. Projeção dos dados do autor com DTO
+
+Here is simple, we creating a new class called AuthorDTO to send data with the correct data, only this.
+
