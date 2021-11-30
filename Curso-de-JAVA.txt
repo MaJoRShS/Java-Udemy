@@ -2496,3 +2496,9 @@ Here is simple, we creating a new class called AuthorDTO to send data with the c
 357. Referenciando os posts do usuário
 
 Here is simple to , creating a new parameter on my class User and Using the annontation @DBGRef I say to mongo this label is reference to another collection.
+
+
+358. Endpoint para retornar os posts de um usuário
+
+
+Here is the method to recover the post by the user, is simple, and fast.
