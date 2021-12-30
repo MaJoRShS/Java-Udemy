@@ -2502,3 +2502,8 @@ Here is simple to , creating a new parameter on my class User and Using the anno
 
 
 Here is the method to recover the post by the user, is simple, and fast.
+
+
+359. Obtendo um post por id
+
+here I recover the post by ID of post, I include a new route to recover the posts and works.
