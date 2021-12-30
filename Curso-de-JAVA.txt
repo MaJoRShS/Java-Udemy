@@ -2507,3 +2507,8 @@ Here is the method to recover the post by the user, is simple, and fast.
 359. Obtendo um post por id
 
 here I recover the post by ID of post, I include a new route to recover the posts and works.
+
+
+360. Acrescentando comentários aos posts
+
+Here I include the comments on the posts, is basic because I not need create a id to post, I include the reference directly on post and my comment have the author , so is simple.
