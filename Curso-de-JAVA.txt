@@ -2512,3 +2512,10 @@ here I recover the post by ID of post, I include a new route to recover the post
 360. Acrescentando comentários aos posts
 
 Here I include the comments on the posts, is basic because I not need create a id to post, I include the reference directly on post and my comment have the author , so is simple.
+
+
+
+361. Consulta simples com query methods
+
+
+here I using something like JPA to creating querys, but not query literal but works.
