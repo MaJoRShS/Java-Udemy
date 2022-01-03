@@ -2524,3 +2524,8 @@ here I using something like JPA to creating querys, but not query literal but wo
 362. Consulta simples com @Query
 
 Here I using the native query of mongoDb to search for titles on posts, this works and is very simple.
+
+
+363. Consulta com vários critérios
+
+Here we Using the methos of mongoDB to search text on any place, and works.
