@@ -2519,3 +2519,8 @@ Here I include the comments on the posts, is basic because I not need create a i
 
 
 here I using something like JPA to creating querys, but not query literal but works.
+
+
+362. Consulta simples com @Query
+
+Here I using the native query of mongoDb to search for titles on posts, this works and is very simple.
